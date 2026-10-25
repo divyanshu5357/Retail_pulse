@@ -1,0 +1,25 @@
+product_id,product_name,category,unit_price,cost_price
+1,Ultra HD Smart LED TV 55-inch,Electronics,42999.0,31000.0
+2,Wireless Noise-Cancelling Headphones,Electronics,7499.0,4800.0
+3,Mechanical Gaming Keyboard,Electronics,3299.0,2100.0
+4,Ergonomic Wireless Mouse,Electronics,1299.0,750.0
+5,Smart Fitness Watch Pro,Electronics,4999.0,3200.0
+6,Fast Charging Power Bank 20000mAh,Electronics,1899.0,1150.0
+7,Men Slim-Fit Cotton Casual Shirt,Fashion,1499.0,650.0
+8,Women Floral Embroidered Kurti,Fashion,1899.0,800.0
+9,Unisex Classic Denim Jeans,Fashion,2499.0,1100.0
+10,Lightweight Running Sports Shoes,Fashion,3199.0,1500.0
+11,Genuine Leather Bifold Wallet,Fashion,899.0,380.0
+12,Orthopedic Memory Foam Pillow,Home & Living,1799.0,950.0
+13,Stainless Steel Electric Kettle 1.8L,Home & Living,1299.0,720.0
+14,Double Bed Pure Cotton Bedsheet,Home & Living,1599.0,780.0
+15,Automatic Air Fryer 4.5L,Home & Living,5499.0,3600.0
+16,Multipurpose Desk Organizer Set,Home & Living,699.0,290.0
+17,Organic Green Tea 100 Bags,Groceries,450.0,260.0
+18,Cold-Pressed Extra Virgin Olive Oil 1L,Groceries,1199.0,780.0
+19,Premium California Almonds 500g,Groceries,599.0,380.0
+20,Pure Raw Honey 500g,Groceries,399.0,210.0
+21,Anti-Skid Yoga Mat 6mm,Sports,999.0,480.0
+22,Adjustable Dumbbell Set 20kg,Sports,4299.0,2600.0
+23,Insulated Stainless Steel Sipper Bottle,Sports,799.0,390.0
+24,Skipping Rope with Digital Counter,Sports,499.0,210.0

@@ -1,0 +1,531 @@
+order_id,order_date,order_year,order_month,order_month_name,order_year_month,order_status,region,customer_id,customer_name,city,product_id,product_name,category,quantity,unit_price,discount_percent,gross_amount,discount_amount,net_revenue,total_cost,profit,profit_margin_pct
+1,2025-06-14,2025,6,Jun,2025-06,Delivered,East,36,Arjun Choudhury,Patna,8,Women Floral Embroidered Kurti,Fashion,1,1899.0,12.0,1899.0,227.88,1671.12,800.0,871.12,52.13
+1,2025-06-14,2025,6,Jun,2025-06,Delivered,East,36,Arjun Choudhury,Patna,9,Unisex Classic Denim Jeans,Fashion,1,2499.0,0.0,2499.0,0.0,2499.0,1100.0,1399.0,55.98
+2,2025-05-16,2025,5,May,2025-05,Processing,Central,30,Suresh Saxena,Bhopal,7,Men Slim-Fit Cotton Casual Shirt,Fashion,1,1499.0,10.0,1499.0,149.9,1349.1,650.0,699.1,51.82
+3,2025-08-05,2025,8,Aug,2025-08,Delivered,East,43,Shreya Kapoor,Bhubaneswar,7,Men Slim-Fit Cotton Casual Shirt,Fashion,2,1499.0,10.0,2998.0,299.8,2698.2,1300.0,1398.2,51.82
+4,2024-11-11,2024,11,Nov,2024-11,Cancelled,West,75,Nandini Patel,Nagpur,19,Premium California Almonds 500g,Groceries,1,599.0,5.0,599.0,29.95,569.05,380.0,189.05,33.22
+4,2024-11-11,2024,11,Nov,2024-11,Cancelled,West,75,Nandini Patel,Nagpur,13,Stainless Steel Electric Kettle 1.8L,Home & Living,1,1299.0,10.0,1299.0,129.9,1169.1,720.0,449.1,38.41
+4,2024-11-11,2024,11,Nov,2024-11,Cancelled,West,75,Nandini Patel,Nagpur,16,Multipurpose Desk Organizer Set,Home & Living,3,699.0,20.0,2097.0,419.4,1677.6,870.0,807.6,48.14
+5,2025-08-03,2025,8,Aug,2025-08,Processing,West,54,Kavita Nair,Pune,20,Pure Raw Honey 500g,Groceries,1,399.0,5.0,399.0,19.95,379.05,210.0,169.05,44.6
+5,2025-08-03,2025,8,Aug,2025-08,Processing,West,54,Kavita Nair,Pune,8,Women Floral Embroidered Kurti,Fashion,1,1899.0,0.0,1899.0,0.0,1899.0,800.0,1099.0,57.87
+6,2025-04-22,2025,4,Apr,2025-04,Processing,South,50,Aarav Verma,Chennai,13,Stainless Steel Electric Kettle 1.8L,Home & Living,1,1299.0,10.0,1299.0,129.9,1169.1,720.0,449.1,38.41
+6,2025-04-22,2025,4,Apr,2025-04,Processing,South,50,Aarav Verma,Chennai,24,Skipping Rope with Digital Counter,Sports,3,499.0,12.0,1497.0,179.64,1317.36,630.0,687.36,52.18
+7,2024-11-14,2024,11,Nov,2024-11,Delivered,West,69,Harsh Singh,Ahmedabad,22,Adjustable Dumbbell Set 20kg,Sports,1,4299.0,10.0,4299.0,429.9,3869.1,2600.0,1269.1,32.8
+7,2024-11-14,2024,11,Nov,2024-11,Delivered,West,69,Harsh Singh,Ahmedabad,1,Ultra HD Smart LED TV 55-inch,Electronics,1,42999.0,10.0,42999.0,4299.9,38699.1,31000.0,7699.1,19.89
+8,2024-11-26,2024,11,Nov,2024-11,Delivered,East,24,Vidya Verma,Ranchi,7,Men Slim-Fit Cotton Casual Shirt,Fashion,1,1499.0,5.0,1499.0,74.95,1424.05,650.0,774.05,54.36
+9,2025-03-23,2025,3,Mar,2025-03,Cancelled,North,49,Harsh Iyer,Lucknow,14,Double Bed Pure Cotton Bedsheet,Home & Living,1,1599.0,12.0,1599.0,191.88,1407.12,780.0,627.12,44.57
+9,2025-03-23,2025,3,Mar,2025-03,Cancelled,North,49,Harsh Iyer,Lucknow,9,Unisex Classic Denim Jeans,Fashion,1,2499.0,5.0,2499.0,124.95,2374.05,1100.0,1274.05,53.67
+9,2025-03-23,2025,3,Mar,2025-03,Cancelled,North,49,Harsh Iyer,Lucknow,3,Mechanical Gaming Keyboard,Electronics,1,3299.0,0.0,3299.0,0.0,3299.0,2100.0,1199.0,36.34
+9,2025-03-23,2025,3,Mar,2025-03,Cancelled,North,49,Harsh Iyer,Lucknow,16,Multipurpose Desk Organizer Set,Home & Living,2,699.0,15.0,1398.0,209.7,1188.3,580.0,608.3,51.19
+10,2024-11-16,2024,11,Nov,2024-11,Delivered,East,6,Aarav Rao,Patna,1,Ultra HD Smart LED TV 55-inch,Electronics,2,42999.0,0.0,85998.0,0.0,85998.0,62000.0,23998.0,27.91
+11,2025-07-01,2025,7,Jul,2025-07,Processing,West,17,Manoj Patel,Surat,7,Men Slim-Fit Cotton Casual Shirt,Fashion,1,1499.0,5.0,1499.0,74.95,1424.05,650.0,774.05,54.36
+12,2025-01-25,2025,1,Jan,2025-01,Shipped,South,48,Meera Bhat,Bengaluru,24,Skipping Rope with Digital Counter,Sports,1,499.0,20.0,499.0,99.8,399.2,210.0,189.2,47.39
+12,2025-01-25,2025,1,Jan,2025-01,Shipped,South,48,Meera Bhat,Bengaluru,23,Insulated Stainless Steel Sipper Bottle,Sports,1,799.0,5.0,799.0,39.95,759.05,390.0,369.05,48.62
+13,2025-08-24,2025,8,Aug,2025-08,Delivered,West,14,Sunil Nair,Mumbai,19,Premium California Almonds 500g,Groceries,1,599.0,15.0,599.0,89.85,509.15,380.0,129.15,25.37
+13,2025-08-24,2025,8,Aug,2025-08,Delivered,West,14,Sunil Nair,Mumbai,22,Adjustable Dumbbell Set 20kg,Sports,1,4299.0,12.0,4299.0,515.88,3783.12,2600.0,1183.12,31.27
+13,2025-08-24,2025,8,Aug,2025-08,Delivered,West,14,Sunil Nair,Mumbai,13,Stainless Steel Electric Kettle 1.8L,Home & Living,2,1299.0,15.0,2598.0,389.7,2208.3,1440.0,768.3,34.79
+14,2024-12-23,2024,12,Dec,2024-12,Processing,South,32,Shreya Patel,Coimbatore,22,Adjustable Dumbbell Set 20kg,Sports,2,4299.0,20.0,8598.0,1719.6,6878.4,5200.0,1678.4,24.4
+14,2024-12-23,2024,12,Dec,2024-12,Processing,South,32,Shreya Patel,Coimbatore,20,Pure Raw Honey 500g,Groceries,5,399.0,20.0,1995.0,399.0,1596.0,1050.0,546.0,34.21
+15,2025-04-27,2025,4,Apr,2025-04,Shipped,East,6,Aarav Rao,Patna,12,Orthopedic Memory Foam Pillow,Home & Living,1,1799.0,15.0,1799.0,269.85,1529.15,950.0,579.15,37.87
+16,2024-11-07,2024,11,Nov,2024-11,Cancelled,West,44,Rajesh Joshi,Surat,16,Multipurpose Desk Organizer Set,Home & Living,1,699.0,5.0,699.0,34.95,664.05,290.0,374.05,56.33
+17,2025-06-24,2025,6,Jun,2025-06,Processing,East,82,Manoj Nair,Patna,6,Fast Charging Power Bank 20000mAh,Electronics,2,1899.0,15.0,3798.0,569.7,3228.3,2300.0,928.3,28.76
+18,2025-09-12,2025,9,Sep,2025-09,Cancelled,East,35,Alok Kulkarni,Bhubaneswar,16,Multipurpose Desk Organizer Set,Home & Living,2,699.0,12.0,1398.0,167.76,1230.24,580.0,650.24,52.85
+18,2025-09-12,2025,9,Sep,2025-09,Cancelled,East,35,Alok Kulkarni,Bhubaneswar,15,Automatic Air Fryer 4.5L,Home & Living,1,5499.0,20.0,5499.0,1099.8,4399.2,3600.0,799.2,18.17
+18,2025-09-12,2025,9,Sep,2025-09,Cancelled,East,35,Alok Kulkarni,Bhubaneswar,14,Double Bed Pure Cotton Bedsheet,Home & Living,1,1599.0,0.0,1599.0,0.0,1599.0,780.0,819.0,51.22
+19,2025-06-19,2025,6,Jun,2025-06,Delivered,East,36,Arjun Choudhury,Patna,19,Premium California Almonds 500g,Groceries,2,599.0,5.0,1198.0,59.9,1138.1,760.0,378.1,33.22
+19,2025-06-19,2025,6,Jun,2025-06,Delivered,East,36,Arjun Choudhury,Patna,20,Pure Raw Honey 500g,Groceries,1,399.0,20.0,399.0,79.8,319.2,210.0,109.2,34.21
+20,2025-02-02,2025,2,Feb,2025-02,Delivered,Central,42,Nandini Singh,Gwalior,9,Unisex Classic Denim Jeans,Fashion,1,2499.0,12.0,2499.0,299.88,2199.12,1100.0,1099.12,49.98
+21,2025-03-22,2025,3,Mar,2025-03,Shipped,Central,90,Anjali Sharma,Gwalior,7,Men Slim-Fit Cotton Casual Shirt,Fashion,1,1499.0,15.0,1499.0,224.85,1274.15,650.0,624.15,48.99
+22,2025-07-09,2025,7,Jul,2025-07,Shipped,East,53,Simran Choudhury,Guwahati,23,Insulated Stainless Steel Sipper Bottle,Sports,2,799.0,10.0,1598.0,159.8,1438.2,780.0,658.2,45.77
+22,2025-07-09,2025,7,Jul,2025-07,Shipped,East,53,Simran Choudhury,Guwahati,16,Multipurpose Desk Organizer Set,Home & Living,1,699.0,0.0,699.0,0.0,699.0,290.0,409.0,58.51
+23,2025-03-31,2025,3,Mar,2025-03,Delivered,South,12,Aditya Verma,Bengaluru,8,Women Floral Embroidered Kurti,Fashion,1,1899.0,12.0,1899.0,227.88,1671.12,800.0,871.12,52.13
+24,2025-07-01,2025,7,Jul,2025-07,Shipped,South,48,Meera Bhat,Bengaluru,14,Double Bed Pure Cotton Bedsheet,Home & Living,1,1599.0,5.0,1599.0,79.95,1519.05,780.0,739.05,48.65
+24,2025-07-01,2025,7,Jul,2025-07,Shipped,South,48,Meera Bhat,Bengaluru,24,Skipping Rope with Digital Counter,Sports,2,499.0,5.0,998.0,49.9,948.1,420.0,528.1,55.7
+25,2025-03-09,2025,3,Mar,2025-03,Delivered,North,40,Manoj Verma,Gurgaon,7,Men Slim-Fit Cotton Casual Shirt,Fashion,1,1499.0,15.0,1499.0,224.85,1274.15,650.0,624.15,48.99
+26,2025-02-03,2025,2,Feb,2025-02,Delivered,West,69,Harsh Singh,Ahmedabad,16,Multipurpose Desk Organizer Set,Home & Living,1,699.0,12.0,699.0,83.88,615.12,290.0,325.12,52.85
+27,2025-09-02,2025,9,Sep,2025-09,Delivered,West,68,Rajesh Singh,Mumbai,7,Men Slim-Fit Cotton Casual Shirt,Fashion,1,1499.0,0.0,1499.0,0.0,1499.0,650.0,849.0,56.64
+27,2025-09-02,2025,9,Sep,2025-09,Delivered,West,68,Rajesh Singh,Mumbai,10,Lightweight Running Sports Shoes,Fashion,2,3199.0,0.0,6398.0,0.0,6398.0,3000.0,3398.0,53.11
+27,2025-09-02,2025,9,Sep,2025-09,Delivered,West,68,Rajesh Singh,Mumbai,8,Women Floral Embroidered Kurti,Fashion,1,1899.0,0.0,1899.0,0.0,1899.0,800.0,1099.0,57.87
+27,2025-09-02,2025,9,Sep,2025-09,Delivered,West,68,Rajesh Singh,Mumbai,12,Orthopedic Memory Foam Pillow,Home & Living,1,1799.0,15.0,1799.0,269.85,1529.15,950.0,579.15,37.87
+28,2025-09-23,2025,9,Sep,2025-09,Cancelled,West,17,Manoj Patel,Surat,4,Ergonomic Wireless Mouse,Electronics,1,1299.0,10.0,1299.0,129.9,1169.1,750.0,419.1,35.85
+28,2025-09-23,2025,9,Sep,2025-09,Cancelled,West,17,Manoj Patel,Surat,1,Ultra HD Smart LED TV 55-inch,Electronics,1,42999.0,5.0,42999.0,2149.95,40849.05,31000.0,9849.05,24.11
+29,2024-11-27,2024,11,Nov,2024-11,Delivered,East,24,Vidya Verma,Ranchi,16,Multipurpose Desk Organizer Set,Home & Living,1,699.0,0.0,699.0,0.0,699.0,290.0,409.0,58.51
+29,2024-11-27,2024,11,Nov,2024-11,Delivered,East,24,Vidya Verma,Ranchi,4,Ergonomic Wireless Mouse,Electronics,1,1299.0,15.0,1299.0,194.85,1104.15,750.0,354.15,32.07
+29,2024-11-27,2024,11,Nov,2024-11,Delivered,East,24,Vidya Verma,Ranchi,3,Mechanical Gaming Keyboard,Electronics,1,3299.0,0.0,3299.0,0.0,3299.0,2100.0,1199.0,36.34
+30,2025-04-05,2025,4,Apr,2025-04,Delivered,East,73,Kunal Rao,Guwahati,4,Ergonomic Wireless Mouse,Electronics,1,1299.0,12.0,1299.0,155.88,1143.12,750.0,393.12,34.39
+30,2025-04-05,2025,4,Apr,2025-04,Delivered,East,73,Kunal Rao,Guwahati,18,Cold-Pressed Extra Virgin Olive Oil 1L,Groceries,1,1199.0,12.0,1199.0,143.88,1055.12,780.0,275.12,26.07
+30,2025-04-05,2025,4,Apr,2025-04,Delivered,East,73,Kunal Rao,Guwahati,14,Double Bed Pure Cotton Bedsheet,Home & Living,1,1599.0,10.0,1599.0,159.9,1439.1,780.0,659.1,45.8
+30,2025-04-05,2025,4,Apr,2025-04,Delivered,East,73,Kunal Rao,Guwahati,20,Pure Raw Honey 500g,Groceries,1,399.0,12.0,399.0,47.88,351.12,210.0,141.12,40.19
+31,2025-04-06,2025,4,Apr,2025-04,Shipped,North,55,Kiran Saxena,Lucknow,20,Pure Raw Honey 500g,Groceries,1,399.0,20.0,399.0,79.8,319.2,210.0,109.2,34.21
+31,2025-04-06,2025,4,Apr,2025-04,Shipped,North,55,Kiran Saxena,Lucknow,24,Skipping Rope with Digital Counter,Sports,1,499.0,0.0,499.0,0.0,499.0,210.0,289.0,57.92
+32,2025-10-05,2025,10,Oct,2025-10,Delivered,Central,34,Amit Kapoor,Indore,6,Fast Charging Power Bank 20000mAh,Electronics,1,1899.0,0.0,1899.0,0.0,1899.0,1150.0,749.0,39.44
+33,2025-05-29,2025,5,May,2025-05,Delivered,West,1,Pooja Sharma,Pune,16,Multipurpose Desk Organizer Set,Home & Living,1,699.0,5.0,699.0,34.95,664.05,290.0,374.05,56.33
+33,2025-05-29,2025,5,May,2025-05,Delivered,West,1,Pooja Sharma,Pune,10,Lightweight Running Sports Shoes,Fashion,2,3199.0,15.0,6398.0,959.7,5438.3,3000.0,2438.3,44.84
+34,2024-12-07,2024,12,Dec,2024-12,Processing,Central,59,Swati Iyer,Indore,9,Unisex Classic Denim Jeans,Fashion,2,2499.0,15.0,4998.0,749.7,4248.3,2200.0,2048.3,48.21
+35,2025-10-05,2025,10,Oct,2025-10,Cancelled,North,76,Anjali Singh,Gurgaon,14,Double Bed Pure Cotton Bedsheet,Home & Living,1,1599.0,0.0,1599.0,0.0,1599.0,780.0,819.0,51.22
+35,2025-10-05,2025,10,Oct,2025-10,Cancelled,North,76,Anjali Singh,Gurgaon,4,Ergonomic Wireless Mouse,Electronics,3,1299.0,20.0,3897.0,779.4,3117.6,2250.0,867.6,27.83
+35,2025-10-05,2025,10,Oct,2025-10,Cancelled,North,76,Anjali Singh,Gurgaon,18,Cold-Pressed Extra Virgin Olive Oil 1L,Groceries,1,1199.0,0.0,1199.0,0.0,1199.0,780.0,419.0,34.95
+36,2025-04-07,2025,4,Apr,2025-04,Shipped,Central,22,Manoj Singh,Jabalpur,19,Premium California Almonds 500g,Groceries,1,599.0,10.0,599.0,59.9,539.1,380.0,159.1,29.51
+36,2025-04-07,2025,4,Apr,2025-04,Shipped,Central,22,Manoj Singh,Jabalpur,10,Lightweight Running Sports Shoes,Fashion,2,3199.0,15.0,6398.0,959.7,5438.3,3000.0,2438.3,44.84
+37,2025-03-20,2025,3,Mar,2025-03,Shipped,North,52,Suresh Banerjee,Chandigarh,15,Automatic Air Fryer 4.5L,Home & Living,1,5499.0,10.0,5499.0,549.9,4949.1,3600.0,1349.1,27.26
+37,2025-03-20,2025,3,Mar,2025-03,Shipped,North,52,Suresh Banerjee,Chandigarh,3,Mechanical Gaming Keyboard,Electronics,2,3299.0,12.0,6598.0,791.76,5806.24,4200.0,1606.24,27.66
+38,2024-11-14,2024,11,Nov,2024-11,Delivered,North,33,Sneha Kapoor,Jaipur,22,Adjustable Dumbbell Set 20kg,Sports,2,4299.0,12.0,8598.0,1031.76,7566.24,5200.0,2366.24,31.27
+39,2024-11-11,2024,11,Nov,2024-11,Cancelled,North,76,Anjali Singh,Gurgaon,9,Unisex Classic Denim Jeans,Fashion,1,2499.0,20.0,2499.0,499.8,1999.2,1100.0,899.2,44.98
+39,2024-11-11,2024,11,Nov,2024-11,Cancelled,North,76,Anjali Singh,Gurgaon,19,Premium California Almonds 500g,Groceries,1,599.0,12.0,599.0,71.88,527.12,380.0,147.12,27.91
+40,2025-06-15,2025,6,Jun,2025-06,Delivered,West,84,Swati Reddy,Mumbai,19,Premium California Almonds 500g,Groceries,1,599.0,20.0,599.0,119.8,479.2,380.0,99.2,20.7
+41,2024-12-17,2024,12,Dec,2024-12,Delivered,North,63,Nikhil Verma,Chandigarh,11,Genuine Leather Bifold Wallet,Fashion,1,899.0,0.0,899.0,0.0,899.0,380.0,519.0,57.73
+42,2025-04-18,2025,4,Apr,2025-04,Delivered,Central,21,Kiran Joshi,Jabalpur,10,Lightweight Running Sports Shoes,Fashion,3,3199.0,20.0,9597.0,1919.4,7677.6,4500.0,3177.6,41.39
+42,2025-04-18,2025,4,Apr,2025-04,Delivered,Central,21,Kiran Joshi,Jabalpur,22,Adjustable Dumbbell Set 20kg,Sports,2,4299.0,0.0,8598.0,0.0,8598.0,5200.0,3398.0,39.52
+43,2024-12-16,2024,12,Dec,2024-12,Delivered,Central,59,Swati Iyer,Indore,4,Ergonomic Wireless Mouse,Electronics,4,1299.0,10.0,5196.0,519.6,4676.4,3000.0,1676.4,35.85
+44,2024-11-01,2024,11,Nov,2024-11,Processing,East,66,Aditya Rao,Guwahati,15,Automatic Air Fryer 4.5L,Home & Living,1,5499.0,5.0,5499.0,274.95,5224.05,3600.0,1624.05,31.09
+44,2024-11-01,2024,11,Nov,2024-11,Processing,East,66,Aditya Rao,Guwahati,14,Double Bed Pure Cotton Bedsheet,Home & Living,2,1599.0,10.0,3198.0,319.8,2878.2,1560.0,1318.2,45.8
+44,2024-11-01,2024,11,Nov,2024-11,Processing,East,66,Aditya Rao,Guwahati,2,Wireless Noise-Cancelling Headphones,Electronics,2,7499.0,20.0,14998.0,2999.6,11998.4,9600.0,2398.4,19.99
+45,2025-02-13,2025,2,Feb,2025-02,Delivered,West,7,Kavita Nair,Mumbai,10,Lightweight Running Sports Shoes,Fashion,3,3199.0,10.0,9597.0,959.7,8637.3,4500.0,4137.3,47.9
+45,2025-02-13,2025,2,Feb,2025-02,Delivered,West,7,Kavita Nair,Mumbai,15,Automatic Air Fryer 4.5L,Home & Living,1,5499.0,15.0,5499.0,824.85,4674.15,3600.0,1074.15,22.98
+46,2025-03-03,2025,3,Mar,2025-03,Processing,East,78,Sunil Saxena,Guwahati,18,Cold-Pressed Extra Virgin Olive Oil 1L,Groceries,1,1199.0,10.0,1199.0,119.9,1079.1,780.0,299.1,27.72
+47,2025-02-24,2025,2,Feb,2025-02,Cancelled,South,12,Aditya Verma,Bengaluru,15,Automatic Air Fryer 4.5L,Home & Living,2,5499.0,10.0,10998.0,1099.8,9898.2,7200.0,2698.2,27.26
+47,2025-02-24,2025,2,Feb,2025-02,Cancelled,South,12,Aditya Verma,Bengaluru,4,Ergonomic Wireless Mouse,Electronics,3,1299.0,5.0,3897.0,194.85,3702.15,2250.0,1452.15,39.22
+47,2025-02-24,2025,2,Feb,2025-02,Cancelled,South,12,Aditya Verma,Bengaluru,21,Anti-Skid Yoga Mat 6mm,Sports,1,999.0,5.0,999.0,49.95,949.05,480.0,469.05,49.42
+48,2025-07-06,2025,7,Jul,2025-07,Delivered,West,54,Kavita Nair,Pune,18,Cold-Pressed Extra Virgin Olive Oil 1L,Groceries,1,1199.0,0.0,1199.0,0.0,1199.0,780.0,419.0,34.95
+49,2025-07-19,2025,7,Jul,2025-07,Processing,South,77,Rohit Mehta,Chennai,3,Mechanical Gaming Keyboard,Electronics,1,3299.0,20.0,3299.0,659.8,2639.2,2100.0,539.2,20.43
+49,2025-07-19,2025,7,Jul,2025-07,Processing,South,77,Rohit Mehta,Chennai,9,Unisex Classic Denim Jeans,Fashion,1,2499.0,20.0,2499.0,499.8,1999.2,1100.0,899.2,44.98
+49,2025-07-19,2025,7,Jul,2025-07,Processing,South,77,Rohit Mehta,Chennai,14,Double Bed Pure Cotton Bedsheet,Home & Living,1,1599.0,15.0,1599.0,239.85,1359.15,780.0,579.15,42.61
+50,2025-08-28,2025,8,Aug,2025-08,Shipped,North,39,Kiran Gupta,Delhi,16,Multipurpose Desk Organizer Set,Home & Living,1,699.0,5.0,699.0,34.95,664.05,290.0,374.05,56.33
+50,2025-08-28,2025,8,Aug,2025-08,Shipped,North,39,Kiran Gupta,Delhi,5,Smart Fitness Watch Pro,Electronics,1,4999.0,12.0,4999.0,599.88,4399.12,3200.0,1199.12,27.26
+50,2025-08-28,2025,8,Aug,2025-08,Shipped,North,39,Kiran Gupta,Delhi,15,Automatic Air Fryer 4.5L,Home & Living,1,5499.0,5.0,5499.0,274.95,5224.05,3600.0,1624.05,31.09
+50,2025-08-28,2025,8,Aug,2025-08,Shipped,North,39,Kiran Gupta,Delhi,18,Cold-Pressed Extra Virgin Olive Oil 1L,Groceries,3,1199.0,15.0,3597.0,539.55,3057.45,2340.0,717.45,23.47
+51,2025-08-20,2025,8,Aug,2025-08,Delivered,North,31,Ishaan Sharma,Gurgaon,14,Double Bed Pure Cotton Bedsheet,Home & Living,1,1599.0,15.0,1599.0,239.85,1359.15,780.0,579.15,42.61
+52,2025-05-15,2025,5,May,2025-05,Delivered,South,61,Nikhil Deshmukh,Hyderabad,21,Anti-Skid Yoga Mat 6mm,Sports,1,999.0,12.0,999.0,119.88,879.12,480.0,399.12,45.4
+52,2025-05-15,2025,5,May,2025-05,Delivered,South,61,Nikhil Deshmukh,Hyderabad,5,Smart Fitness Watch Pro,Electronics,1,4999.0,0.0,4999.0,0.0,4999.0,3200.0,1799.0,35.99
+52,2025-05-15,2025,5,May,2025-05,Delivered,South,61,Nikhil Deshmukh,Hyderabad,16,Multipurpose Desk Organizer Set,Home & Living,3,699.0,10.0,2097.0,209.7,1887.3,870.0,1017.3,53.9
+52,2025-05-15,2025,5,May,2025-05,Delivered,South,61,Nikhil Deshmukh,Hyderabad,2,Wireless Noise-Cancelling Headphones,Electronics,1,7499.0,10.0,7499.0,749.9,6749.1,4800.0,1949.1,28.88
+53,2025-01-13,2025,1,Jan,2025-01,Delivered,Central,2,Amit Iyer,Bhopal,5,Smart Fitness Watch Pro,Electronics,2,4999.0,5.0,9998.0,499.9,9498.1,6400.0,3098.1,32.62
+53,2025-01-13,2025,1,Jan,2025-01,Delivered,Central,2,Amit Iyer,Bhopal,3,Mechanical Gaming Keyboard,Electronics,1,3299.0,15.0,3299.0,494.85,2804.15,2100.0,704.15,25.11
+53,2025-01-13,2025,1,Jan,2025-01,Delivered,Central,2,Amit Iyer,Bhopal,16,Multipurpose Desk Organizer Set,Home & Living,1,699.0,0.0,699.0,0.0,699.0,290.0,409.0,58.51
+54,2025-10-12,2025,10,Oct,2025-10,Cancelled,East,43,Shreya Kapoor,Bhubaneswar,11,Genuine Leather Bifold Wallet,Fashion,2,899.0,20.0,1798.0,359.6,1438.4,760.0,678.4,47.16
+54,2025-10-12,2025,10,Oct,2025-10,Cancelled,East,43,Shreya Kapoor,Bhubaneswar,21,Anti-Skid Yoga Mat 6mm,Sports,1,999.0,12.0,999.0,119.88,879.12,480.0,399.12,45.4
+55,2025-09-13,2025,9,Sep,2025-09,Delivered,South,5,Nandini Joshi,Kochi,22,Adjustable Dumbbell Set 20kg,Sports,3,4299.0,0.0,12897.0,0.0,12897.0,7800.0,5097.0,39.52
+56,2025-06-11,2025,6,Jun,2025-06,Delivered,South,12,Aditya Verma,Bengaluru,23,Insulated Stainless Steel Sipper Bottle,Sports,1,799.0,15.0,799.0,119.85,679.15,390.0,289.15,42.58
+56,2025-06-11,2025,6,Jun,2025-06,Delivered,South,12,Aditya Verma,Bengaluru,4,Ergonomic Wireless Mouse,Electronics,1,1299.0,0.0,1299.0,0.0,1299.0,750.0,549.0,42.26
+57,2025-04-16,2025,4,Apr,2025-04,Cancelled,East,6,Aarav Rao,Patna,12,Orthopedic Memory Foam Pillow,Home & Living,1,1799.0,0.0,1799.0,0.0,1799.0,950.0,849.0,47.19
+58,2025-07-30,2025,7,Jul,2025-07,Delivered,South,32,Shreya Patel,Coimbatore,6,Fast Charging Power Bank 20000mAh,Electronics,2,1899.0,10.0,3798.0,379.8,3418.2,2300.0,1118.2,32.71
+58,2025-07-30,2025,7,Jul,2025-07,Delivered,South,32,Shreya Patel,Coimbatore,3,Mechanical Gaming Keyboard,Electronics,2,3299.0,0.0,6598.0,0.0,6598.0,4200.0,2398.0,36.34
+59,2025-08-26,2025,8,Aug,2025-08,Delivered,South,64,Vikram Saxena,Coimbatore,21,Anti-Skid Yoga Mat 6mm,Sports,1,999.0,5.0,999.0,49.95,949.05,480.0,469.05,49.42
+60,2024-11-05,2024,11,Nov,2024-11,Cancelled,West,86,Priya Iyer,Pune,10,Lightweight Running Sports Shoes,Fashion,1,3199.0,0.0,3199.0,0.0,3199.0,1500.0,1699.0,53.11
+60,2024-11-05,2024,11,Nov,2024-11,Cancelled,West,86,Priya Iyer,Pune,22,Adjustable Dumbbell Set 20kg,Sports,1,4299.0,5.0,4299.0,214.95,4084.05,2600.0,1484.05,36.34
+61,2025-04-03,2025,4,Apr,2025-04,Processing,North,76,Anjali Singh,Gurgaon,23,Insulated Stainless Steel Sipper Bottle,Sports,1,799.0,10.0,799.0,79.9,719.1,390.0,329.1,45.77
+61,2025-04-03,2025,4,Apr,2025-04,Processing,North,76,Anjali Singh,Gurgaon,9,Unisex Classic Denim Jeans,Fashion,3,2499.0,0.0,7497.0,0.0,7497.0,3300.0,4197.0,55.98
+61,2025-04-03,2025,4,Apr,2025-04,Processing,North,76,Anjali Singh,Gurgaon,15,Automatic Air Fryer 4.5L,Home & Living,1,5499.0,12.0,5499.0,659.88,4839.12,3600.0,1239.12,25.61
+61,2025-04-03,2025,4,Apr,2025-04,Processing,North,76,Anjali Singh,Gurgaon,10,Lightweight Running Sports Shoes,Fashion,1,3199.0,5.0,3199.0,159.95,3039.05,1500.0,1539.05,50.64
+62,2025-04-01,2025,4,Apr,2025-04,Delivered,Central,90,Anjali Sharma,Gwalior,22,Adjustable Dumbbell Set 20kg,Sports,1,4299.0,15.0,4299.0,644.85,3654.15,2600.0,1054.15,28.85
+62,2025-04-01,2025,4,Apr,2025-04,Delivered,Central,90,Anjali Sharma,Gwalior,13,Stainless Steel Electric Kettle 1.8L,Home & Living,2,1299.0,0.0,2598.0,0.0,2598.0,1440.0,1158.0,44.57
+62,2025-04-01,2025,4,Apr,2025-04,Delivered,Central,90,Anjali Sharma,Gwalior,9,Unisex Classic Denim Jeans,Fashion,3,2499.0,15.0,7497.0,1124.55,6372.45,3300.0,3072.45,48.21
+62,2025-04-01,2025,4,Apr,2025-04,Delivered,Central,90,Anjali Sharma,Gwalior,1,Ultra HD Smart LED TV 55-inch,Electronics,1,42999.0,5.0,42999.0,2149.95,40849.05,31000.0,9849.05,24.11
+63,2025-09-07,2025,9,Sep,2025-09,Cancelled,Central,30,Suresh Saxena,Bhopal,21,Anti-Skid Yoga Mat 6mm,Sports,1,999.0,5.0,999.0,49.95,949.05,480.0,469.05,49.42
+64,2025-10-04,2025,10,Oct,2025-10,Processing,Central,87,Rohit Iyer,Jabalpur,21,Anti-Skid Yoga Mat 6mm,Sports,1,999.0,10.0,999.0,99.9,899.1,480.0,419.1,46.61
+64,2025-10-04,2025,10,Oct,2025-10,Processing,Central,87,Rohit Iyer,Jabalpur,4,Ergonomic Wireless Mouse,Electronics,1,1299.0,5.0,1299.0,64.95,1234.05,750.0,484.05,39.22
+64,2025-10-04,2025,10,Oct,2025-10,Processing,Central,87,Rohit Iyer,Jabalpur,2,Wireless Noise-Cancelling Headphones,Electronics,2,7499.0,0.0,14998.0,0.0,14998.0,9600.0,5398.0,35.99
+65,2025-04-17,2025,4,Apr,2025-04,Processing,North,38,Vikram Reddy,Jaipur,7,Men Slim-Fit Cotton Casual Shirt,Fashion,1,1499.0,12.0,1499.0,179.88,1319.12,650.0,669.12,50.72
+66,2025-07-30,2025,7,Jul,2025-07,Shipped,South,47,Nandini Bhat,Kochi,6,Fast Charging Power Bank 20000mAh,Electronics,4,1899.0,5.0,7596.0,379.8,7216.2,4600.0,2616.2,36.25
+66,2025-07-30,2025,7,Jul,2025-07,Shipped,South,47,Nandini Bhat,Kochi,9,Unisex Classic Denim Jeans,Fashion,2,2499.0,5.0,4998.0,249.9,4748.1,2200.0,2548.1,53.67
+66,2025-07-30,2025,7,Jul,2025-07,Shipped,South,47,Nandini Bhat,Kochi,16,Multipurpose Desk Organizer Set,Home & Living,2,699.0,10.0,1398.0,139.8,1258.2,580.0,678.2,53.9
+67,2025-01-12,2025,1,Jan,2025-01,Cancelled,West,10,Sneha Saxena,Nagpur,22,Adjustable Dumbbell Set 20kg,Sports,1,4299.0,20.0,4299.0,859.8,3439.2,2600.0,839.2,24.4
+67,2025-01-12,2025,1,Jan,2025-01,Cancelled,West,10,Sneha Saxena,Nagpur,24,Skipping Rope with Digital Counter,Sports,1,499.0,5.0,499.0,24.95,474.05,210.0,264.05,55.7
+67,2025-01-12,2025,1,Jan,2025-01,Cancelled,West,10,Sneha Saxena,Nagpur,13,Stainless Steel Electric Kettle 1.8L,Home & Living,1,1299.0,10.0,1299.0,129.9,1169.1,720.0,449.1,38.41
+67,2025-01-12,2025,1,Jan,2025-01,Cancelled,West,10,Sneha Saxena,Nagpur,18,Cold-Pressed Extra Virgin Olive Oil 1L,Groceries,1,1199.0,15.0,1199.0,179.85,1019.15,780.0,239.15,23.47
+68,2025-03-15,2025,3,Mar,2025-03,Shipped,Central,87,Rohit Iyer,Jabalpur,21,Anti-Skid Yoga Mat 6mm,Sports,3,999.0,0.0,2997.0,0.0,2997.0,1440.0,1557.0,51.95
+69,2025-02-28,2025,2,Feb,2025-02,Delivered,Central,87,Rohit Iyer,Jabalpur,18,Cold-Pressed Extra Virgin Olive Oil 1L,Groceries,1,1199.0,12.0,1199.0,143.88,1055.12,780.0,275.12,26.07
+70,2025-09-28,2025,9,Sep,2025-09,Delivered,South,29,Rhea Kulkarni,Chennai,15,Automatic Air Fryer 4.5L,Home & Living,1,5499.0,10.0,5499.0,549.9,4949.1,3600.0,1349.1,27.26
+70,2025-09-28,2025,9,Sep,2025-09,Delivered,South,29,Rhea Kulkarni,Chennai,23,Insulated Stainless Steel Sipper Bottle,Sports,1,799.0,0.0,799.0,0.0,799.0,390.0,409.0,51.19
+71,2025-04-05,2025,4,Apr,2025-04,Delivered,South,5,Nandini Joshi,Kochi,8,Women Floral Embroidered Kurti,Fashion,3,1899.0,0.0,5697.0,0.0,5697.0,2400.0,3297.0,57.87
+72,2025-06-21,2025,6,Jun,2025-06,Delivered,South,50,Aarav Verma,Chennai,24,Skipping Rope with Digital Counter,Sports,3,499.0,10.0,1497.0,149.7,1347.3,630.0,717.3,53.24
+72,2025-06-21,2025,6,Jun,2025-06,Delivered,South,50,Aarav Verma,Chennai,23,Insulated Stainless Steel Sipper Bottle,Sports,1,799.0,15.0,799.0,119.85,679.15,390.0,289.15,42.58
+73,2025-06-01,2025,6,Jun,2025-06,Processing,Central,20,Amit Gupta,Gwalior,16,Multipurpose Desk Organizer Set,Home & Living,2,699.0,5.0,1398.0,69.9,1328.1,580.0,748.1,56.33
+74,2025-05-09,2025,5,May,2025-05,Delivered,South,5,Nandini Joshi,Kochi,8,Women Floral Embroidered Kurti,Fashion,3,1899.0,0.0,5697.0,0.0,5697.0,2400.0,3297.0,57.87
+75,2025-05-08,2025,5,May,2025-05,Shipped,Central,88,Nikhil Joshi,Gwalior,21,Anti-Skid Yoga Mat 6mm,Sports,1,999.0,0.0,999.0,0.0,999.0,480.0,519.0,51.95
+75,2025-05-08,2025,5,May,2025-05,Shipped,Central,88,Nikhil Joshi,Gwalior,12,Orthopedic Memory Foam Pillow,Home & Living,4,1799.0,20.0,7196.0,1439.2,5756.8,3800.0,1956.8,33.99
+75,2025-05-08,2025,5,May,2025-05,Shipped,Central,88,Nikhil Joshi,Gwalior,2,Wireless Noise-Cancelling Headphones,Electronics,2,7499.0,0.0,14998.0,0.0,14998.0,9600.0,5398.0,35.99
+76,2025-02-17,2025,2,Feb,2025-02,Processing,East,85,Sunil Agarwal,Guwahati,1,Ultra HD Smart LED TV 55-inch,Electronics,2,42999.0,0.0,85998.0,0.0,85998.0,62000.0,23998.0,27.91
+76,2025-02-17,2025,2,Feb,2025-02,Processing,East,85,Sunil Agarwal,Guwahati,2,Wireless Noise-Cancelling Headphones,Electronics,5,7499.0,20.0,37495.0,7499.0,29996.0,24000.0,5996.0,19.99
+77,2025-02-14,2025,2,Feb,2025-02,Delivered,East,73,Kunal Rao,Guwahati,18,Cold-Pressed Extra Virgin Olive Oil 1L,Groceries,1,1199.0,20.0,1199.0,239.8,959.2,780.0,179.2,18.68
+77,2025-02-14,2025,2,Feb,2025-02,Delivered,East,73,Kunal Rao,Guwahati,7,Men Slim-Fit Cotton Casual Shirt,Fashion,1,1499.0,20.0,1499.0,299.8,1199.2,650.0,549.2,45.8
+77,2025-02-14,2025,2,Feb,2025-02,Delivered,East,73,Kunal Rao,Guwahati,19,Premium California Almonds 500g,Groceries,1,599.0,12.0,599.0,71.88,527.12,380.0,147.12,27.91
+78,2025-03-22,2025,3,Mar,2025-03,Cancelled,West,1,Pooja Sharma,Pune,5,Smart Fitness Watch Pro,Electronics,1,4999.0,20.0,4999.0,999.8,3999.2,3200.0,799.2,19.98
+78,2025-03-22,2025,3,Mar,2025-03,Cancelled,West,1,Pooja Sharma,Pune,18,Cold-Pressed Extra Virgin Olive Oil 1L,Groceries,1,1199.0,0.0,1199.0,0.0,1199.0,780.0,419.0,34.95
+78,2025-03-22,2025,3,Mar,2025-03,Cancelled,West,1,Pooja Sharma,Pune,9,Unisex Classic Denim Jeans,Fashion,1,2499.0,20.0,2499.0,499.8,1999.2,1100.0,899.2,44.98
+78,2025-03-22,2025,3,Mar,2025-03,Cancelled,West,1,Pooja Sharma,Pune,6,Fast Charging Power Bank 20000mAh,Electronics,1,1899.0,5.0,1899.0,94.95,1804.05,1150.0,654.05,36.25
+79,2025-01-29,2025,1,Jan,2025-01,Delivered,North,3,Rohit Sharma,Noida,24,Skipping Rope with Digital Counter,Sports,1,499.0,0.0,499.0,0.0,499.0,210.0,289.0,57.92
+80,2025-07-02,2025,7,Jul,2025-07,Delivered,Central,9,Rohit Bhat,Bhopal,17,Organic Green Tea 100 Bags,Groceries,1,450.0,12.0,450.0,54.0,396.0,260.0,136.0,34.34
+80,2025-07-02,2025,7,Jul,2025-07,Delivered,Central,9,Rohit Bhat,Bhopal,19,Premium California Almonds 500g,Groceries,1,599.0,12.0,599.0,71.88,527.12,380.0,147.12,27.91
+81,2025-10-04,2025,10,Oct,2025-10,Shipped,East,6,Aarav Rao,Patna,21,Anti-Skid Yoga Mat 6mm,Sports,4,999.0,0.0,3996.0,0.0,3996.0,1920.0,2076.0,51.95
+82,2025-05-25,2025,5,May,2025-05,Delivered,South,62,Kunal Banerjee,Hyderabad,16,Multipurpose Desk Organizer Set,Home & Living,3,699.0,0.0,2097.0,0.0,2097.0,870.0,1227.0,58.51
+82,2025-05-25,2025,5,May,2025-05,Delivered,South,62,Kunal Banerjee,Hyderabad,23,Insulated Stainless Steel Sipper Bottle,Sports,3,799.0,5.0,2397.0,119.85,2277.15,1170.0,1107.15,48.62
+83,2025-01-15,2025,1,Jan,2025-01,Delivered,East,78,Sunil Saxena,Guwahati,20,Pure Raw Honey 500g,Groceries,2,399.0,12.0,798.0,95.76,702.24,420.0,282.24,40.19
+84,2025-04-16,2025,4,Apr,2025-04,Delivered,North,92,Tarun Reddy,Lucknow,17,Organic Green Tea 100 Bags,Groceries,1,450.0,20.0,450.0,90.0,360.0,260.0,100.0,27.78
+84,2025-04-16,2025,4,Apr,2025-04,Delivered,North,92,Tarun Reddy,Lucknow,10,Lightweight Running Sports Shoes,Fashion,2,3199.0,20.0,6398.0,1279.6,5118.4,3000.0,2118.4,41.39
+84,2025-04-16,2025,4,Apr,2025-04,Delivered,North,92,Tarun Reddy,Lucknow,15,Automatic Air Fryer 4.5L,Home & Living,2,5499.0,20.0,10998.0,2199.6,8798.4,7200.0,1598.4,18.17
+84,2025-04-16,2025,4,Apr,2025-04,Delivered,North,92,Tarun Reddy,Lucknow,20,Pure Raw Honey 500g,Groceries,1,399.0,20.0,399.0,79.8,319.2,210.0,109.2,34.21
+85,2025-06-09,2025,6,Jun,2025-06,Delivered,Central,28,Rhea Rao,Bhopal,14,Double Bed Pure Cotton Bedsheet,Home & Living,1,1599.0,15.0,1599.0,239.85,1359.15,780.0,579.15,42.61
+85,2025-06-09,2025,6,Jun,2025-06,Delivered,Central,28,Rhea Rao,Bhopal,11,Genuine Leather Bifold Wallet,Fashion,1,899.0,10.0,899.0,89.9,809.1,380.0,429.1,53.03
+85,2025-06-09,2025,6,Jun,2025-06,Delivered,Central,28,Rhea Rao,Bhopal,15,Automatic Air Fryer 4.5L,Home & Living,1,5499.0,5.0,5499.0,274.95,5224.05,3600.0,1624.05,31.09
+86,2025-01-18,2025,1,Jan,2025-01,Processing,South,48,Meera Bhat,Bengaluru,3,Mechanical Gaming Keyboard,Electronics,2,3299.0,5.0,6598.0,329.9,6268.1,4200.0,2068.1,32.99
+86,2025-01-18,2025,1,Jan,2025-01,Processing,South,48,Meera Bhat,Bengaluru,14,Double Bed Pure Cotton Bedsheet,Home & Living,2,1599.0,12.0,3198.0,383.76,2814.24,1560.0,1254.24,44.57
+86,2025-01-18,2025,1,Jan,2025-01,Processing,South,48,Meera Bhat,Bengaluru,4,Ergonomic Wireless Mouse,Electronics,1,1299.0,12.0,1299.0,155.88,1143.12,750.0,393.12,34.39
+87,2025-04-18,2025,4,Apr,2025-04,Processing,North,72,Meera Patel,Gurgaon,12,Orthopedic Memory Foam Pillow,Home & Living,3,1799.0,20.0,5397.0,1079.4,4317.6,2850.0,1467.6,33.99
+88,2024-11-27,2024,11,Nov,2024-11,Delivered,North,55,Kiran Saxena,Lucknow,12,Orthopedic Memory Foam Pillow,Home & Living,1,1799.0,0.0,1799.0,0.0,1799.0,950.0,849.0,47.19
+88,2024-11-27,2024,11,Nov,2024-11,Delivered,North,55,Kiran Saxena,Lucknow,4,Ergonomic Wireless Mouse,Electronics,1,1299.0,10.0,1299.0,129.9,1169.1,750.0,419.1,35.85
+89,2024-12-26,2024,12,Dec,2024-12,Delivered,South,29,Rhea Kulkarni,Chennai,12,Orthopedic Memory Foam Pillow,Home & Living,1,1799.0,20.0,1799.0,359.8,1439.2,950.0,489.2,33.99
+89,2024-12-26,2024,12,Dec,2024-12,Delivered,South,29,Rhea Kulkarni,Chennai,4,Ergonomic Wireless Mouse,Electronics,1,1299.0,12.0,1299.0,155.88,1143.12,750.0,393.12,34.39
+89,2024-12-26,2024,12,Dec,2024-12,Delivered,South,29,Rhea Kulkarni,Chennai,9,Unisex Classic Denim Jeans,Fashion,4,2499.0,20.0,9996.0,1999.2,7996.8,4400.0,3596.8,44.98
+90,2025-09-11,2025,9,Sep,2025-09,Processing,East,80,Neha Reddy,Bhubaneswar,1,Ultra HD Smart LED TV 55-inch,Electronics,3,42999.0,20.0,128997.0,25799.4,103197.6,93000.0,10197.6,9.88
+90,2025-09-11,2025,9,Sep,2025-09,Processing,East,80,Neha Reddy,Bhubaneswar,20,Pure Raw Honey 500g,Groceries,2,399.0,0.0,798.0,0.0,798.0,420.0,378.0,47.37
+91,2025-03-20,2025,3,Mar,2025-03,Processing,East,24,Vidya Verma,Ranchi,11,Genuine Leather Bifold Wallet,Fashion,1,899.0,20.0,899.0,179.8,719.2,380.0,339.2,47.16
+91,2025-03-20,2025,3,Mar,2025-03,Processing,East,24,Vidya Verma,Ranchi,12,Orthopedic Memory Foam Pillow,Home & Living,1,1799.0,15.0,1799.0,269.85,1529.15,950.0,579.15,37.87
+92,2024-12-06,2024,12,Dec,2024-12,Delivered,North,52,Suresh Banerjee,Chandigarh,1,Ultra HD Smart LED TV 55-inch,Electronics,2,42999.0,0.0,85998.0,0.0,85998.0,62000.0,23998.0,27.91
+92,2024-12-06,2024,12,Dec,2024-12,Delivered,North,52,Suresh Banerjee,Chandigarh,3,Mechanical Gaming Keyboard,Electronics,1,3299.0,10.0,3299.0,329.9,2969.1,2100.0,869.1,29.27
+93,2025-01-20,2025,1,Jan,2025-01,Delivered,West,44,Rajesh Joshi,Surat,11,Genuine Leather Bifold Wallet,Fashion,2,899.0,12.0,1798.0,215.76,1582.24,760.0,822.24,51.97
+94,2024-12-14,2024,12,Dec,2024-12,Delivered,South,77,Rohit Mehta,Chennai,20,Pure Raw Honey 500g,Groceries,1,399.0,0.0,399.0,0.0,399.0,210.0,189.0,47.37
+95,2025-06-15,2025,6,Jun,2025-06,Processing,East,35,Alok Kulkarni,Bhubaneswar,20,Pure Raw Honey 500g,Groceries,1,399.0,5.0,399.0,19.95,379.05,210.0,169.05,44.6
+96,2025-07-21,2025,7,Jul,2025-07,Delivered,Central,28,Rhea Rao,Bhopal,4,Ergonomic Wireless Mouse,Electronics,1,1299.0,15.0,1299.0,194.85,1104.15,750.0,354.15,32.07
+97,2025-07-08,2025,7,Jul,2025-07,Shipped,North,76,Anjali Singh,Gurgaon,2,Wireless Noise-Cancelling Headphones,Electronics,1,7499.0,12.0,7499.0,899.88,6599.12,4800.0,1799.12,27.26
+97,2025-07-08,2025,7,Jul,2025-07,Shipped,North,76,Anjali Singh,Gurgaon,8,Women Floral Embroidered Kurti,Fashion,1,1899.0,0.0,1899.0,0.0,1899.0,800.0,1099.0,57.87
+98,2025-02-17,2025,2,Feb,2025-02,Cancelled,North,39,Kiran Gupta,Delhi,9,Unisex Classic Denim Jeans,Fashion,1,2499.0,0.0,2499.0,0.0,2499.0,1100.0,1399.0,55.98
+99,2025-07-13,2025,7,Jul,2025-07,Processing,West,1,Pooja Sharma,Pune,5,Smart Fitness Watch Pro,Electronics,1,4999.0,15.0,4999.0,749.85,4249.15,3200.0,1049.15,24.69
+100,2025-07-15,2025,7,Jul,2025-07,Shipped,Central,30,Suresh Saxena,Bhopal,12,Orthopedic Memory Foam Pillow,Home & Living,3,1799.0,0.0,5397.0,0.0,5397.0,2850.0,2547.0,47.19
+100,2025-07-15,2025,7,Jul,2025-07,Shipped,Central,30,Suresh Saxena,Bhopal,3,Mechanical Gaming Keyboard,Electronics,1,3299.0,10.0,3299.0,329.9,2969.1,2100.0,869.1,29.27
+100,2025-07-15,2025,7,Jul,2025-07,Shipped,Central,30,Suresh Saxena,Bhopal,13,Stainless Steel Electric Kettle 1.8L,Home & Living,3,1299.0,20.0,3897.0,779.4,3117.6,2160.0,957.6,30.72
+101,2025-08-22,2025,8,Aug,2025-08,Delivered,West,41,Rhea Gupta,Surat,23,Insulated Stainless Steel Sipper Bottle,Sports,1,799.0,0.0,799.0,0.0,799.0,390.0,409.0,51.19
+101,2025-08-22,2025,8,Aug,2025-08,Delivered,West,41,Rhea Gupta,Surat,21,Anti-Skid Yoga Mat 6mm,Sports,1,999.0,5.0,999.0,49.95,949.05,480.0,469.05,49.42
+102,2025-09-13,2025,9,Sep,2025-09,Delivered,Central,22,Manoj Singh,Jabalpur,12,Orthopedic Memory Foam Pillow,Home & Living,2,1799.0,0.0,3598.0,0.0,3598.0,1900.0,1698.0,47.19
+102,2025-09-13,2025,9,Sep,2025-09,Delivered,Central,22,Manoj Singh,Jabalpur,3,Mechanical Gaming Keyboard,Electronics,1,3299.0,10.0,3299.0,329.9,2969.1,2100.0,869.1,29.27
+102,2025-09-13,2025,9,Sep,2025-09,Delivered,Central,22,Manoj Singh,Jabalpur,14,Double Bed Pure Cotton Bedsheet,Home & Living,1,1599.0,10.0,1599.0,159.9,1439.1,780.0,659.1,45.8
+103,2025-04-23,2025,4,Apr,2025-04,Delivered,North,40,Manoj Verma,Gurgaon,6,Fast Charging Power Bank 20000mAh,Electronics,1,1899.0,15.0,1899.0,284.85,1614.15,1150.0,464.15,28.76
+104,2025-07-30,2025,7,Jul,2025-07,Shipped,South,15,Nandini Gupta,Kochi,12,Orthopedic Memory Foam Pillow,Home & Living,1,1799.0,20.0,1799.0,359.8,1439.2,950.0,489.2,33.99
+105,2025-01-15,2025,1,Jan,2025-01,Delivered,North,83,Manoj Gupta,Lucknow,9,Unisex Classic Denim Jeans,Fashion,1,2499.0,12.0,2499.0,299.88,2199.12,1100.0,1099.12,49.98
+106,2025-10-02,2025,10,Oct,2025-10,Delivered,Central,20,Amit Gupta,Gwalior,21,Anti-Skid Yoga Mat 6mm,Sports,1,999.0,20.0,999.0,199.8,799.2,480.0,319.2,39.94
+107,2025-08-24,2025,8,Aug,2025-08,Delivered,East,73,Kunal Rao,Guwahati,19,Premium California Almonds 500g,Groceries,2,599.0,12.0,1198.0,143.76,1054.24,760.0,294.24,27.91
+107,2025-08-24,2025,8,Aug,2025-08,Delivered,East,73,Kunal Rao,Guwahati,21,Anti-Skid Yoga Mat 6mm,Sports,1,999.0,15.0,999.0,149.85,849.15,480.0,369.15,43.47
+108,2025-01-17,2025,1,Jan,2025-01,Delivered,West,41,Rhea Gupta,Surat,15,Automatic Air Fryer 4.5L,Home & Living,2,5499.0,20.0,10998.0,2199.6,8798.4,7200.0,1598.4,18.17
+109,2025-08-30,2025,8,Aug,2025-08,Delivered,East,36,Arjun Choudhury,Patna,3,Mechanical Gaming Keyboard,Electronics,1,3299.0,10.0,3299.0,329.9,2969.1,2100.0,869.1,29.27
+110,2024-11-30,2024,11,Nov,2024-11,Delivered,South,5,Nandini Joshi,Kochi,3,Mechanical Gaming Keyboard,Electronics,1,3299.0,10.0,3299.0,329.9,2969.1,2100.0,869.1,29.27
+110,2024-11-30,2024,11,Nov,2024-11,Delivered,South,5,Nandini Joshi,Kochi,21,Anti-Skid Yoga Mat 6mm,Sports,1,999.0,12.0,999.0,119.88,879.12,480.0,399.12,45.4
+110,2024-11-30,2024,11,Nov,2024-11,Delivered,South,5,Nandini Joshi,Kochi,20,Pure Raw Honey 500g,Groceries,4,399.0,15.0,1596.0,239.4,1356.6,840.0,516.6,38.08
+111,2025-06-19,2025,6,Jun,2025-06,Cancelled,East,6,Aarav Rao,Patna,7,Men Slim-Fit Cotton Casual Shirt,Fashion,2,1499.0,12.0,2998.0,359.76,2638.24,1300.0,1338.24,50.72
+111,2025-06-19,2025,6,Jun,2025-06,Cancelled,East,6,Aarav Rao,Patna,11,Genuine Leather Bifold Wallet,Fashion,1,899.0,0.0,899.0,0.0,899.0,380.0,519.0,57.73
+112,2024-12-23,2024,12,Dec,2024-12,Cancelled,Central,58,Neha Verma,Bhopal,11,Genuine Leather Bifold Wallet,Fashion,1,899.0,0.0,899.0,0.0,899.0,380.0,519.0,57.73
+112,2024-12-23,2024,12,Dec,2024-12,Cancelled,Central,58,Neha Verma,Bhopal,23,Insulated Stainless Steel Sipper Bottle,Sports,1,799.0,15.0,799.0,119.85,679.15,390.0,289.15,42.58
+112,2024-12-23,2024,12,Dec,2024-12,Cancelled,Central,58,Neha Verma,Bhopal,3,Mechanical Gaming Keyboard,Electronics,1,3299.0,10.0,3299.0,329.9,2969.1,2100.0,869.1,29.27
+113,2025-07-26,2025,7,Jul,2025-07,Shipped,West,68,Rajesh Singh,Mumbai,12,Orthopedic Memory Foam Pillow,Home & Living,3,1799.0,10.0,5397.0,539.7,4857.3,2850.0,2007.3,41.33
+114,2025-04-23,2025,4,Apr,2025-04,Processing,East,53,Simran Choudhury,Guwahati,21,Anti-Skid Yoga Mat 6mm,Sports,1,999.0,0.0,999.0,0.0,999.0,480.0,519.0,51.95
+114,2025-04-23,2025,4,Apr,2025-04,Processing,East,53,Simran Choudhury,Guwahati,11,Genuine Leather Bifold Wallet,Fashion,1,899.0,10.0,899.0,89.9,809.1,380.0,429.1,53.03
+115,2025-03-10,2025,3,Mar,2025-03,Processing,North,37,Alok Bhat,Noida,20,Pure Raw Honey 500g,Groceries,1,399.0,15.0,399.0,59.85,339.15,210.0,129.15,38.08
+115,2025-03-10,2025,3,Mar,2025-03,Processing,North,37,Alok Bhat,Noida,5,Smart Fitness Watch Pro,Electronics,1,4999.0,5.0,4999.0,249.95,4749.05,3200.0,1549.05,32.62
+115,2025-03-10,2025,3,Mar,2025-03,Processing,North,37,Alok Bhat,Noida,11,Genuine Leather Bifold Wallet,Fashion,1,899.0,15.0,899.0,134.85,764.15,380.0,384.15,50.27
+116,2025-10-06,2025,10,Oct,2025-10,Delivered,Central,90,Anjali Sharma,Gwalior,23,Insulated Stainless Steel Sipper Bottle,Sports,3,799.0,5.0,2397.0,119.85,2277.15,1170.0,1107.15,48.62
+117,2025-05-12,2025,5,May,2025-05,Processing,North,72,Meera Patel,Gurgaon,5,Smart Fitness Watch Pro,Electronics,2,4999.0,15.0,9998.0,1499.7,8498.3,6400.0,2098.3,24.69
+117,2025-05-12,2025,5,May,2025-05,Processing,North,72,Meera Patel,Gurgaon,22,Adjustable Dumbbell Set 20kg,Sports,5,4299.0,12.0,21495.0,2579.4,18915.6,13000.0,5915.6,31.27
+118,2025-09-27,2025,9,Sep,2025-09,Processing,South,12,Aditya Verma,Bengaluru,12,Orthopedic Memory Foam Pillow,Home & Living,1,1799.0,5.0,1799.0,89.95,1709.05,950.0,759.05,44.41
+119,2025-02-18,2025,2,Feb,2025-02,Delivered,East,24,Vidya Verma,Ranchi,16,Multipurpose Desk Organizer Set,Home & Living,5,699.0,0.0,3495.0,0.0,3495.0,1450.0,2045.0,58.51
+119,2025-02-18,2025,2,Feb,2025-02,Delivered,East,24,Vidya Verma,Ranchi,7,Men Slim-Fit Cotton Casual Shirt,Fashion,1,1499.0,20.0,1499.0,299.8,1199.2,650.0,549.2,45.8
+119,2025-02-18,2025,2,Feb,2025-02,Delivered,East,24,Vidya Verma,Ranchi,8,Women Floral Embroidered Kurti,Fashion,2,1899.0,12.0,3798.0,455.76,3342.24,1600.0,1742.24,52.13
+120,2025-07-28,2025,7,Jul,2025-07,Delivered,West,70,Deepika Nair,Nagpur,20,Pure Raw Honey 500g,Groceries,1,399.0,0.0,399.0,0.0,399.0,210.0,189.0,47.37
+120,2025-07-28,2025,7,Jul,2025-07,Delivered,West,70,Deepika Nair,Nagpur,5,Smart Fitness Watch Pro,Electronics,1,4999.0,20.0,4999.0,999.8,3999.2,3200.0,799.2,19.98
+121,2025-09-16,2025,9,Sep,2025-09,Cancelled,South,89,Gaurav Malhotra,Hyderabad,24,Skipping Rope with Digital Counter,Sports,1,499.0,15.0,499.0,74.85,424.15,210.0,214.15,50.49
+121,2025-09-16,2025,9,Sep,2025-09,Cancelled,South,89,Gaurav Malhotra,Hyderabad,15,Automatic Air Fryer 4.5L,Home & Living,2,5499.0,10.0,10998.0,1099.8,9898.2,7200.0,2698.2,27.26
+121,2025-09-16,2025,9,Sep,2025-09,Cancelled,South,89,Gaurav Malhotra,Hyderabad,2,Wireless Noise-Cancelling Headphones,Electronics,2,7499.0,20.0,14998.0,2999.6,11998.4,9600.0,2398.4,19.99
+122,2025-02-28,2025,2,Feb,2025-02,Shipped,Central,58,Neha Verma,Bhopal,16,Multipurpose Desk Organizer Set,Home & Living,3,699.0,0.0,2097.0,0.0,2097.0,870.0,1227.0,58.51
+123,2025-10-14,2025,10,Oct,2025-10,Shipped,South,48,Meera Bhat,Bengaluru,15,Automatic Air Fryer 4.5L,Home & Living,1,5499.0,0.0,5499.0,0.0,5499.0,3600.0,1899.0,34.53
+123,2025-10-14,2025,10,Oct,2025-10,Shipped,South,48,Meera Bhat,Bengaluru,10,Lightweight Running Sports Shoes,Fashion,2,3199.0,20.0,6398.0,1279.6,5118.4,3000.0,2118.4,41.39
+123,2025-10-14,2025,10,Oct,2025-10,Shipped,South,48,Meera Bhat,Bengaluru,13,Stainless Steel Electric Kettle 1.8L,Home & Living,2,1299.0,20.0,2598.0,519.6,2078.4,1440.0,638.4,30.72
+123,2025-10-14,2025,10,Oct,2025-10,Shipped,South,48,Meera Bhat,Bengaluru,17,Organic Green Tea 100 Bags,Groceries,1,450.0,15.0,450.0,67.5,382.5,260.0,122.5,32.03
+124,2025-05-10,2025,5,May,2025-05,Shipped,South,62,Kunal Banerjee,Hyderabad,23,Insulated Stainless Steel Sipper Bottle,Sports,1,799.0,20.0,799.0,159.8,639.2,390.0,249.2,38.99
+124,2025-05-10,2025,5,May,2025-05,Shipped,South,62,Kunal Banerjee,Hyderabad,17,Organic Green Tea 100 Bags,Groceries,1,450.0,10.0,450.0,45.0,405.0,260.0,145.0,35.8
+124,2025-05-10,2025,5,May,2025-05,Shipped,South,62,Kunal Banerjee,Hyderabad,4,Ergonomic Wireless Mouse,Electronics,3,1299.0,0.0,3897.0,0.0,3897.0,2250.0,1647.0,42.26
+125,2024-12-17,2024,12,Dec,2024-12,Delivered,Central,56,Ananya Patel,Jabalpur,12,Orthopedic Memory Foam Pillow,Home & Living,1,1799.0,12.0,1799.0,215.88,1583.12,950.0,633.12,39.99
+125,2024-12-17,2024,12,Dec,2024-12,Delivered,Central,56,Ananya Patel,Jabalpur,1,Ultra HD Smart LED TV 55-inch,Electronics,1,42999.0,10.0,42999.0,4299.9,38699.1,31000.0,7699.1,19.89
+125,2024-12-17,2024,12,Dec,2024-12,Delivered,Central,56,Ananya Patel,Jabalpur,14,Double Bed Pure Cotton Bedsheet,Home & Living,5,1599.0,5.0,7995.0,399.75,7595.25,3900.0,3695.25,48.65
+126,2024-11-15,2024,11,Nov,2024-11,Delivered,South,29,Rhea Kulkarni,Chennai,23,Insulated Stainless Steel Sipper Bottle,Sports,2,799.0,0.0,1598.0,0.0,1598.0,780.0,818.0,51.19
+126,2024-11-15,2024,11,Nov,2024-11,Delivered,South,29,Rhea Kulkarni,Chennai,21,Anti-Skid Yoga Mat 6mm,Sports,1,999.0,20.0,999.0,199.8,799.2,480.0,319.2,39.94
+126,2024-11-15,2024,11,Nov,2024-11,Delivered,South,29,Rhea Kulkarni,Chennai,11,Genuine Leather Bifold Wallet,Fashion,1,899.0,20.0,899.0,179.8,719.2,380.0,339.2,47.16
+127,2025-06-29,2025,6,Jun,2025-06,Delivered,Central,18,Vikram Nair,Raipur,3,Mechanical Gaming Keyboard,Electronics,1,3299.0,20.0,3299.0,659.8,2639.2,2100.0,539.2,20.43
+127,2025-06-29,2025,6,Jun,2025-06,Delivered,Central,18,Vikram Nair,Raipur,1,Ultra HD Smart LED TV 55-inch,Electronics,1,42999.0,15.0,42999.0,6449.85,36549.15,31000.0,5549.15,15.18
+128,2025-07-29,2025,7,Jul,2025-07,Delivered,East,78,Sunil Saxena,Guwahati,10,Lightweight Running Sports Shoes,Fashion,1,3199.0,0.0,3199.0,0.0,3199.0,1500.0,1699.0,53.11
+129,2025-03-03,2025,3,Mar,2025-03,Delivered,West,7,Kavita Nair,Mumbai,20,Pure Raw Honey 500g,Groceries,1,399.0,20.0,399.0,79.8,319.2,210.0,109.2,34.21
+129,2025-03-03,2025,3,Mar,2025-03,Delivered,West,7,Kavita Nair,Mumbai,15,Automatic Air Fryer 4.5L,Home & Living,3,5499.0,12.0,16497.0,1979.64,14517.36,10800.0,3717.36,25.61
+130,2024-11-09,2024,11,Nov,2024-11,Processing,West,69,Harsh Singh,Ahmedabad,8,Women Floral Embroidered Kurti,Fashion,1,1899.0,10.0,1899.0,189.9,1709.1,800.0,909.1,53.19
+130,2024-11-09,2024,11,Nov,2024-11,Processing,West,69,Harsh Singh,Ahmedabad,23,Insulated Stainless Steel Sipper Bottle,Sports,1,799.0,5.0,799.0,39.95,759.05,390.0,369.05,48.62
+131,2025-08-20,2025,8,Aug,2025-08,Delivered,North,31,Ishaan Sharma,Gurgaon,22,Adjustable Dumbbell Set 20kg,Sports,1,4299.0,5.0,4299.0,214.95,4084.05,2600.0,1484.05,36.34
+132,2025-07-28,2025,7,Jul,2025-07,Shipped,Central,9,Rohit Bhat,Bhopal,17,Organic Green Tea 100 Bags,Groceries,1,450.0,20.0,450.0,90.0,360.0,260.0,100.0,27.78
+132,2025-07-28,2025,7,Jul,2025-07,Shipped,Central,9,Rohit Bhat,Bhopal,18,Cold-Pressed Extra Virgin Olive Oil 1L,Groceries,1,1199.0,15.0,1199.0,179.85,1019.15,780.0,239.15,23.47
+133,2025-05-11,2025,5,May,2025-05,Delivered,South,50,Aarav Verma,Chennai,12,Orthopedic Memory Foam Pillow,Home & Living,1,1799.0,15.0,1799.0,269.85,1529.15,950.0,579.15,37.87
+133,2025-05-11,2025,5,May,2025-05,Delivered,South,50,Aarav Verma,Chennai,3,Mechanical Gaming Keyboard,Electronics,2,3299.0,0.0,6598.0,0.0,6598.0,4200.0,2398.0,36.34
+134,2025-04-20,2025,4,Apr,2025-04,Delivered,West,75,Nandini Patel,Nagpur,18,Cold-Pressed Extra Virgin Olive Oil 1L,Groceries,1,1199.0,15.0,1199.0,179.85,1019.15,780.0,239.15,23.47
+135,2025-10-17,2025,10,Oct,2025-10,Delivered,South,23,Ananya Iyer,Chennai,16,Multipurpose Desk Organizer Set,Home & Living,1,699.0,20.0,699.0,139.8,559.2,290.0,269.2,48.14
+135,2025-10-17,2025,10,Oct,2025-10,Delivered,South,23,Ananya Iyer,Chennai,21,Anti-Skid Yoga Mat 6mm,Sports,3,999.0,0.0,2997.0,0.0,2997.0,1440.0,1557.0,51.95
+135,2025-10-17,2025,10,Oct,2025-10,Delivered,South,23,Ananya Iyer,Chennai,6,Fast Charging Power Bank 20000mAh,Electronics,1,1899.0,0.0,1899.0,0.0,1899.0,1150.0,749.0,39.44
+135,2025-10-17,2025,10,Oct,2025-10,Delivered,South,23,Ananya Iyer,Chennai,5,Smart Fitness Watch Pro,Electronics,2,4999.0,0.0,9998.0,0.0,9998.0,6400.0,3598.0,35.99
+136,2025-04-08,2025,4,Apr,2025-04,Shipped,West,41,Rhea Gupta,Surat,18,Cold-Pressed Extra Virgin Olive Oil 1L,Groceries,1,1199.0,0.0,1199.0,0.0,1199.0,780.0,419.0,34.95
+137,2025-02-06,2025,2,Feb,2025-02,Delivered,North,83,Manoj Gupta,Lucknow,2,Wireless Noise-Cancelling Headphones,Electronics,3,7499.0,5.0,22497.0,1124.85,21372.15,14400.0,6972.15,32.62
+138,2025-01-03,2025,1,Jan,2025-01,Cancelled,East,35,Alok Kulkarni,Bhubaneswar,13,Stainless Steel Electric Kettle 1.8L,Home & Living,2,1299.0,10.0,2598.0,259.8,2338.2,1440.0,898.2,38.41
+139,2025-02-04,2025,2,Feb,2025-02,Delivered,West,44,Rajesh Joshi,Surat,12,Orthopedic Memory Foam Pillow,Home & Living,1,1799.0,0.0,1799.0,0.0,1799.0,950.0,849.0,47.19
+139,2025-02-04,2025,2,Feb,2025-02,Delivered,West,44,Rajesh Joshi,Surat,17,Organic Green Tea 100 Bags,Groceries,2,450.0,0.0,900.0,0.0,900.0,520.0,380.0,42.22
+140,2025-09-05,2025,9,Sep,2025-09,Cancelled,Central,56,Ananya Patel,Jabalpur,10,Lightweight Running Sports Shoes,Fashion,1,3199.0,0.0,3199.0,0.0,3199.0,1500.0,1699.0,53.11
+141,2025-10-05,2025,10,Oct,2025-10,Delivered,Central,42,Nandini Singh,Gwalior,20,Pure Raw Honey 500g,Groceries,2,399.0,0.0,798.0,0.0,798.0,420.0,378.0,47.37
+142,2025-06-16,2025,6,Jun,2025-06,Delivered,South,89,Gaurav Malhotra,Hyderabad,24,Skipping Rope with Digital Counter,Sports,3,499.0,5.0,1497.0,74.85,1422.15,630.0,792.15,55.7
+143,2025-06-11,2025,6,Jun,2025-06,Delivered,South,79,Shreya Rao,Kochi,2,Wireless Noise-Cancelling Headphones,Electronics,2,7499.0,10.0,14998.0,1499.8,13498.2,9600.0,3898.2,28.88
+143,2025-06-11,2025,6,Jun,2025-06,Delivered,South,79,Shreya Rao,Kochi,3,Mechanical Gaming Keyboard,Electronics,1,3299.0,20.0,3299.0,659.8,2639.2,2100.0,539.2,20.43
+144,2025-01-21,2025,1,Jan,2025-01,Delivered,Central,87,Rohit Iyer,Jabalpur,20,Pure Raw Honey 500g,Groceries,2,399.0,10.0,798.0,79.8,718.2,420.0,298.2,41.52
+145,2025-01-04,2025,1,Jan,2025-01,Delivered,South,5,Nandini Joshi,Kochi,21,Anti-Skid Yoga Mat 6mm,Sports,1,999.0,10.0,999.0,99.9,899.1,480.0,419.1,46.61
+146,2024-11-17,2024,11,Nov,2024-11,Shipped,East,73,Kunal Rao,Guwahati,15,Automatic Air Fryer 4.5L,Home & Living,3,5499.0,5.0,16497.0,824.85,15672.15,10800.0,4872.15,31.09
+147,2024-12-10,2024,12,Dec,2024-12,Shipped,North,57,Alok Rao,Jaipur,12,Orthopedic Memory Foam Pillow,Home & Living,1,1799.0,15.0,1799.0,269.85,1529.15,950.0,579.15,37.87
+148,2025-03-08,2025,3,Mar,2025-03,Delivered,East,36,Arjun Choudhury,Patna,6,Fast Charging Power Bank 20000mAh,Electronics,1,1899.0,10.0,1899.0,189.9,1709.1,1150.0,559.1,32.71
+149,2024-12-31,2024,12,Dec,2024-12,Delivered,North,72,Meera Patel,Gurgaon,23,Insulated Stainless Steel Sipper Bottle,Sports,1,799.0,12.0,799.0,95.88,703.12,390.0,313.12,44.53
+149,2024-12-31,2024,12,Dec,2024-12,Delivered,North,72,Meera Patel,Gurgaon,15,Automatic Air Fryer 4.5L,Home & Living,1,5499.0,10.0,5499.0,549.9,4949.1,3600.0,1349.1,27.26
+150,2025-01-02,2025,1,Jan,2025-01,Delivered,West,26,Nandini Deshmukh,Mumbai,15,Automatic Air Fryer 4.5L,Home & Living,1,5499.0,0.0,5499.0,0.0,5499.0,3600.0,1899.0,34.53
+150,2025-01-02,2025,1,Jan,2025-01,Delivered,West,26,Nandini Deshmukh,Mumbai,6,Fast Charging Power Bank 20000mAh,Electronics,2,1899.0,20.0,3798.0,759.6,3038.4,2300.0,738.4,24.3
+150,2025-01-02,2025,1,Jan,2025-01,Delivered,West,26,Nandini Deshmukh,Mumbai,23,Insulated Stainless Steel Sipper Bottle,Sports,5,799.0,15.0,3995.0,599.25,3395.75,1950.0,1445.75,42.58
+151,2024-12-04,2024,12,Dec,2024-12,Shipped,North,45,Simran Patel,Delhi,10,Lightweight Running Sports Shoes,Fashion,2,3199.0,15.0,6398.0,959.7,5438.3,3000.0,2438.3,44.84
+151,2024-12-04,2024,12,Dec,2024-12,Shipped,North,45,Simran Patel,Delhi,6,Fast Charging Power Bank 20000mAh,Electronics,2,1899.0,20.0,3798.0,759.6,3038.4,2300.0,738.4,24.3
+152,2025-07-19,2025,7,Jul,2025-07,Delivered,South,47,Nandini Bhat,Kochi,7,Men Slim-Fit Cotton Casual Shirt,Fashion,2,1499.0,0.0,2998.0,0.0,2998.0,1300.0,1698.0,56.64
+153,2024-11-14,2024,11,Nov,2024-11,Delivered,South,64,Vikram Saxena,Coimbatore,12,Orthopedic Memory Foam Pillow,Home & Living,2,1799.0,12.0,3598.0,431.76,3166.24,1900.0,1266.24,39.99
+153,2024-11-14,2024,11,Nov,2024-11,Delivered,South,64,Vikram Saxena,Coimbatore,15,Automatic Air Fryer 4.5L,Home & Living,1,5499.0,0.0,5499.0,0.0,5499.0,3600.0,1899.0,34.53
+154,2025-04-08,2025,4,Apr,2025-04,Delivered,Central,9,Rohit Bhat,Bhopal,24,Skipping Rope with Digital Counter,Sports,2,499.0,20.0,998.0,199.6,798.4,420.0,378.4,47.39
+154,2025-04-08,2025,4,Apr,2025-04,Delivered,Central,9,Rohit Bhat,Bhopal,16,Multipurpose Desk Organizer Set,Home & Living,1,699.0,0.0,699.0,0.0,699.0,290.0,409.0,58.51
+154,2025-04-08,2025,4,Apr,2025-04,Delivered,Central,9,Rohit Bhat,Bhopal,17,Organic Green Tea 100 Bags,Groceries,4,450.0,15.0,1800.0,270.0,1530.0,1040.0,490.0,32.03
+154,2025-04-08,2025,4,Apr,2025-04,Delivered,Central,9,Rohit Bhat,Bhopal,14,Double Bed Pure Cotton Bedsheet,Home & Living,1,1599.0,10.0,1599.0,159.9,1439.1,780.0,659.1,45.8
+155,2025-07-23,2025,7,Jul,2025-07,Delivered,Central,88,Nikhil Joshi,Gwalior,18,Cold-Pressed Extra Virgin Olive Oil 1L,Groceries,2,1199.0,0.0,2398.0,0.0,2398.0,1560.0,838.0,34.95
+156,2025-06-10,2025,6,Jun,2025-06,Shipped,West,17,Manoj Patel,Surat,2,Wireless Noise-Cancelling Headphones,Electronics,1,7499.0,0.0,7499.0,0.0,7499.0,4800.0,2699.0,35.99
+156,2025-06-10,2025,6,Jun,2025-06,Shipped,West,17,Manoj Patel,Surat,4,Ergonomic Wireless Mouse,Electronics,1,1299.0,15.0,1299.0,194.85,1104.15,750.0,354.15,32.07
+156,2025-06-10,2025,6,Jun,2025-06,Shipped,West,17,Manoj Patel,Surat,17,Organic Green Tea 100 Bags,Groceries,1,450.0,12.0,450.0,54.0,396.0,260.0,136.0,34.34
+157,2024-12-11,2024,12,Dec,2024-12,Delivered,North,37,Alok Bhat,Noida,18,Cold-Pressed Extra Virgin Olive Oil 1L,Groceries,1,1199.0,15.0,1199.0,179.85,1019.15,780.0,239.15,23.47
+158,2025-09-11,2025,9,Sep,2025-09,Shipped,North,39,Kiran Gupta,Delhi,21,Anti-Skid Yoga Mat 6mm,Sports,1,999.0,12.0,999.0,119.88,879.12,480.0,399.12,45.4
+159,2025-01-27,2025,1,Jan,2025-01,Processing,Central,20,Amit Gupta,Gwalior,20,Pure Raw Honey 500g,Groceries,2,399.0,12.0,798.0,95.76,702.24,420.0,282.24,40.19
+159,2025-01-27,2025,1,Jan,2025-01,Processing,Central,20,Amit Gupta,Gwalior,11,Genuine Leather Bifold Wallet,Fashion,1,899.0,20.0,899.0,179.8,719.2,380.0,339.2,47.16
+160,2024-12-12,2024,12,Dec,2024-12,Delivered,North,4,Rhea Kulkarni,Jaipur,19,Premium California Almonds 500g,Groceries,1,599.0,12.0,599.0,71.88,527.12,380.0,147.12,27.91
+160,2024-12-12,2024,12,Dec,2024-12,Delivered,North,4,Rhea Kulkarni,Jaipur,9,Unisex Classic Denim Jeans,Fashion,1,2499.0,15.0,2499.0,374.85,2124.15,1100.0,1024.15,48.21
+160,2024-12-12,2024,12,Dec,2024-12,Delivered,North,4,Rhea Kulkarni,Jaipur,21,Anti-Skid Yoga Mat 6mm,Sports,1,999.0,15.0,999.0,149.85,849.15,480.0,369.15,43.47
+161,2025-03-29,2025,3,Mar,2025-03,Processing,West,70,Deepika Nair,Nagpur,16,Multipurpose Desk Organizer Set,Home & Living,1,699.0,0.0,699.0,0.0,699.0,290.0,409.0,58.51
+161,2025-03-29,2025,3,Mar,2025-03,Processing,West,70,Deepika Nair,Nagpur,8,Women Floral Embroidered Kurti,Fashion,2,1899.0,0.0,3798.0,0.0,3798.0,1600.0,2198.0,57.87
+161,2025-03-29,2025,3,Mar,2025-03,Processing,West,70,Deepika Nair,Nagpur,22,Adjustable Dumbbell Set 20kg,Sports,1,4299.0,10.0,4299.0,429.9,3869.1,2600.0,1269.1,32.8
+161,2025-03-29,2025,3,Mar,2025-03,Processing,West,70,Deepika Nair,Nagpur,13,Stainless Steel Electric Kettle 1.8L,Home & Living,1,1299.0,5.0,1299.0,64.95,1234.05,720.0,514.05,41.66
+162,2025-01-13,2025,1,Jan,2025-01,Delivered,East,78,Sunil Saxena,Guwahati,11,Genuine Leather Bifold Wallet,Fashion,4,899.0,0.0,3596.0,0.0,3596.0,1520.0,2076.0,57.73
+162,2025-01-13,2025,1,Jan,2025-01,Delivered,East,78,Sunil Saxena,Guwahati,24,Skipping Rope with Digital Counter,Sports,2,499.0,12.0,998.0,119.76,878.24,420.0,458.24,52.18
+162,2025-01-13,2025,1,Jan,2025-01,Delivered,East,78,Sunil Saxena,Guwahati,12,Orthopedic Memory Foam Pillow,Home & Living,1,1799.0,5.0,1799.0,89.95,1709.05,950.0,759.05,44.41
+163,2025-06-27,2025,6,Jun,2025-06,Delivered,North,31,Ishaan Sharma,Gurgaon,8,Women Floral Embroidered Kurti,Fashion,1,1899.0,0.0,1899.0,0.0,1899.0,800.0,1099.0,57.87
+164,2025-05-16,2025,5,May,2025-05,Cancelled,North,38,Vikram Reddy,Jaipur,8,Women Floral Embroidered Kurti,Fashion,2,1899.0,12.0,3798.0,455.76,3342.24,1600.0,1742.24,52.13
+164,2025-05-16,2025,5,May,2025-05,Cancelled,North,38,Vikram Reddy,Jaipur,6,Fast Charging Power Bank 20000mAh,Electronics,2,1899.0,0.0,3798.0,0.0,3798.0,2300.0,1498.0,39.44
+165,2025-07-14,2025,7,Jul,2025-07,Shipped,Central,21,Kiran Joshi,Jabalpur,10,Lightweight Running Sports Shoes,Fashion,1,3199.0,10.0,3199.0,319.9,2879.1,1500.0,1379.1,47.9
+165,2025-07-14,2025,7,Jul,2025-07,Shipped,Central,21,Kiran Joshi,Jabalpur,16,Multipurpose Desk Organizer Set,Home & Living,1,699.0,0.0,699.0,0.0,699.0,290.0,409.0,58.51
+166,2025-08-26,2025,8,Aug,2025-08,Delivered,Central,28,Rhea Rao,Bhopal,10,Lightweight Running Sports Shoes,Fashion,1,3199.0,20.0,3199.0,639.8,2559.2,1500.0,1059.2,41.39
+167,2025-10-11,2025,10,Oct,2025-10,Delivered,West,84,Swati Reddy,Mumbai,1,Ultra HD Smart LED TV 55-inch,Electronics,2,42999.0,10.0,85998.0,8599.8,77398.2,62000.0,15398.2,19.89
+168,2025-03-16,2025,3,Mar,2025-03,Processing,Central,18,Vikram Nair,Raipur,13,Stainless Steel Electric Kettle 1.8L,Home & Living,1,1299.0,10.0,1299.0,129.9,1169.1,720.0,449.1,38.41
+169,2025-08-19,2025,8,Aug,2025-08,Shipped,West,7,Kavita Nair,Mumbai,18,Cold-Pressed Extra Virgin Olive Oil 1L,Groceries,1,1199.0,10.0,1199.0,119.9,1079.1,780.0,299.1,27.72
+170,2025-06-19,2025,6,Jun,2025-06,Cancelled,North,65,Amit Mehta,Noida,20,Pure Raw Honey 500g,Groceries,2,399.0,0.0,798.0,0.0,798.0,420.0,378.0,47.37
+170,2025-06-19,2025,6,Jun,2025-06,Cancelled,North,65,Amit Mehta,Noida,22,Adjustable Dumbbell Set 20kg,Sports,4,4299.0,10.0,17196.0,1719.6,15476.4,10400.0,5076.4,32.8
+171,2025-04-23,2025,4,Apr,2025-04,Shipped,South,48,Meera Bhat,Bengaluru,5,Smart Fitness Watch Pro,Electronics,1,4999.0,12.0,4999.0,599.88,4399.12,3200.0,1199.12,27.26
+171,2025-04-23,2025,4,Apr,2025-04,Shipped,South,48,Meera Bhat,Bengaluru,7,Men Slim-Fit Cotton Casual Shirt,Fashion,1,1499.0,0.0,1499.0,0.0,1499.0,650.0,849.0,56.64
+171,2025-04-23,2025,4,Apr,2025-04,Shipped,South,48,Meera Bhat,Bengaluru,20,Pure Raw Honey 500g,Groceries,1,399.0,5.0,399.0,19.95,379.05,210.0,169.05,44.6
+172,2025-07-24,2025,7,Jul,2025-07,Delivered,South,61,Nikhil Deshmukh,Hyderabad,17,Organic Green Tea 100 Bags,Groceries,1,450.0,12.0,450.0,54.0,396.0,260.0,136.0,34.34
+173,2025-01-23,2025,1,Jan,2025-01,Delivered,West,41,Rhea Gupta,Surat,24,Skipping Rope with Digital Counter,Sports,1,499.0,12.0,499.0,59.88,439.12,210.0,229.12,52.18
+173,2025-01-23,2025,1,Jan,2025-01,Delivered,West,41,Rhea Gupta,Surat,10,Lightweight Running Sports Shoes,Fashion,1,3199.0,15.0,3199.0,479.85,2719.15,1500.0,1219.15,44.84
+173,2025-01-23,2025,1,Jan,2025-01,Delivered,West,41,Rhea Gupta,Surat,19,Premium California Almonds 500g,Groceries,1,599.0,10.0,599.0,59.9,539.1,380.0,159.1,29.51
+173,2025-01-23,2025,1,Jan,2025-01,Delivered,West,41,Rhea Gupta,Surat,11,Genuine Leather Bifold Wallet,Fashion,2,899.0,5.0,1798.0,89.9,1708.1,760.0,948.1,55.51
+174,2025-10-11,2025,10,Oct,2025-10,Delivered,East,43,Shreya Kapoor,Bhubaneswar,19,Premium California Almonds 500g,Groceries,2,599.0,12.0,1198.0,143.76,1054.24,760.0,294.24,27.91
+174,2025-10-11,2025,10,Oct,2025-10,Delivered,East,43,Shreya Kapoor,Bhubaneswar,10,Lightweight Running Sports Shoes,Fashion,1,3199.0,15.0,3199.0,479.85,2719.15,1500.0,1219.15,44.84
+174,2025-10-11,2025,10,Oct,2025-10,Delivered,East,43,Shreya Kapoor,Bhubaneswar,24,Skipping Rope with Digital Counter,Sports,2,499.0,20.0,998.0,199.6,798.4,420.0,378.4,47.39
+174,2025-10-11,2025,10,Oct,2025-10,Delivered,East,43,Shreya Kapoor,Bhubaneswar,23,Insulated Stainless Steel Sipper Bottle,Sports,1,799.0,0.0,799.0,0.0,799.0,390.0,409.0,51.19
+175,2024-11-27,2024,11,Nov,2024-11,Shipped,East,93,Rhea Choudhury,Patna,17,Organic Green Tea 100 Bags,Groceries,2,450.0,20.0,900.0,180.0,720.0,520.0,200.0,27.78
+175,2024-11-27,2024,11,Nov,2024-11,Shipped,East,93,Rhea Choudhury,Patna,21,Anti-Skid Yoga Mat 6mm,Sports,2,999.0,0.0,1998.0,0.0,1998.0,960.0,1038.0,51.95
+176,2025-03-05,2025,3,Mar,2025-03,Delivered,Central,88,Nikhil Joshi,Gwalior,23,Insulated Stainless Steel Sipper Bottle,Sports,1,799.0,10.0,799.0,79.9,719.1,390.0,329.1,45.77
+176,2025-03-05,2025,3,Mar,2025-03,Delivered,Central,88,Nikhil Joshi,Gwalior,4,Ergonomic Wireless Mouse,Electronics,1,1299.0,0.0,1299.0,0.0,1299.0,750.0,549.0,42.26
+177,2025-02-13,2025,2,Feb,2025-02,Delivered,East,53,Simran Choudhury,Guwahati,20,Pure Raw Honey 500g,Groceries,3,399.0,15.0,1197.0,179.55,1017.45,630.0,387.45,38.08
+177,2025-02-13,2025,2,Feb,2025-02,Delivered,East,53,Simran Choudhury,Guwahati,16,Multipurpose Desk Organizer Set,Home & Living,2,699.0,15.0,1398.0,209.7,1188.3,580.0,608.3,51.19
+178,2025-07-24,2025,7,Jul,2025-07,Delivered,Central,18,Vikram Nair,Raipur,22,Adjustable Dumbbell Set 20kg,Sports,1,4299.0,5.0,4299.0,214.95,4084.05,2600.0,1484.05,36.34
+178,2025-07-24,2025,7,Jul,2025-07,Delivered,Central,18,Vikram Nair,Raipur,16,Multipurpose Desk Organizer Set,Home & Living,4,699.0,10.0,2796.0,279.6,2516.4,1160.0,1356.4,53.9
+179,2025-04-25,2025,4,Apr,2025-04,Shipped,West,69,Harsh Singh,Ahmedabad,24,Skipping Rope with Digital Counter,Sports,2,499.0,20.0,998.0,199.6,798.4,420.0,378.4,47.39
+180,2025-03-16,2025,3,Mar,2025-03,Shipped,South,89,Gaurav Malhotra,Hyderabad,8,Women Floral Embroidered Kurti,Fashion,1,1899.0,0.0,1899.0,0.0,1899.0,800.0,1099.0,57.87
+180,2025-03-16,2025,3,Mar,2025-03,Shipped,South,89,Gaurav Malhotra,Hyderabad,9,Unisex Classic Denim Jeans,Fashion,3,2499.0,5.0,7497.0,374.85,7122.15,3300.0,3822.15,53.67
+181,2025-02-15,2025,2,Feb,2025-02,Processing,North,37,Alok Bhat,Noida,11,Genuine Leather Bifold Wallet,Fashion,1,899.0,20.0,899.0,179.8,719.2,380.0,339.2,47.16
+181,2025-02-15,2025,2,Feb,2025-02,Processing,North,37,Alok Bhat,Noida,16,Multipurpose Desk Organizer Set,Home & Living,2,699.0,5.0,1398.0,69.9,1328.1,580.0,748.1,56.33
+182,2025-08-21,2025,8,Aug,2025-08,Processing,South,16,Meera Saxena,Hyderabad,13,Stainless Steel Electric Kettle 1.8L,Home & Living,4,1299.0,20.0,5196.0,1039.2,4156.8,2880.0,1276.8,30.72
+182,2025-08-21,2025,8,Aug,2025-08,Processing,South,16,Meera Saxena,Hyderabad,12,Orthopedic Memory Foam Pillow,Home & Living,1,1799.0,0.0,1799.0,0.0,1799.0,950.0,849.0,47.19
+183,2024-12-11,2024,12,Dec,2024-12,Delivered,North,37,Alok Bhat,Noida,21,Anti-Skid Yoga Mat 6mm,Sports,1,999.0,0.0,999.0,0.0,999.0,480.0,519.0,51.95
+183,2024-12-11,2024,12,Dec,2024-12,Delivered,North,37,Alok Bhat,Noida,9,Unisex Classic Denim Jeans,Fashion,2,2499.0,5.0,4998.0,249.9,4748.1,2200.0,2548.1,53.67
+183,2024-12-11,2024,12,Dec,2024-12,Delivered,North,37,Alok Bhat,Noida,24,Skipping Rope with Digital Counter,Sports,3,499.0,15.0,1497.0,224.55,1272.45,630.0,642.45,50.49
+184,2025-01-10,2025,1,Jan,2025-01,Delivered,East,35,Alok Kulkarni,Bhubaneswar,19,Premium California Almonds 500g,Groceries,1,599.0,15.0,599.0,89.85,509.15,380.0,129.15,25.37
+184,2025-01-10,2025,1,Jan,2025-01,Delivered,East,35,Alok Kulkarni,Bhubaneswar,8,Women Floral Embroidered Kurti,Fashion,3,1899.0,0.0,5697.0,0.0,5697.0,2400.0,3297.0,57.87
+185,2025-02-28,2025,2,Feb,2025-02,Delivered,East,82,Manoj Nair,Patna,11,Genuine Leather Bifold Wallet,Fashion,2,899.0,0.0,1798.0,0.0,1798.0,760.0,1038.0,57.73
+186,2025-01-10,2025,1,Jan,2025-01,Delivered,Central,88,Nikhil Joshi,Gwalior,6,Fast Charging Power Bank 20000mAh,Electronics,1,1899.0,0.0,1899.0,0.0,1899.0,1150.0,749.0,39.44
+186,2025-01-10,2025,1,Jan,2025-01,Delivered,Central,88,Nikhil Joshi,Gwalior,14,Double Bed Pure Cotton Bedsheet,Home & Living,2,1599.0,5.0,3198.0,159.9,3038.1,1560.0,1478.1,48.65
+186,2025-01-10,2025,1,Jan,2025-01,Delivered,Central,88,Nikhil Joshi,Gwalior,21,Anti-Skid Yoga Mat 6mm,Sports,1,999.0,15.0,999.0,149.85,849.15,480.0,369.15,43.47
+186,2025-01-10,2025,1,Jan,2025-01,Delivered,Central,88,Nikhil Joshi,Gwalior,16,Multipurpose Desk Organizer Set,Home & Living,1,699.0,20.0,699.0,139.8,559.2,290.0,269.2,48.14
+187,2025-09-30,2025,9,Sep,2025-09,Shipped,South,12,Aditya Verma,Bengaluru,24,Skipping Rope with Digital Counter,Sports,2,499.0,0.0,998.0,0.0,998.0,420.0,578.0,57.92
+188,2025-06-02,2025,6,Jun,2025-06,Cancelled,South,23,Ananya Iyer,Chennai,2,Wireless Noise-Cancelling Headphones,Electronics,5,7499.0,10.0,37495.0,3749.5,33745.5,24000.0,9745.5,28.88
+189,2025-02-04,2025,2,Feb,2025-02,Processing,South,64,Vikram Saxena,Coimbatore,10,Lightweight Running Sports Shoes,Fashion,2,3199.0,5.0,6398.0,319.9,6078.1,3000.0,3078.1,50.64
+189,2025-02-04,2025,2,Feb,2025-02,Processing,South,64,Vikram Saxena,Coimbatore,2,Wireless Noise-Cancelling Headphones,Electronics,1,7499.0,15.0,7499.0,1124.85,6374.15,4800.0,1574.15,24.7
+189,2025-02-04,2025,2,Feb,2025-02,Processing,South,64,Vikram Saxena,Coimbatore,1,Ultra HD Smart LED TV 55-inch,Electronics,1,42999.0,10.0,42999.0,4299.9,38699.1,31000.0,7699.1,19.89
+189,2025-02-04,2025,2,Feb,2025-02,Processing,South,64,Vikram Saxena,Coimbatore,19,Premium California Almonds 500g,Groceries,3,599.0,0.0,1797.0,0.0,1797.0,1140.0,657.0,36.56
+190,2025-06-28,2025,6,Jun,2025-06,Delivered,North,65,Amit Mehta,Noida,4,Ergonomic Wireless Mouse,Electronics,1,1299.0,15.0,1299.0,194.85,1104.15,750.0,354.15,32.07
+191,2025-09-28,2025,9,Sep,2025-09,Delivered,Central,59,Swati Iyer,Indore,1,Ultra HD Smart LED TV 55-inch,Electronics,1,42999.0,5.0,42999.0,2149.95,40849.05,31000.0,9849.05,24.11
+191,2025-09-28,2025,9,Sep,2025-09,Delivered,Central,59,Swati Iyer,Indore,24,Skipping Rope with Digital Counter,Sports,1,499.0,20.0,499.0,99.8,399.2,210.0,189.2,47.39
+192,2025-01-29,2025,1,Jan,2025-01,Shipped,Central,25,Alok Deshmukh,Bhopal,13,Stainless Steel Electric Kettle 1.8L,Home & Living,1,1299.0,10.0,1299.0,129.9,1169.1,720.0,449.1,38.41
+192,2025-01-29,2025,1,Jan,2025-01,Shipped,Central,25,Alok Deshmukh,Bhopal,14,Double Bed Pure Cotton Bedsheet,Home & Living,2,1599.0,0.0,3198.0,0.0,3198.0,1560.0,1638.0,51.22
+192,2025-01-29,2025,1,Jan,2025-01,Shipped,Central,25,Alok Deshmukh,Bhopal,17,Organic Green Tea 100 Bags,Groceries,5,450.0,10.0,2250.0,225.0,2025.0,1300.0,725.0,35.8
+193,2025-03-08,2025,3,Mar,2025-03,Delivered,Central,42,Nandini Singh,Gwalior,8,Women Floral Embroidered Kurti,Fashion,1,1899.0,5.0,1899.0,94.95,1804.05,800.0,1004.05,55.66
+194,2025-04-04,2025,4,Apr,2025-04,Shipped,East,43,Shreya Kapoor,Bhubaneswar,1,Ultra HD Smart LED TV 55-inch,Electronics,2,42999.0,15.0,85998.0,12899.7,73098.3,62000.0,11098.3,15.18
+194,2025-04-04,2025,4,Apr,2025-04,Shipped,East,43,Shreya Kapoor,Bhubaneswar,9,Unisex Classic Denim Jeans,Fashion,1,2499.0,15.0,2499.0,374.85,2124.15,1100.0,1024.15,48.21
+195,2025-06-27,2025,6,Jun,2025-06,Delivered,South,16,Meera Saxena,Hyderabad,22,Adjustable Dumbbell Set 20kg,Sports,1,4299.0,15.0,4299.0,644.85,3654.15,2600.0,1054.15,28.85
+196,2024-12-31,2024,12,Dec,2024-12,Processing,North,40,Manoj Verma,Gurgaon,10,Lightweight Running Sports Shoes,Fashion,1,3199.0,0.0,3199.0,0.0,3199.0,1500.0,1699.0,53.11
+196,2024-12-31,2024,12,Dec,2024-12,Processing,North,40,Manoj Verma,Gurgaon,12,Orthopedic Memory Foam Pillow,Home & Living,1,1799.0,10.0,1799.0,179.9,1619.1,950.0,669.1,41.33
+196,2024-12-31,2024,12,Dec,2024-12,Processing,North,40,Manoj Verma,Gurgaon,20,Pure Raw Honey 500g,Groceries,2,399.0,12.0,798.0,95.76,702.24,420.0,282.24,40.19
+197,2025-06-01,2025,6,Jun,2025-06,Processing,South,48,Meera Bhat,Bengaluru,16,Multipurpose Desk Organizer Set,Home & Living,2,699.0,20.0,1398.0,279.6,1118.4,580.0,538.4,48.14
+197,2025-06-01,2025,6,Jun,2025-06,Processing,South,48,Meera Bhat,Bengaluru,18,Cold-Pressed Extra Virgin Olive Oil 1L,Groceries,1,1199.0,0.0,1199.0,0.0,1199.0,780.0,419.0,34.95
+198,2025-09-02,2025,9,Sep,2025-09,Cancelled,Central,88,Nikhil Joshi,Gwalior,17,Organic Green Tea 100 Bags,Groceries,1,450.0,5.0,450.0,22.5,427.5,260.0,167.5,39.18
+198,2025-09-02,2025,9,Sep,2025-09,Cancelled,Central,88,Nikhil Joshi,Gwalior,15,Automatic Air Fryer 4.5L,Home & Living,1,5499.0,12.0,5499.0,659.88,4839.12,3600.0,1239.12,25.61
+199,2024-12-02,2024,12,Dec,2024-12,Cancelled,South,15,Nandini Gupta,Kochi,17,Organic Green Tea 100 Bags,Groceries,1,450.0,0.0,450.0,0.0,450.0,260.0,190.0,42.22
+199,2024-12-02,2024,12,Dec,2024-12,Cancelled,South,15,Nandini Gupta,Kochi,7,Men Slim-Fit Cotton Casual Shirt,Fashion,1,1499.0,20.0,1499.0,299.8,1199.2,650.0,549.2,45.8
+200,2025-06-15,2025,6,Jun,2025-06,Delivered,North,67,Tarun Agarwal,Lucknow,23,Insulated Stainless Steel Sipper Bottle,Sports,1,799.0,12.0,799.0,95.88,703.12,390.0,313.12,44.53
+200,2025-06-15,2025,6,Jun,2025-06,Delivered,North,67,Tarun Agarwal,Lucknow,19,Premium California Almonds 500g,Groceries,1,599.0,0.0,599.0,0.0,599.0,380.0,219.0,36.56
+201,2025-01-07,2025,1,Jan,2025-01,Shipped,Central,59,Swati Iyer,Indore,19,Premium California Almonds 500g,Groceries,1,599.0,10.0,599.0,59.9,539.1,380.0,159.1,29.51
+202,2025-04-07,2025,4,Apr,2025-04,Processing,Central,87,Rohit Iyer,Jabalpur,9,Unisex Classic Denim Jeans,Fashion,2,2499.0,15.0,4998.0,749.7,4248.3,2200.0,2048.3,48.21
+203,2025-08-24,2025,8,Aug,2025-08,Delivered,Central,28,Rhea Rao,Bhopal,12,Orthopedic Memory Foam Pillow,Home & Living,2,1799.0,12.0,3598.0,431.76,3166.24,1900.0,1266.24,39.99
+204,2024-12-06,2024,12,Dec,2024-12,Delivered,West,8,Gaurav Iyer,Ahmedabad,14,Double Bed Pure Cotton Bedsheet,Home & Living,1,1599.0,0.0,1599.0,0.0,1599.0,780.0,819.0,51.22
+205,2025-09-27,2025,9,Sep,2025-09,Delivered,North,83,Manoj Gupta,Lucknow,13,Stainless Steel Electric Kettle 1.8L,Home & Living,1,1299.0,10.0,1299.0,129.9,1169.1,720.0,449.1,38.41
+206,2024-12-12,2024,12,Dec,2024-12,Processing,North,49,Harsh Iyer,Lucknow,18,Cold-Pressed Extra Virgin Olive Oil 1L,Groceries,1,1199.0,12.0,1199.0,143.88,1055.12,780.0,275.12,26.07
+206,2024-12-12,2024,12,Dec,2024-12,Processing,North,49,Harsh Iyer,Lucknow,5,Smart Fitness Watch Pro,Electronics,1,4999.0,0.0,4999.0,0.0,4999.0,3200.0,1799.0,35.99
+206,2024-12-12,2024,12,Dec,2024-12,Processing,North,49,Harsh Iyer,Lucknow,21,Anti-Skid Yoga Mat 6mm,Sports,2,999.0,0.0,1998.0,0.0,1998.0,960.0,1038.0,51.95
+206,2024-12-12,2024,12,Dec,2024-12,Processing,North,49,Harsh Iyer,Lucknow,12,Orthopedic Memory Foam Pillow,Home & Living,2,1799.0,20.0,3598.0,719.6,2878.4,1900.0,978.4,33.99
+207,2025-04-02,2025,4,Apr,2025-04,Delivered,North,3,Rohit Sharma,Noida,18,Cold-Pressed Extra Virgin Olive Oil 1L,Groceries,1,1199.0,20.0,1199.0,239.8,959.2,780.0,179.2,18.68
+207,2025-04-02,2025,4,Apr,2025-04,Delivered,North,3,Rohit Sharma,Noida,14,Double Bed Pure Cotton Bedsheet,Home & Living,1,1599.0,10.0,1599.0,159.9,1439.1,780.0,659.1,45.8
+208,2025-01-19,2025,1,Jan,2025-01,Delivered,North,45,Simran Patel,Delhi,24,Skipping Rope with Digital Counter,Sports,2,499.0,0.0,998.0,0.0,998.0,420.0,578.0,57.92
+209,2025-06-03,2025,6,Jun,2025-06,Shipped,East,85,Sunil Agarwal,Guwahati,1,Ultra HD Smart LED TV 55-inch,Electronics,1,42999.0,0.0,42999.0,0.0,42999.0,31000.0,11999.0,27.91
+209,2025-06-03,2025,6,Jun,2025-06,Shipped,East,85,Sunil Agarwal,Guwahati,8,Women Floral Embroidered Kurti,Fashion,1,1899.0,10.0,1899.0,189.9,1709.1,800.0,909.1,53.19
+210,2025-10-11,2025,10,Oct,2025-10,Processing,South,77,Rohit Mehta,Chennai,8,Women Floral Embroidered Kurti,Fashion,1,1899.0,0.0,1899.0,0.0,1899.0,800.0,1099.0,57.87
+210,2025-10-11,2025,10,Oct,2025-10,Processing,South,77,Rohit Mehta,Chennai,24,Skipping Rope with Digital Counter,Sports,1,499.0,20.0,499.0,99.8,399.2,210.0,189.2,47.39
+210,2025-10-11,2025,10,Oct,2025-10,Processing,South,77,Rohit Mehta,Chennai,2,Wireless Noise-Cancelling Headphones,Electronics,3,7499.0,0.0,22497.0,0.0,22497.0,14400.0,8097.0,35.99
+211,2025-07-16,2025,7,Jul,2025-07,Delivered,Central,18,Vikram Nair,Raipur,24,Skipping Rope with Digital Counter,Sports,1,499.0,12.0,499.0,59.88,439.12,210.0,229.12,52.18
+212,2025-10-11,2025,10,Oct,2025-10,Cancelled,South,77,Rohit Mehta,Chennai,10,Lightweight Running Sports Shoes,Fashion,3,3199.0,15.0,9597.0,1439.55,8157.45,4500.0,3657.45,44.84
+213,2025-02-22,2025,2,Feb,2025-02,Delivered,North,67,Tarun Agarwal,Lucknow,2,Wireless Noise-Cancelling Headphones,Electronics,1,7499.0,12.0,7499.0,899.88,6599.12,4800.0,1799.12,27.26
+214,2025-01-29,2025,1,Jan,2025-01,Processing,Central,95,Gaurav Rao,Gwalior,18,Cold-Pressed Extra Virgin Olive Oil 1L,Groceries,1,1199.0,5.0,1199.0,59.95,1139.05,780.0,359.05,31.52
+214,2025-01-29,2025,1,Jan,2025-01,Processing,Central,95,Gaurav Rao,Gwalior,16,Multipurpose Desk Organizer Set,Home & Living,3,699.0,15.0,2097.0,314.55,1782.45,870.0,912.45,51.19
+215,2025-07-27,2025,7,Jul,2025-07,Delivered,North,49,Harsh Iyer,Lucknow,14,Double Bed Pure Cotton Bedsheet,Home & Living,1,1599.0,0.0,1599.0,0.0,1599.0,780.0,819.0,51.22
+215,2025-07-27,2025,7,Jul,2025-07,Delivered,North,49,Harsh Iyer,Lucknow,5,Smart Fitness Watch Pro,Electronics,2,4999.0,10.0,9998.0,999.8,8998.2,6400.0,2598.2,28.87
+216,2025-02-24,2025,2,Feb,2025-02,Delivered,North,31,Ishaan Sharma,Gurgaon,5,Smart Fitness Watch Pro,Electronics,1,4999.0,10.0,4999.0,499.9,4499.1,3200.0,1299.1,28.87
+216,2025-02-24,2025,2,Feb,2025-02,Delivered,North,31,Ishaan Sharma,Gurgaon,15,Automatic Air Fryer 4.5L,Home & Living,1,5499.0,0.0,5499.0,0.0,5499.0,3600.0,1899.0,34.53
+216,2025-02-24,2025,2,Feb,2025-02,Delivered,North,31,Ishaan Sharma,Gurgaon,2,Wireless Noise-Cancelling Headphones,Electronics,1,7499.0,5.0,7499.0,374.95,7124.05,4800.0,2324.05,32.62
+217,2025-04-19,2025,4,Apr,2025-04,Processing,East,27,Anjali Rao,Kolkata,15,Automatic Air Fryer 4.5L,Home & Living,2,5499.0,0.0,10998.0,0.0,10998.0,7200.0,3798.0,34.53
+218,2025-02-06,2025,2,Feb,2025-02,Delivered,West,69,Harsh Singh,Ahmedabad,22,Adjustable Dumbbell Set 20kg,Sports,2,4299.0,0.0,8598.0,0.0,8598.0,5200.0,3398.0,39.52
+219,2025-02-05,2025,2,Feb,2025-02,Cancelled,West,10,Sneha Saxena,Nagpur,24,Skipping Rope with Digital Counter,Sports,1,499.0,10.0,499.0,49.9,449.1,210.0,239.1,53.24
+219,2025-02-05,2025,2,Feb,2025-02,Cancelled,West,10,Sneha Saxena,Nagpur,22,Adjustable Dumbbell Set 20kg,Sports,1,4299.0,5.0,4299.0,214.95,4084.05,2600.0,1484.05,36.34
+220,2024-11-08,2024,11,Nov,2024-11,Delivered,North,39,Kiran Gupta,Delhi,24,Skipping Rope with Digital Counter,Sports,3,499.0,15.0,1497.0,224.55,1272.45,630.0,642.45,50.49
+220,2024-11-08,2024,11,Nov,2024-11,Delivered,North,39,Kiran Gupta,Delhi,4,Ergonomic Wireless Mouse,Electronics,2,1299.0,0.0,2598.0,0.0,2598.0,1500.0,1098.0,42.26
+220,2024-11-08,2024,11,Nov,2024-11,Delivered,North,39,Kiran Gupta,Delhi,16,Multipurpose Desk Organizer Set,Home & Living,1,699.0,0.0,699.0,0.0,699.0,290.0,409.0,58.51
+221,2025-04-14,2025,4,Apr,2025-04,Cancelled,North,71,Kunal Patel,Lucknow,15,Automatic Air Fryer 4.5L,Home & Living,1,5499.0,5.0,5499.0,274.95,5224.05,3600.0,1624.05,31.09
+222,2025-03-14,2025,3,Mar,2025-03,Delivered,North,40,Manoj Verma,Gurgaon,16,Multipurpose Desk Organizer Set,Home & Living,1,699.0,15.0,699.0,104.85,594.15,290.0,304.15,51.19
+222,2025-03-14,2025,3,Mar,2025-03,Delivered,North,40,Manoj Verma,Gurgaon,15,Automatic Air Fryer 4.5L,Home & Living,1,5499.0,20.0,5499.0,1099.8,4399.2,3600.0,799.2,18.17
+223,2025-02-13,2025,2,Feb,2025-02,Delivered,West,41,Rhea Gupta,Surat,2,Wireless Noise-Cancelling Headphones,Electronics,1,7499.0,0.0,7499.0,0.0,7499.0,4800.0,2699.0,35.99
+224,2025-01-14,2025,1,Jan,2025-01,Delivered,Central,95,Gaurav Rao,Gwalior,19,Premium California Almonds 500g,Groceries,1,599.0,10.0,599.0,59.9,539.1,380.0,159.1,29.51
+225,2025-01-18,2025,1,Jan,2025-01,Delivered,North,38,Vikram Reddy,Jaipur,13,Stainless Steel Electric Kettle 1.8L,Home & Living,1,1299.0,0.0,1299.0,0.0,1299.0,720.0,579.0,44.57
+226,2025-08-09,2025,8,Aug,2025-08,Processing,South,64,Vikram Saxena,Coimbatore,11,Genuine Leather Bifold Wallet,Fashion,4,899.0,15.0,3596.0,539.4,3056.6,1520.0,1536.6,50.27
+226,2025-08-09,2025,8,Aug,2025-08,Processing,South,64,Vikram Saxena,Coimbatore,9,Unisex Classic Denim Jeans,Fashion,2,2499.0,10.0,4998.0,499.8,4498.2,2200.0,2298.2,51.09
+226,2025-08-09,2025,8,Aug,2025-08,Processing,South,64,Vikram Saxena,Coimbatore,16,Multipurpose Desk Organizer Set,Home & Living,1,699.0,20.0,699.0,139.8,559.2,290.0,269.2,48.14
+227,2025-01-26,2025,1,Jan,2025-01,Delivered,South,46,Deepika Iyer,Chennai,16,Multipurpose Desk Organizer Set,Home & Living,3,699.0,12.0,2097.0,251.64,1845.36,870.0,975.36,52.85
+227,2025-01-26,2025,1,Jan,2025-01,Delivered,South,46,Deepika Iyer,Chennai,6,Fast Charging Power Bank 20000mAh,Electronics,5,1899.0,0.0,9495.0,0.0,9495.0,5750.0,3745.0,39.44
+228,2024-11-18,2024,11,Nov,2024-11,Cancelled,West,68,Rajesh Singh,Mumbai,22,Adjustable Dumbbell Set 20kg,Sports,1,4299.0,20.0,4299.0,859.8,3439.2,2600.0,839.2,24.4
+228,2024-11-18,2024,11,Nov,2024-11,Cancelled,West,68,Rajesh Singh,Mumbai,2,Wireless Noise-Cancelling Headphones,Electronics,2,7499.0,0.0,14998.0,0.0,14998.0,9600.0,5398.0,35.99
+228,2024-11-18,2024,11,Nov,2024-11,Cancelled,West,68,Rajesh Singh,Mumbai,1,Ultra HD Smart LED TV 55-inch,Electronics,2,42999.0,0.0,85998.0,0.0,85998.0,62000.0,23998.0,27.91
+229,2025-07-17,2025,7,Jul,2025-07,Delivered,Central,28,Rhea Rao,Bhopal,20,Pure Raw Honey 500g,Groceries,2,399.0,12.0,798.0,95.76,702.24,420.0,282.24,40.19
+230,2025-10-04,2025,10,Oct,2025-10,Delivered,South,62,Kunal Banerjee,Hyderabad,18,Cold-Pressed Extra Virgin Olive Oil 1L,Groceries,1,1199.0,0.0,1199.0,0.0,1199.0,780.0,419.0,34.95
+231,2025-07-30,2025,7,Jul,2025-07,Processing,North,3,Rohit Sharma,Noida,10,Lightweight Running Sports Shoes,Fashion,1,3199.0,20.0,3199.0,639.8,2559.2,1500.0,1059.2,41.39
+232,2025-10-12,2025,10,Oct,2025-10,Delivered,Central,90,Anjali Sharma,Gwalior,6,Fast Charging Power Bank 20000mAh,Electronics,1,1899.0,0.0,1899.0,0.0,1899.0,1150.0,749.0,39.44
+232,2025-10-12,2025,10,Oct,2025-10,Delivered,Central,90,Anjali Sharma,Gwalior,4,Ergonomic Wireless Mouse,Electronics,2,1299.0,5.0,2598.0,129.9,2468.1,1500.0,968.1,39.22
+232,2025-10-12,2025,10,Oct,2025-10,Delivered,Central,90,Anjali Sharma,Gwalior,17,Organic Green Tea 100 Bags,Groceries,2,450.0,5.0,900.0,45.0,855.0,520.0,335.0,39.18
+233,2024-12-11,2024,12,Dec,2024-12,Delivered,South,51,Ishaan Kapoor,Kochi,15,Automatic Air Fryer 4.5L,Home & Living,1,5499.0,15.0,5499.0,824.85,4674.15,3600.0,1074.15,22.98
+233,2024-12-11,2024,12,Dec,2024-12,Delivered,South,51,Ishaan Kapoor,Kochi,19,Premium California Almonds 500g,Groceries,2,599.0,0.0,1198.0,0.0,1198.0,760.0,438.0,36.56
+233,2024-12-11,2024,12,Dec,2024-12,Delivered,South,51,Ishaan Kapoor,Kochi,8,Women Floral Embroidered Kurti,Fashion,2,1899.0,20.0,3798.0,759.6,3038.4,1600.0,1438.4,47.34
+233,2024-12-11,2024,12,Dec,2024-12,Delivered,South,51,Ishaan Kapoor,Kochi,23,Insulated Stainless Steel Sipper Bottle,Sports,2,799.0,0.0,1598.0,0.0,1598.0,780.0,818.0,51.19
+234,2025-05-27,2025,5,May,2025-05,Delivered,South,12,Aditya Verma,Bengaluru,16,Multipurpose Desk Organizer Set,Home & Living,1,699.0,0.0,699.0,0.0,699.0,290.0,409.0,58.51
+235,2025-01-27,2025,1,Jan,2025-01,Delivered,Central,90,Anjali Sharma,Gwalior,14,Double Bed Pure Cotton Bedsheet,Home & Living,2,1599.0,12.0,3198.0,383.76,2814.24,1560.0,1254.24,44.57
+235,2025-01-27,2025,1,Jan,2025-01,Delivered,Central,90,Anjali Sharma,Gwalior,21,Anti-Skid Yoga Mat 6mm,Sports,4,999.0,0.0,3996.0,0.0,3996.0,1920.0,2076.0,51.95
+236,2024-11-22,2024,11,Nov,2024-11,Delivered,West,68,Rajesh Singh,Mumbai,23,Insulated Stainless Steel Sipper Bottle,Sports,3,799.0,10.0,2397.0,239.7,2157.3,1170.0,987.3,45.77
+237,2024-11-24,2024,11,Nov,2024-11,Delivered,East,35,Alok Kulkarni,Bhubaneswar,9,Unisex Classic Denim Jeans,Fashion,1,2499.0,0.0,2499.0,0.0,2499.0,1100.0,1399.0,55.98
+237,2024-11-24,2024,11,Nov,2024-11,Delivered,East,35,Alok Kulkarni,Bhubaneswar,18,Cold-Pressed Extra Virgin Olive Oil 1L,Groceries,1,1199.0,20.0,1199.0,239.8,959.2,780.0,179.2,18.68
+238,2024-11-09,2024,11,Nov,2024-11,Delivered,West,41,Rhea Gupta,Surat,23,Insulated Stainless Steel Sipper Bottle,Sports,3,799.0,5.0,2397.0,119.85,2277.15,1170.0,1107.15,48.62
+238,2024-11-09,2024,11,Nov,2024-11,Delivered,West,41,Rhea Gupta,Surat,13,Stainless Steel Electric Kettle 1.8L,Home & Living,1,1299.0,0.0,1299.0,0.0,1299.0,720.0,579.0,44.57
+239,2025-05-19,2025,5,May,2025-05,Processing,East,73,Kunal Rao,Guwahati,11,Genuine Leather Bifold Wallet,Fashion,1,899.0,15.0,899.0,134.85,764.15,380.0,384.15,50.27
+239,2025-05-19,2025,5,May,2025-05,Processing,East,73,Kunal Rao,Guwahati,13,Stainless Steel Electric Kettle 1.8L,Home & Living,2,1299.0,12.0,2598.0,311.76,2286.24,1440.0,846.24,37.01
+239,2025-05-19,2025,5,May,2025-05,Processing,East,73,Kunal Rao,Guwahati,24,Skipping Rope with Digital Counter,Sports,2,499.0,5.0,998.0,49.9,948.1,420.0,528.1,55.7
+240,2024-12-21,2024,12,Dec,2024-12,Delivered,West,7,Kavita Nair,Mumbai,3,Mechanical Gaming Keyboard,Electronics,1,3299.0,20.0,3299.0,659.8,2639.2,2100.0,539.2,20.43
+241,2025-09-01,2025,9,Sep,2025-09,Delivered,South,79,Shreya Rao,Kochi,11,Genuine Leather Bifold Wallet,Fashion,2,899.0,10.0,1798.0,179.8,1618.2,760.0,858.2,53.03
+241,2025-09-01,2025,9,Sep,2025-09,Delivered,South,79,Shreya Rao,Kochi,1,Ultra HD Smart LED TV 55-inch,Electronics,1,42999.0,5.0,42999.0,2149.95,40849.05,31000.0,9849.05,24.11
+241,2025-09-01,2025,9,Sep,2025-09,Delivered,South,79,Shreya Rao,Kochi,21,Anti-Skid Yoga Mat 6mm,Sports,1,999.0,10.0,999.0,99.9,899.1,480.0,419.1,46.61
+241,2025-09-01,2025,9,Sep,2025-09,Delivered,South,79,Shreya Rao,Kochi,9,Unisex Classic Denim Jeans,Fashion,1,2499.0,15.0,2499.0,374.85,2124.15,1100.0,1024.15,48.21
+242,2025-10-05,2025,10,Oct,2025-10,Delivered,West,75,Nandini Patel,Nagpur,20,Pure Raw Honey 500g,Groceries,1,399.0,0.0,399.0,0.0,399.0,210.0,189.0,47.37
+243,2024-12-08,2024,12,Dec,2024-12,Delivered,North,92,Tarun Reddy,Lucknow,13,Stainless Steel Electric Kettle 1.8L,Home & Living,2,1299.0,15.0,2598.0,389.7,2208.3,1440.0,768.3,34.79
+244,2025-05-19,2025,5,May,2025-05,Delivered,Central,20,Amit Gupta,Gwalior,3,Mechanical Gaming Keyboard,Electronics,1,3299.0,5.0,3299.0,164.95,3134.05,2100.0,1034.05,32.99
+245,2025-05-04,2025,5,May,2025-05,Cancelled,North,57,Alok Rao,Jaipur,5,Smart Fitness Watch Pro,Electronics,1,4999.0,10.0,4999.0,499.9,4499.1,3200.0,1299.1,28.87
+246,2025-08-13,2025,8,Aug,2025-08,Shipped,Central,58,Neha Verma,Bhopal,4,Ergonomic Wireless Mouse,Electronics,1,1299.0,12.0,1299.0,155.88,1143.12,750.0,393.12,34.39
+246,2025-08-13,2025,8,Aug,2025-08,Shipped,Central,58,Neha Verma,Bhopal,1,Ultra HD Smart LED TV 55-inch,Electronics,1,42999.0,12.0,42999.0,5159.88,37839.12,31000.0,6839.12,18.07
+247,2025-05-17,2025,5,May,2025-05,Delivered,Central,42,Nandini Singh,Gwalior,13,Stainless Steel Electric Kettle 1.8L,Home & Living,2,1299.0,15.0,2598.0,389.7,2208.3,1440.0,768.3,34.79
+248,2025-03-05,2025,3,Mar,2025-03,Shipped,North,72,Meera Patel,Gurgaon,22,Adjustable Dumbbell Set 20kg,Sports,1,4299.0,5.0,4299.0,214.95,4084.05,2600.0,1484.05,36.34
+248,2025-03-05,2025,3,Mar,2025-03,Shipped,North,72,Meera Patel,Gurgaon,13,Stainless Steel Electric Kettle 1.8L,Home & Living,1,1299.0,10.0,1299.0,129.9,1169.1,720.0,449.1,38.41
+249,2024-12-03,2024,12,Dec,2024-12,Delivered,East,19,Ishaan Banerjee,Bhubaneswar,14,Double Bed Pure Cotton Bedsheet,Home & Living,1,1599.0,20.0,1599.0,319.8,1279.2,780.0,499.2,39.02
+250,2025-05-04,2025,5,May,2025-05,Delivered,West,10,Sneha Saxena,Nagpur,24,Skipping Rope with Digital Counter,Sports,1,499.0,0.0,499.0,0.0,499.0,210.0,289.0,57.92
+250,2025-05-04,2025,5,May,2025-05,Delivered,West,10,Sneha Saxena,Nagpur,21,Anti-Skid Yoga Mat 6mm,Sports,1,999.0,0.0,999.0,0.0,999.0,480.0,519.0,51.95
+250,2025-05-04,2025,5,May,2025-05,Delivered,West,10,Sneha Saxena,Nagpur,16,Multipurpose Desk Organizer Set,Home & Living,1,699.0,10.0,699.0,69.9,629.1,290.0,339.1,53.9
+251,2025-09-14,2025,9,Sep,2025-09,Delivered,East,43,Shreya Kapoor,Bhubaneswar,11,Genuine Leather Bifold Wallet,Fashion,2,899.0,20.0,1798.0,359.6,1438.4,760.0,678.4,47.16
+251,2025-09-14,2025,9,Sep,2025-09,Delivered,East,43,Shreya Kapoor,Bhubaneswar,15,Automatic Air Fryer 4.5L,Home & Living,2,5499.0,12.0,10998.0,1319.76,9678.24,7200.0,2478.24,25.61
+251,2025-09-14,2025,9,Sep,2025-09,Delivered,East,43,Shreya Kapoor,Bhubaneswar,14,Double Bed Pure Cotton Bedsheet,Home & Living,1,1599.0,5.0,1599.0,79.95,1519.05,780.0,739.05,48.65
+252,2025-02-11,2025,2,Feb,2025-02,Delivered,East,78,Sunil Saxena,Guwahati,13,Stainless Steel Electric Kettle 1.8L,Home & Living,4,1299.0,5.0,5196.0,259.8,4936.2,2880.0,2056.2,41.66
+253,2025-09-21,2025,9,Sep,2025-09,Delivered,Central,95,Gaurav Rao,Gwalior,8,Women Floral Embroidered Kurti,Fashion,2,1899.0,10.0,3798.0,379.8,3418.2,1600.0,1818.2,53.19
+253,2025-09-21,2025,9,Sep,2025-09,Delivered,Central,95,Gaurav Rao,Gwalior,11,Genuine Leather Bifold Wallet,Fashion,1,899.0,12.0,899.0,107.88,791.12,380.0,411.12,51.97
+253,2025-09-21,2025,9,Sep,2025-09,Delivered,Central,95,Gaurav Rao,Gwalior,13,Stainless Steel Electric Kettle 1.8L,Home & Living,1,1299.0,12.0,1299.0,155.88,1143.12,720.0,423.12,37.01
+253,2025-09-21,2025,9,Sep,2025-09,Delivered,Central,95,Gaurav Rao,Gwalior,9,Unisex Classic Denim Jeans,Fashion,1,2499.0,20.0,2499.0,499.8,1999.2,1100.0,899.2,44.98
+254,2024-11-14,2024,11,Nov,2024-11,Processing,North,71,Kunal Patel,Lucknow,23,Insulated Stainless Steel Sipper Bottle,Sports,1,799.0,5.0,799.0,39.95,759.05,390.0,369.05,48.62
+254,2024-11-14,2024,11,Nov,2024-11,Processing,North,71,Kunal Patel,Lucknow,7,Men Slim-Fit Cotton Casual Shirt,Fashion,2,1499.0,0.0,2998.0,0.0,2998.0,1300.0,1698.0,56.64
+255,2025-10-11,2025,10,Oct,2025-10,Delivered,East,53,Simran Choudhury,Guwahati,10,Lightweight Running Sports Shoes,Fashion,1,3199.0,15.0,3199.0,479.85,2719.15,1500.0,1219.15,44.84
+256,2025-06-05,2025,6,Jun,2025-06,Cancelled,Central,20,Amit Gupta,Gwalior,15,Automatic Air Fryer 4.5L,Home & Living,5,5499.0,10.0,27495.0,2749.5,24745.5,18000.0,6745.5,27.26
+257,2025-05-25,2025,5,May,2025-05,Shipped,West,75,Nandini Patel,Nagpur,23,Insulated Stainless Steel Sipper Bottle,Sports,1,799.0,20.0,799.0,159.8,639.2,390.0,249.2,38.99
+257,2025-05-25,2025,5,May,2025-05,Shipped,West,75,Nandini Patel,Nagpur,14,Double Bed Pure Cotton Bedsheet,Home & Living,4,1599.0,15.0,6396.0,959.4,5436.6,3120.0,2316.6,42.61
+258,2025-09-01,2025,9,Sep,2025-09,Processing,West,69,Harsh Singh,Ahmedabad,4,Ergonomic Wireless Mouse,Electronics,2,1299.0,0.0,2598.0,0.0,2598.0,1500.0,1098.0,42.26
+258,2025-09-01,2025,9,Sep,2025-09,Processing,West,69,Harsh Singh,Ahmedabad,8,Women Floral Embroidered Kurti,Fashion,2,1899.0,0.0,3798.0,0.0,3798.0,1600.0,2198.0,57.87
+258,2025-09-01,2025,9,Sep,2025-09,Processing,West,69,Harsh Singh,Ahmedabad,22,Adjustable Dumbbell Set 20kg,Sports,1,4299.0,15.0,4299.0,644.85,3654.15,2600.0,1054.15,28.85
+259,2025-09-28,2025,9,Sep,2025-09,Delivered,Central,87,Rohit Iyer,Jabalpur,11,Genuine Leather Bifold Wallet,Fashion,1,899.0,0.0,899.0,0.0,899.0,380.0,519.0,57.73
+259,2025-09-28,2025,9,Sep,2025-09,Delivered,Central,87,Rohit Iyer,Jabalpur,14,Double Bed Pure Cotton Bedsheet,Home & Living,1,1599.0,12.0,1599.0,191.88,1407.12,780.0,627.12,44.57
+259,2025-09-28,2025,9,Sep,2025-09,Delivered,Central,87,Rohit Iyer,Jabalpur,4,Ergonomic Wireless Mouse,Electronics,1,1299.0,15.0,1299.0,194.85,1104.15,750.0,354.15,32.07
+259,2025-09-28,2025,9,Sep,2025-09,Delivered,Central,87,Rohit Iyer,Jabalpur,1,Ultra HD Smart LED TV 55-inch,Electronics,1,42999.0,10.0,42999.0,4299.9,38699.1,31000.0,7699.1,19.89
+260,2025-05-20,2025,5,May,2025-05,Delivered,South,48,Meera Bhat,Bengaluru,19,Premium California Almonds 500g,Groceries,1,599.0,5.0,599.0,29.95,569.05,380.0,189.05,33.22
+260,2025-05-20,2025,5,May,2025-05,Delivered,South,48,Meera Bhat,Bengaluru,23,Insulated Stainless Steel Sipper Bottle,Sports,5,799.0,10.0,3995.0,399.5,3595.5,1950.0,1645.5,45.77
+261,2025-04-01,2025,4,Apr,2025-04,Delivered,West,14,Sunil Nair,Mumbai,3,Mechanical Gaming Keyboard,Electronics,1,3299.0,5.0,3299.0,164.95,3134.05,2100.0,1034.05,32.99
+261,2025-04-01,2025,4,Apr,2025-04,Delivered,West,14,Sunil Nair,Mumbai,4,Ergonomic Wireless Mouse,Electronics,1,1299.0,20.0,1299.0,259.8,1039.2,750.0,289.2,27.83
+261,2025-04-01,2025,4,Apr,2025-04,Delivered,West,14,Sunil Nair,Mumbai,24,Skipping Rope with Digital Counter,Sports,1,499.0,10.0,499.0,49.9,449.1,210.0,239.1,53.24
+262,2025-07-02,2025,7,Jul,2025-07,Delivered,North,45,Simran Patel,Delhi,23,Insulated Stainless Steel Sipper Bottle,Sports,1,799.0,0.0,799.0,0.0,799.0,390.0,409.0,51.19
+263,2024-11-23,2024,11,Nov,2024-11,Cancelled,North,39,Kiran Gupta,Delhi,1,Ultra HD Smart LED TV 55-inch,Electronics,2,42999.0,15.0,85998.0,12899.7,73098.3,62000.0,11098.3,15.18
+263,2024-11-23,2024,11,Nov,2024-11,Cancelled,North,39,Kiran Gupta,Delhi,11,Genuine Leather Bifold Wallet,Fashion,2,899.0,15.0,1798.0,269.7,1528.3,760.0,768.3,50.27
+264,2025-07-23,2025,7,Jul,2025-07,Delivered,South,32,Shreya Patel,Coimbatore,11,Genuine Leather Bifold Wallet,Fashion,1,899.0,10.0,899.0,89.9,809.1,380.0,429.1,53.03
+264,2025-07-23,2025,7,Jul,2025-07,Delivered,South,32,Shreya Patel,Coimbatore,18,Cold-Pressed Extra Virgin Olive Oil 1L,Groceries,1,1199.0,10.0,1199.0,119.9,1079.1,780.0,299.1,27.72
+265,2025-02-03,2025,2,Feb,2025-02,Delivered,East,81,Suresh Iyer,Kolkata,14,Double Bed Pure Cotton Bedsheet,Home & Living,1,1599.0,12.0,1599.0,191.88,1407.12,780.0,627.12,44.57
+265,2025-02-03,2025,2,Feb,2025-02,Delivered,East,81,Suresh Iyer,Kolkata,13,Stainless Steel Electric Kettle 1.8L,Home & Living,3,1299.0,10.0,3897.0,389.7,3507.3,2160.0,1347.3,38.41
+266,2025-06-08,2025,6,Jun,2025-06,Delivered,North,76,Anjali Singh,Gurgaon,7,Men Slim-Fit Cotton Casual Shirt,Fashion,1,1499.0,20.0,1499.0,299.8,1199.2,650.0,549.2,45.8
+267,2024-12-03,2024,12,Dec,2024-12,Shipped,North,91,Tanvi Joshi,Lucknow,18,Cold-Pressed Extra Virgin Olive Oil 1L,Groceries,1,1199.0,5.0,1199.0,59.95,1139.05,780.0,359.05,31.52
+268,2025-06-23,2025,6,Jun,2025-06,Delivered,West,26,Nandini Deshmukh,Mumbai,16,Multipurpose Desk Organizer Set,Home & Living,1,699.0,15.0,699.0,104.85,594.15,290.0,304.15,51.19
+269,2025-09-02,2025,9,Sep,2025-09,Delivered,West,41,Rhea Gupta,Surat,19,Premium California Almonds 500g,Groceries,1,599.0,20.0,599.0,119.8,479.2,380.0,99.2,20.7
+269,2025-09-02,2025,9,Sep,2025-09,Delivered,West,41,Rhea Gupta,Surat,4,Ergonomic Wireless Mouse,Electronics,1,1299.0,0.0,1299.0,0.0,1299.0,750.0,549.0,42.26
+270,2025-04-02,2025,4,Apr,2025-04,Shipped,Central,87,Rohit Iyer,Jabalpur,22,Adjustable Dumbbell Set 20kg,Sports,1,4299.0,0.0,4299.0,0.0,4299.0,2600.0,1699.0,39.52
+270,2025-04-02,2025,4,Apr,2025-04,Shipped,Central,87,Rohit Iyer,Jabalpur,5,Smart Fitness Watch Pro,Electronics,1,4999.0,0.0,4999.0,0.0,4999.0,3200.0,1799.0,35.99
+271,2025-01-12,2025,1,Jan,2025-01,Shipped,South,48,Meera Bhat,Bengaluru,20,Pure Raw Honey 500g,Groceries,1,399.0,10.0,399.0,39.9,359.1,210.0,149.1,41.52
+272,2025-02-04,2025,2,Feb,2025-02,Delivered,North,55,Kiran Saxena,Lucknow,23,Insulated Stainless Steel Sipper Bottle,Sports,3,799.0,0.0,2397.0,0.0,2397.0,1170.0,1227.0,51.19
+272,2025-02-04,2025,2,Feb,2025-02,Delivered,North,55,Kiran Saxena,Lucknow,21,Anti-Skid Yoga Mat 6mm,Sports,1,999.0,10.0,999.0,99.9,899.1,480.0,419.1,46.61
+273,2025-01-11,2025,1,Jan,2025-01,Delivered,North,37,Alok Bhat,Noida,15,Automatic Air Fryer 4.5L,Home & Living,2,5499.0,20.0,10998.0,2199.6,8798.4,7200.0,1598.4,18.17
+274,2024-11-05,2024,11,Nov,2024-11,Delivered,South,46,Deepika Iyer,Chennai,13,Stainless Steel Electric Kettle 1.8L,Home & Living,4,1299.0,12.0,5196.0,623.52,4572.48,2880.0,1692.48,37.01
+275,2025-07-12,2025,7,Jul,2025-07,Delivered,West,84,Swati Reddy,Mumbai,14,Double Bed Pure Cotton Bedsheet,Home & Living,2,1599.0,10.0,3198.0,319.8,2878.2,1560.0,1318.2,45.8
+275,2025-07-12,2025,7,Jul,2025-07,Delivered,West,84,Swati Reddy,Mumbai,23,Insulated Stainless Steel Sipper Bottle,Sports,1,799.0,12.0,799.0,95.88,703.12,390.0,313.12,44.53
+276,2025-02-21,2025,2,Feb,2025-02,Delivered,North,4,Rhea Kulkarni,Jaipur,8,Women Floral Embroidered Kurti,Fashion,1,1899.0,0.0,1899.0,0.0,1899.0,800.0,1099.0,57.87
+277,2025-08-17,2025,8,Aug,2025-08,Processing,Central,59,Swati Iyer,Indore,16,Multipurpose Desk Organizer Set,Home & Living,1,699.0,12.0,699.0,83.88,615.12,290.0,325.12,52.85
+277,2025-08-17,2025,8,Aug,2025-08,Processing,Central,59,Swati Iyer,Indore,18,Cold-Pressed Extra Virgin Olive Oil 1L,Groceries,1,1199.0,20.0,1199.0,239.8,959.2,780.0,179.2,18.68
+278,2025-05-07,2025,5,May,2025-05,Shipped,West,70,Deepika Nair,Nagpur,2,Wireless Noise-Cancelling Headphones,Electronics,1,7499.0,10.0,7499.0,749.9,6749.1,4800.0,1949.1,28.88
+278,2025-05-07,2025,5,May,2025-05,Shipped,West,70,Deepika Nair,Nagpur,24,Skipping Rope with Digital Counter,Sports,1,499.0,20.0,499.0,99.8,399.2,210.0,189.2,47.39
+278,2025-05-07,2025,5,May,2025-05,Shipped,West,70,Deepika Nair,Nagpur,15,Automatic Air Fryer 4.5L,Home & Living,2,5499.0,0.0,10998.0,0.0,10998.0,7200.0,3798.0,34.53
+279,2024-11-17,2024,11,Nov,2024-11,Delivered,North,39,Kiran Gupta,Delhi,3,Mechanical Gaming Keyboard,Electronics,1,3299.0,0.0,3299.0,0.0,3299.0,2100.0,1199.0,36.34
+280,2025-02-16,2025,2,Feb,2025-02,Cancelled,North,31,Ishaan Sharma,Gurgaon,23,Insulated Stainless Steel Sipper Bottle,Sports,3,799.0,12.0,2397.0,287.64,2109.36,1170.0,939.36,44.53
+280,2025-02-16,2025,2,Feb,2025-02,Cancelled,North,31,Ishaan Sharma,Gurgaon,12,Orthopedic Memory Foam Pillow,Home & Living,2,1799.0,0.0,3598.0,0.0,3598.0,1900.0,1698.0,47.19
