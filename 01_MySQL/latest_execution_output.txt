@@ -1,0 +1,236 @@
+product_id	product_name	category	unit_price	cost_price	unit_margin	profit_margin_pct
+1	Ultra HD Smart LED TV 55-inch	Electronics	42999.00	31000.00	11999.00	27.91
+2	Wireless Noise-Cancelling Headphones	Electronics	7499.00	4800.00	2699.00	35.99
+15	Automatic Air Fryer 4.5L	Home & Living	5499.00	3600.00	1899.00	34.53
+5	Smart Fitness Watch Pro	Electronics	4999.00	3200.00	1799.00	35.99
+22	Adjustable Dumbbell Set 20kg	Sports	4299.00	2600.00	1699.00	39.52
+3	Mechanical Gaming Keyboard	Electronics	3299.00	2100.00	1199.00	36.34
+10	Lightweight Running Sports Shoes	Fashion	3199.00	1500.00	1699.00	53.11
+9	Unisex Classic Denim Jeans	Fashion	2499.00	1100.00	1399.00	55.98
+order_id	order_date	customer_name	city	region	order_status
+135	2025-10-17	Ananya Iyer	Chennai	South	Delivered
+232	2025-10-12	Anjali Sharma	Gwalior	Central	Delivered
+255	2025-10-11	Simran Choudhury	Guwahati	East	Delivered
+174	2025-10-11	Shreya Kapoor	Bhubaneswar	East	Delivered
+167	2025-10-11	Swati Reddy	Mumbai	West	Delivered
+116	2025-10-06	Anjali Sharma	Gwalior	Central	Delivered
+242	2025-10-05	Nandini Patel	Nagpur	West	Delivered
+141	2025-10-05	Nandini Singh	Gwalior	Central	Delivered
+32	2025-10-05	Amit Kapoor	Indore	Central	Delivered
+230	2025-10-04	Kunal Banerjee	Hyderabad	South	Delivered
+106	2025-10-02	Amit Gupta	Gwalior	Central	Delivered
+259	2025-09-28	Rohit Iyer	Jabalpur	Central	Delivered
+191	2025-09-28	Swati Iyer	Indore	Central	Delivered
+70	2025-09-28	Rhea Kulkarni	Chennai	South	Delivered
+205	2025-09-27	Manoj Gupta	Lucknow	North	Delivered
+category	total_orders_containing_category	total_units_sold	avg_selling_price	total_revenue	total_profit	profit_margin_pct
+Electronics	76	140	10357.51	1309620.37	318970.37	24.36
+Home & Living	100	193	2092.10	344141.83	125231.83	36.39
+Fashion	78	139	2006.87	256098.00	130148.00	50.82
+Sports	81	150	1404.62	189630.97	77810.97	41.03
+Groceries	68	109	682.95	61429.58	19679.58	32.04
+region	order_count	regional_revenue	regional_profit	avg_order_value
+East	42	587562.60	153512.60	13989.59
+Central	56	481929.73	148539.73	8605.89
+South	52	398468.80	144428.80	7662.86
+North	54	370644.64	124384.64	6863.79
+West	43	322314.98	100974.98	7495.70
+customer_id	customer_name	email	city	region	order_count	total_spent_inr	last_purchase_date	spending_tier
+85	Sunil Agarwal	sunil.agarwal85@example.in	Guwahati	East	2	160702.10000000	2025-06-03	Platinum Spender
+80	Neha Reddy	neha.reddy80@example.in	Bhubaneswar	East	1	103995.60000000	2025-09-11	Platinum Spender
+52	Suresh Banerjee	suresh.banerjee52@example.in	Chandigarh	North	2	99722.44000000	2025-03-20	Platinum Spender
+43	Shreya Kapoor	shreya.kapoor43@example.in	Bhubaneswar	East	4	95927.13000000	2025-10-11	Platinum Spender
+6	Aarav Rao	aarav.rao6@example.in	Patna	East	3	91523.15000000	2025-10-04	Platinum Spender
+84	Swati Reddy	swati.reddy84@example.in	Mumbai	West	3	81458.72000000	2025-10-11	Platinum Spender
+87	Rohit Iyer	rohit.iyer87@example.in	Jabalpur	Central	7	77557.14000000	2025-10-04	Platinum Spender
+64	Vikram Saxena	vikram.saxena64@example.in	Coimbatore	South	4	70676.64000000	2025-08-26	Platinum Spender
+90	Anjali Sharma	anjali.sharma90@example.in	Gwalior	Central	5	69057.29000000	2025-10-12	Platinum Spender
+69	Harsh Singh	harsh.singh69@example.in	Ahmedabad	West	6	65098.02000000	2025-09-01	Platinum Spender
+79	Shreya Rao	shreya.rao79@example.in	Kochi	South	2	61627.90000000	2025-09-01	Platinum Spender
+59	Swati Iyer	swati.iyer59@example.in	Indore	Central	5	52286.37000000	2025-09-28	Platinum Spender
+56	Ananya Patel	ananya.patel56@example.in	Jabalpur	Central	1	47877.47000000	2024-12-17	Gold Spender
+18	Vikram Nair	vikram.nair18@example.in	Raipur	Central	4	47397.02000000	2025-07-24	Gold Spender
+72	Meera Patel	meera.patel72@example.in	Gurgaon	North	4	42636.87000000	2025-05-12	Gold Spender
+58	Neha Verma	neha.verma58@example.in	Bhopal	Central	2	41079.24000000	2025-08-13	Gold Spender
+48	Meera Bhat	meera.bhat48@example.in	Bengaluru	South	8	40047.38000000	2025-10-14	Gold Spender
+88	Nikhil Joshi	nikhil.joshi88@example.in	Gwalior	Central	4	32515.35000000	2025-07-23	Gold Spender
+70	Deepika Nair	deepika.nair70@example.in	Nagpur	West	3	32144.65000000	2025-07-28	Gold Spender
+7	Kavita Nair	kavita.nair7@example.in	Mumbai	West	4	31866.31000000	2025-08-19	Gold Spender
+77	Rohit Mehta	rohit.mehta77@example.in	Chennai	South	3	31191.75000000	2025-10-11	Gold Spender
+5	Nandini Joshi	nandini.joshi5@example.in	Kochi	South	5	30394.92000000	2025-09-13	Gold Spender
+41	Rhea Gupta	rhea.gupta41@example.in	Surat	West	7	30004.27000000	2025-09-02	Gold Spender
+73	Kunal Rao	kunal.rao73@example.in	Guwahati	East	5	28248.01000000	2025-08-24	Gold Spender
+76	Anjali Singh	anjali.singh76@example.in	Gurgaon	North	3	25791.59000000	2025-07-08	Gold Spender
+83	Manoj Gupta	manoj.gupta83@example.in	Lucknow	North	3	24740.37000000	2025-09-27	Gold Spender
+37	Alok Bhat	alok.bhat37@example.in	Noida	North	5	24736.75000000	2025-03-10	Gold Spender
+31	Ishaan Sharma	ishaan.sharma31@example.in	Gurgaon	North	4	24464.35000000	2025-08-20	Gold Spender
+39	Kiran Gupta	kiran.gupta39@example.in	Delhi	North	4	22092.24000000	2025-09-11	Gold Spender
+49	Harsh Iyer	harsh.iyer49@example.in	Lucknow	North	2	21527.72000000	2025-07-27	Gold Spender
+32	Shreya Patel	shreya.patel32@example.in	Coimbatore	South	3	20378.80000000	2025-07-30	Gold Spender
+66	Aditya Rao	aditya.rao66@example.in	Guwahati	East	1	20100.65000000	2024-11-01	Gold Spender
+21	Kiran Joshi	kiran.joshi21@example.in	Jabalpur	Central	2	19853.70000000	2025-07-14	Silver Spender
+29	Rhea Kulkarni	rhea.kulkarni29@example.in	Chennai	South	3	19443.62000000	2025-09-28	Silver Spender
+68	Rajesh Singh	rajesh.singh68@example.in	Mumbai	West	3	18339.75000000	2025-09-02	Silver Spender
+24	Vidya Verma	vidya.verma24@example.in	Ranchi	East	4	16810.99000000	2025-03-20	Silver Spender
+92	Tarun Reddy	tarun.reddy92@example.in	Lucknow	North	2	16804.30000000	2025-04-16	Silver Spender
+47	Nandini Bhat	nandini.bhat47@example.in	Kochi	South	2	16220.50000000	2025-07-30	Silver Spender
+78	Sunil Saxena	sunil.saxena78@example.in	Guwahati	East	5	16099.83000000	2025-07-29	Silver Spender
+46	Deepika Iyer	deepika.iyer46@example.in	Chennai	South	2	15912.84000000	2025-01-26	Silver Spender
+23	Ananya Iyer	ananya.iyer23@example.in	Chennai	South	1	15453.20000000	2025-10-17	Silver Spender
+28	Rhea Rao	rhea.rao28@example.in	Bhopal	Central	5	14924.13000000	2025-08-26	Silver Spender
+61	Nikhil Deshmukh	nikhil.deshmukh61@example.in	Hyderabad	South	2	14910.52000000	2025-07-24	Silver Spender
+22	Manoj Singh	manoj.singh22@example.in	Jabalpur	Central	2	13983.60000000	2025-09-13	Silver Spender
+40	Manoj Verma	manoj.verma40@example.in	Gurgaon	North	4	13401.99000000	2025-04-23	Silver Spender
+2	Amit Iyer	amit.iyer2@example.in	Bhopal	Central	1	13001.25000000	2025-01-13	Silver Spender
+30	Suresh Saxena	suresh.saxena30@example.in	Bhopal	Central	2	12832.80000000	2025-07-15	Silver Spender
+50	Aarav Verma	aarav.verma50@example.in	Chennai	South	3	12640.06000000	2025-06-21	Silver Spender
+26	Nandini Deshmukh	nandini.deshmukh26@example.in	Mumbai	West	2	12527.30000000	2025-06-23	Silver Spender
+14	Sunil Nair	sunil.nair14@example.in	Mumbai	West	2	11122.92000000	2025-08-24	Silver Spender
+27	Anjali Rao	anjali.rao27@example.in	Kolkata	East	1	10998.00000000	2025-04-19	Silver Spender
+95	Gaurav Rao	gaurav.rao95@example.in	Gwalior	Central	3	10812.24000000	2025-09-21	Silver Spender
+62	Kunal Banerjee	kunal.banerjee62@example.in	Hyderabad	South	3	10514.35000000	2025-10-04	Silver Spender
+51	Ishaan Kapoor	ishaan.kapoor51@example.in	Kochi	South	1	10508.55000000	2024-12-11	Silver Spender
+89	Gaurav Malhotra	gaurav.malhotra89@example.in	Hyderabad	South	2	10443.30000000	2025-06-16	Silver Spender
+17	Manoj Patel	manoj.patel17@example.in	Surat	West	2	10423.20000000	2025-07-01	Silver Spender
+1	Pooja Sharma	pooja.sharma1@example.in	Pune	West	2	10351.50000000	2025-07-13	Silver Spender
+36	Arjun Choudhury	arjun.choudhury36@example.in	Patna	East	4	10305.62000000	2025-08-30	Silver Spender
+45	Simran Patel	simran.patel45@example.in	Delhi	North	3	10273.70000000	2025-07-02	Silver Spender
+35	Alok Kulkarni	alok.kulkarni35@example.in	Bhubaneswar	East	3	10043.40000000	2025-06-15	Silver Spender
+16	Meera Saxena	meera.saxena16@example.in	Hyderabad	South	2	9609.95000000	2025-08-21	Silver Spender
+53	Simran Choudhury	simran.choudhury53@example.in	Guwahati	East	4	8870.20000000	2025-10-11	Silver Spender
+67	Tarun Agarwal	tarun.agarwal67@example.in	Lucknow	North	2	7901.24000000	2025-06-15	Silver Spender
+33	Sneha Kapoor	sneha.kapoor33@example.in	Jaipur	North	1	7566.24000000	2024-11-14	Silver Spender
+75	Nandini Patel	nandini.patel75@example.in	Nagpur	West	3	7493.95000000	2025-10-05	Silver Spender
+55	Kiran Saxena	kiran.saxena55@example.in	Lucknow	North	3	7082.40000000	2025-04-06	Silver Spender
+12	Aditya Verma	aditya.verma12@example.in	Bengaluru	South	5	7055.32000000	2025-09-30	Silver Spender
+42	Nandini Singh	nandini.singh42@example.in	Gwalior	Central	4	7009.47000000	2025-10-05	Silver Spender
+9	Rohit Bhat	rohit.bhat9@example.in	Bhopal	Central	3	6768.77000000	2025-07-28	Silver Spender
+20	Amit Gupta	amit.gupta20@example.in	Gwalior	Central	4	6682.79000000	2025-10-02	Silver Spender
+25	Alok Deshmukh	alok.deshmukh25@example.in	Bhopal	Central	1	6392.10000000	2025-01-29	Silver Spender
+3	Rohit Sharma	rohit.sharma3@example.in	Noida	North	3	5456.50000000	2025-07-30	Silver Spender
+4	Rhea Kulkarni	rhea.kulkarni4@example.in	Jaipur	North	2	5399.42000000	2025-02-21	Silver Spender
+82	Manoj Nair	manoj.nair82@example.in	Patna	East	2	5026.30000000	2025-06-24	Silver Spender
+81	Suresh Iyer	suresh.iyer81@example.in	Kolkata	East	1	4914.42000000	2025-02-03	Bronze Spender
+44	Rajesh Joshi	rajesh.joshi44@example.in	Surat	West	2	4281.24000000	2025-02-04	Bronze Spender
+71	Kunal Patel	kunal.patel71@example.in	Lucknow	North	1	3757.05000000	2024-11-14	Bronze Spender
+54	Kavita Nair	kavita.nair54@example.in	Pune	West	2	3477.05000000	2025-08-03	Bronze Spender
+93	Rhea Choudhury	rhea.choudhury93@example.in	Patna	East	1	2718.00000000	2024-11-27	Bronze Spender
+38	Vikram Reddy	vikram.reddy38@example.in	Jaipur	North	2	2618.12000000	2025-04-17	Bronze Spender
+10	Sneha Saxena	sneha.saxena10@example.in	Nagpur	West	1	2127.10000000	2025-05-04	Bronze Spender
+34	Amit Kapoor	amit.kapoor34@example.in	Indore	Central	1	1899.00000000	2025-10-05	Bronze Spender
+8	Gaurav Iyer	gaurav.iyer8@example.in	Ahmedabad	West	1	1599.00000000	2024-12-06	Bronze Spender
+57	Alok Rao	alok.rao57@example.in	Jaipur	North	1	1529.15000000	2024-12-10	Bronze Spender
+15	Nandini Gupta	nandini.gupta15@example.in	Kochi	South	1	1439.20000000	2025-07-30	Bronze Spender
+19	Ishaan Banerjee	ishaan.banerjee19@example.in	Bhubaneswar	East	1	1279.20000000	2024-12-03	Bronze Spender
+91	Tanvi Joshi	tanvi.joshi91@example.in	Lucknow	North	1	1139.05000000	2024-12-03	Bronze Spender
+65	Amit Mehta	amit.mehta65@example.in	Noida	North	1	1104.15000000	2025-06-28	Bronze Spender
+63	Nikhil Verma	nikhil.verma63@example.in	Chandigarh	North	1	899.00000000	2024-12-17	Bronze Spender
+11	Bhavna Nair	bhavna.nair11@example.in	Delhi	North	0	0.00000000	Never Ordered	Inactive / No Orders
+13	Meera Bhat	meera.bhat13@example.in	Pune	West	0	0.00000000	Never Ordered	Inactive / No Orders
+60	Tarun Verma	tarun.verma60@example.in	Guwahati	East	0	0.00000000	Never Ordered	Inactive / No Orders
+74	Harsh Sharma	harsh.sharma74@example.in	Delhi	North	0	0.00000000	Never Ordered	Inactive / No Orders
+86	Priya Iyer	priya.iyer86@example.in	Pune	West	0	0.00000000	Never Ordered	Inactive / No Orders
+94	Aditya Saxena	aditya.saxena94@example.in	Chennai	South	0	0.00000000	Never Ordered	Inactive / No Orders
+96	Swati Saxena	swati.saxena96@example.in	Gurgaon	North	0	0.00000000	Never Ordered	Inactive / No Orders
+97	Divya Joshi	divya.joshi97@example.in	Gwalior	Central	0	0.00000000	Never Ordered	Inactive / No Orders
+98	Simran Bhat	simran.bhat98@example.in	Bhubaneswar	East	0	0.00000000	Never Ordered	Inactive / No Orders
+99	Pranav Rao	pranav.rao99@example.in	Gurgaon	North	0	0.00000000	Never Ordered	Inactive / No Orders
+100	Tarun Reddy	tarun.reddy100@example.in	Noida	North	0	0.00000000	Never Ordered	Inactive / No Orders
+101	Manoj Nair	manoj.nair101@example.in	Bengaluru	South	0	0.00000000	Never Ordered	Inactive / No Orders
+102	Shreya Kapoor	shreya.kapoor102@example.in	Bhopal	Central	0	0.00000000	Never Ordered	Inactive / No Orders
+103	Sanjay Malhotra	sanjay.malhotra103@example.in	Kochi	South	0	0.00000000	Never Ordered	Inactive / No Orders
+104	Swati Gupta	swati.gupta104@example.in	Bengaluru	South	0	0.00000000	Never Ordered	Inactive / No Orders
+105	Anjali Gupta	anjali.gupta105@example.in	Coimbatore	South	0	0.00000000	Never Ordered	Inactive / No Orders
+106	Ananya Saxena	ananya.saxena106@example.in	Bengaluru	South	0	0.00000000	Never Ordered	Inactive / No Orders
+107	Amit Bhat	amit.bhat107@example.in	Gwalior	Central	0	0.00000000	Never Ordered	Inactive / No Orders
+108	Varun Kulkarni	varun.kulkarni108@example.in	Jabalpur	Central	0	0.00000000	Never Ordered	Inactive / No Orders
+109	Varun Rao	varun.rao109@example.in	Ranchi	East	0	0.00000000	Never Ordered	Inactive / No Orders
+110	Shreya Deshmukh	shreya.deshmukh110@example.in	Jabalpur	Central	0	0.00000000	Never Ordered	Inactive / No Orders
+customer_id	customer_name	email	city	region	registration_date	total_orders	total_spending	account_status
+101	Manoj Nair	manoj.nair101@example.in	Bengaluru	South	2023-11-24	0	0.00	Inactive Customer
+104	Swati Gupta	swati.gupta104@example.in	Bengaluru	South	2023-12-25	0	0.00	Inactive Customer
+74	Harsh Sharma	harsh.sharma74@example.in	Delhi	North	2024-01-16	0	0.00	Inactive Customer
+11	Bhavna Nair	bhavna.nair11@example.in	Delhi	North	2024-02-25	0	0.00	Inactive Customer
+110	Shreya Deshmukh	shreya.deshmukh110@example.in	Jabalpur	Central	2024-03-02	0	0.00	Inactive Customer
+109	Varun Rao	varun.rao109@example.in	Ranchi	East	2024-03-12	0	0.00	Inactive Customer
+96	Swati Saxena	swati.saxena96@example.in	Gurgaon	North	2024-03-26	0	0.00	Inactive Customer
+100	Tarun Reddy	tarun.reddy100@example.in	Noida	North	2024-04-07	0	0.00	Inactive Customer
+107	Amit Bhat	amit.bhat107@example.in	Gwalior	Central	2024-04-11	0	0.00	Inactive Customer
+97	Divya Joshi	divya.joshi97@example.in	Gwalior	Central	2024-04-13	0	0.00	Inactive Customer
+13	Meera Bhat	meera.bhat13@example.in	Pune	West	2024-05-08	0	0.00	Inactive Customer
+94	Aditya Saxena	aditya.saxena94@example.in	Chennai	South	2024-06-03	0	0.00	Inactive Customer
+102	Shreya Kapoor	shreya.kapoor102@example.in	Bhopal	Central	2024-06-21	0	0.00	Inactive Customer
+106	Ananya Saxena	ananya.saxena106@example.in	Bengaluru	South	2024-06-21	0	0.00	Inactive Customer
+105	Anjali Gupta	anjali.gupta105@example.in	Coimbatore	South	2024-06-25	0	0.00	Inactive Customer
+103	Sanjay Malhotra	sanjay.malhotra103@example.in	Kochi	South	2024-07-11	0	0.00	Inactive Customer
+98	Simran Bhat	simran.bhat98@example.in	Bhubaneswar	East	2024-07-19	0	0.00	Inactive Customer
+99	Pranav Rao	pranav.rao99@example.in	Gurgaon	North	2024-07-21	0	0.00	Inactive Customer
+60	Tarun Verma	tarun.verma60@example.in	Guwahati	East	2024-07-25	0	0.00	Inactive Customer
+108	Varun Kulkarni	varun.kulkarni108@example.in	Jabalpur	Central	2024-08-07	0	0.00	Inactive Customer
+sale_month	total_orders	monthly_revenue	monthly_profit	monthly_margin_pct
+2024-11	20	228961.78	69851.78	30.51
+2024-12	22	229142.14	72432.14	31.61
+2025-01	26	117275.11	45495.11	38.79
+2025-02	22	283928.31	87868.31	30.95
+2025-03	17	77556.27	28976.27	37.36
+2025-04	25	250542.78	75022.78	29.94
+2025-05	17	134826.76	50666.76	37.58
+2025-06	21	144964.29	41444.29	28.59
+2025-07	29	114531.57	44441.57	38.80
+2025-08	17	99265.18	30195.18	30.42
+2025-09	16	307391.12	72601.12	23.62
+2025-10	15	172535.44	52845.44	30.63
+product_id	product_name	category	total_quantity_sold	net_revenue	total_profit	margin_percentage
+1	Ultra HD Smart LED TV 55-inch	Electronics	23	906418.92	193418.92	21.34
+2	Wireless Noise-Cancelling Headphones	Electronics	27	184550.39	54950.39	29.78
+15	Automatic Air Fryer 4.5L	Home & Living	32	159361.02	44161.02	27.71
+22	Adjustable Dumbbell Set 20kg	Sports	26	102488.16	34888.16	34.04
+10	Lightweight Running Sports Shoes	Fashion	29	80934.70	37434.70	46.25
+5	Smart Fitness Watch Pro	Electronics	17	78284.34	23884.34	30.51
+9	Unisex Classic Denim Jeans	Fashion	32	71246.49	36046.49	50.59
+3	Mechanical Gaming Keyboard	Electronics	22	66342.89	20142.89	30.36
+8	Women Floral Embroidered Kurti	Fashion	31	56343.33	31543.33	55.98
+12	Orthopedic Memory Foam Pillow	Home & Living	35	55679.05	22429.05	40.28
+category	product_name	product_revenue	units_sold	rank_within_category
+Electronics	Ultra HD Smart LED TV 55-inch	906418.92	23	1
+Electronics	Wireless Noise-Cancelling Headphones	184550.39	27	2
+Electronics	Smart Fitness Watch Pro	78284.34	17	3
+Electronics	Mechanical Gaming Keyboard	66342.89	22	4
+Electronics	Fast Charging Power Bank 20000mAh	40353.75	23	5
+Electronics	Ergonomic Wireless Mouse	33670.08	28	6
+Fashion	Lightweight Running Sports Shoes	80934.70	29	1
+Fashion	Unisex Classic Denim Jeans	71246.49	32	2
+Fashion	Women Floral Embroidered Kurti	56343.33	31	3
+Fashion	Genuine Leather Bifold Wallet	24219.06	30	4
+Fashion	Men Slim-Fit Cotton Casual Shirt	23354.42	17	5
+Groceries	Cold-Pressed Extra Virgin Olive Oil 1L	25826.46	24	1
+Groceries	Pure Raw Honey 500g	13753.53	39	2
+Groceries	Premium California Almonds 500g	13124.09	24	3
+Groceries	Organic Green Tea 100 Bags	8725.50	22	4
+Home & Living	Automatic Air Fryer 4.5L	159361.02	32	1
+Home & Living	Orthopedic Memory Foam Pillow	55679.05	35	2
+Home & Living	Double Bed Pure Cotton Bedsheet	50816.22	35	3
+Home & Living	Stainless Steel Electric Kettle 1.8L	44698.59	39	4
+Home & Living	Multipurpose Desk Organizer Set	33586.95	52	5
+Sports	Adjustable Dumbbell Set 20kg	102488.16	26	1
+Sports	Insulated Stainless Steel Sipper Bottle	34668.61	47	2
+Sports	Anti-Skid Yoga Mat 6mm	34255.71	36	3
+Sports	Skipping Rope with Digital Counter	18218.49	41	4
+sale_month	monthly_revenue	cumulative_running_revenue
+2024-11	228961.78	228961.78
+2024-12	229142.14	458103.92
+2025-01	117275.11	575379.03
+2025-02	283928.31	859307.34
+2025-03	77556.27	936863.61
+2025-04	250542.78	1187406.39
+2025-05	134826.76	1322233.15
+2025-06	144964.29	1467197.44
+2025-07	114531.57	1581729.01
+2025-08	99265.18	1680994.19
+2025-09	307391.12	1988385.31
+2025-10	172535.44	2160920.75
+customer_loyalty_segment	total_customers	percentage_of_customer_base
+2-3 Orders (Repeat Buyer)	42	38.18
+4+ Orders (Loyal Champion)	26	23.64
+1 Order (One-Time Buyer)	21	19.09
+0 Orders (Inactive)	21	19.09

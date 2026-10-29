@@ -1,24 +1,10 @@
 {
-  "name": "retail-sales-customer-analytics-dashboard",
+  "name": "retail-sales-dashboard-project",
   "version": "1.0.0",
-  "description": "College Business Analytics Project demonstrating Excel formulas, Pivot Tables, MySQL relational analytics, customer spending segmentation, and Tableau integration.",
+  "private": true,
   "scripts": {
-    "dev:backend": "cd backend && ./venv/bin/python app.py",
-    "dev:frontend": "cd frontend && npm run dev",
-    "test": "cd backend && ./venv/bin/pytest tests/",
-    "seed": "cd backend && ./venv/bin/python seed_data.py",
-    "build": "cd frontend && npm run build"
-  },
-  "keywords": [
-    "business-analytics",
-    "retail-dashboard",
-    "excel-formulas",
-    "pivot-table",
-    "mysql",
-    "tableau",
-    "react",
-    "flask"
-  ],
-  "author": "College Student Evaluation",
-  "license": "MIT"
+    "dev": "npm --prefix dashboard run dev",
+    "build": "npm --prefix dashboard run build",
+    "preview": "npm --prefix dashboard run preview"
+  }
 }
