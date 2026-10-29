@@ -9,13 +9,16 @@ import {
   Tooltip,
 } from "recharts";
 
-const formatCurrency = (val) => `₹${(val / 1000).toFixed(0)}k`;
+const formatCurrency = (val) => {
+  if (val >= 1000000) return `₹${(val / 1000000).toFixed(1)}M`;
+  return `₹${(val / 1000).toFixed(0)}k`;
+};
 
 const CustomTooltip = ({ active, payload, label }) => {
   if (active && payload && payload.length) {
     return (
       <div className="bg-white border border-slate-200 rounded-lg p-2.5 shadow-md text-xs">
-        <p className="font-semibold text-slate-800 mb-1">{label} 2025</p>
+        <p className="font-semibold text-slate-800 mb-1">{label}</p>
         <p className="text-blue-600 font-medium">
           Revenue: <span className="font-bold">₹{payload[0].value.toLocaleString("en-IN")}</span>
         </p>
@@ -25,18 +28,18 @@ const CustomTooltip = ({ active, payload, label }) => {
   return null;
 };
 
-export default function MonthlyTrendChart({ data }) {
+export default function MonthlyTrendChart({ data, badgeLabel, yDomain }) {
   return (
-    <div className="bg-white rounded-xl border border-slate-200 p-4 shadow-2xs flex flex-col justify-between">
+    <div className="bg-white rounded-xl border border-slate-200 p-4 shadow-2xs flex flex-col justify-between transition-all duration-200">
       <div className="flex items-center justify-between mb-3">
         <div>
           <h2 className="text-sm font-bold text-slate-900">
             Monthly Sales Trend
           </h2>
-          <p className="text-xs text-slate-500">Revenue trajectory over 6 months</p>
+          <p className="text-xs text-slate-500">Revenue trajectory over selected period</p>
         </div>
-        <span className="text-xs px-2 py-0.5 rounded-full bg-blue-50 text-blue-700 font-medium border border-blue-100">
-          6-Month View
+        <span className="text-xs px-2.5 py-0.5 rounded-full bg-blue-50 text-blue-700 font-medium border border-blue-100">
+          {badgeLabel || "Sales Velocity"}
         </span>
       </div>
 
@@ -57,7 +60,7 @@ export default function MonthlyTrendChart({ data }) {
               tickLine={false}
               axisLine={false}
               tickFormatter={formatCurrency}
-              domain={[80000, 200000]}
+              domain={yDomain || ["auto", "auto"]}
             />
             <Tooltip content={<CustomTooltip />} />
             <Line
@@ -67,6 +70,7 @@ export default function MonthlyTrendChart({ data }) {
               strokeWidth={2.5}
               dot={{ r: 4, fill: "#2563EB", strokeWidth: 1.5, stroke: "#FFFFFF" }}
               activeDot={{ r: 6, fill: "#1D4ED8" }}
+              isAnimationActive={true}
             />
           </LineChart>
         </ResponsiveContainer>

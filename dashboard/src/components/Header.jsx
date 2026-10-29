@@ -1,11 +1,25 @@
-import React, { useState } from "react";
-import { Calendar, ChevronDown, BarChart3 } from "lucide-react";
+import React, { useState, useRef, useEffect } from "react";
+import { Calendar, ChevronDown, BarChart3, Check } from "lucide-react";
+import { dateRanges } from "../data/demoData";
 
-export default function Header() {
-  const [selectedRange, setSelectedRange] = useState("Last 6 Months");
+export default function Header({ selectedRange, onRangeChange }) {
   const [isOpen, setIsOpen] = useState(false);
+  const dropdownRef = useRef(null);
 
-  const ranges = ["Last 30 Days", "Last 6 Months", "This Year", "All Time"];
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
+  const handleSelect = (range) => {
+    onRangeChange(range);
+    setIsOpen(false);
+  };
 
   return (
     <header className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 pb-3 border-b border-slate-200">
@@ -24,36 +38,46 @@ export default function Header() {
       </div>
 
       {/* Date-range filter */}
-      <div className="relative self-start sm:self-auto">
+      <div className="relative self-start sm:self-auto" ref={dropdownRef}>
         <button
           type="button"
           onClick={() => setIsOpen(!isOpen)}
-          className="inline-flex items-center gap-2 px-3 py-1.5 text-xs font-medium text-slate-700 bg-white border border-slate-300 rounded-lg shadow-2xs hover:bg-slate-50 hover:border-slate-400 focus:outline-hidden focus:ring-2 focus:ring-blue-500 focus:ring-offset-1 transition"
+          aria-expanded={isOpen}
+          aria-haspopup="true"
+          className="inline-flex items-center gap-2 px-3 py-1.5 text-xs font-semibold text-slate-800 bg-white border border-slate-300 rounded-lg shadow-2xs hover:bg-slate-50 hover:border-slate-400 focus:outline-hidden focus:ring-2 focus:ring-blue-500 focus:ring-offset-1 transition cursor-pointer"
         >
-          <Calendar className="w-3.5 h-3.5 text-slate-500" />
+          <Calendar className="w-3.5 h-3.5 text-blue-600" />
           <span>{selectedRange}</span>
-          <ChevronDown className="w-3.5 h-3.5 text-slate-400 ml-0.5" />
+          <ChevronDown
+            className={`w-3.5 h-3.5 text-slate-400 transition-transform duration-200 ${
+              isOpen ? "rotate-180" : ""
+            }`}
+          />
         </button>
 
         {isOpen && (
-          <div className="absolute right-0 mt-1 w-36 bg-white border border-slate-200 rounded-lg shadow-lg z-20 py-1 text-xs">
-            {ranges.map((range) => (
-              <button
-                key={range}
-                type="button"
-                onClick={() => {
-                  setSelectedRange(range);
-                  setIsOpen(false);
-                }}
-                className={`w-full text-left px-3 py-1.5 hover:bg-slate-50 transition ${
-                  selectedRange === range
-                    ? "font-semibold text-blue-600 bg-blue-50/50"
-                    : "text-slate-700"
-                }`}
-              >
-                {range}
-              </button>
-            ))}
+          <div className="absolute right-0 mt-1 w-40 bg-white border border-slate-200 rounded-lg shadow-lg z-30 py-1 text-xs animate-in fade-in slide-in-from-top-1 duration-150">
+            <div className="px-3 py-1 text-2xs font-semibold uppercase tracking-wider text-slate-400 border-b border-slate-100">
+              Filter Date Range
+            </div>
+            {dateRanges.map((range) => {
+              const isSelected = selectedRange === range;
+              return (
+                <button
+                  key={range}
+                  type="button"
+                  onClick={() => handleSelect(range)}
+                  className={`w-full flex items-center justify-between px-3 py-2 text-left hover:bg-slate-50 transition cursor-pointer ${
+                    isSelected
+                      ? "font-semibold text-blue-600 bg-blue-50/60"
+                      : "text-slate-700"
+                  }`}
+                >
+                  <span>{range}</span>
+                  {isSelected && <Check className="w-3.5 h-3.5 text-blue-600" />}
+                </button>
+              );
+            })}
           </div>
         )}
       </div>

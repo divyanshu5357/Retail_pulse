@@ -9,7 +9,10 @@ import {
   Tooltip,
 } from "recharts";
 
-const formatCurrency = (val) => `₹${(val / 1000).toFixed(0)}k`;
+const formatCurrency = (val) => {
+  if (val >= 1000000) return `₹${(val / 1000000).toFixed(1)}M`;
+  return `₹${(val / 1000).toFixed(0)}k`;
+};
 
 const CustomTooltip = ({ active, payload, label }) => {
   if (active && payload && payload.length) {
@@ -25,9 +28,9 @@ const CustomTooltip = ({ active, payload, label }) => {
   return null;
 };
 
-export default function CategoryBarChart({ data }) {
+export default function CategoryBarChart({ data, yDomain }) {
   return (
-    <div className="bg-white rounded-xl border border-slate-200 p-4 shadow-2xs flex flex-col justify-between">
+    <div className="bg-white rounded-xl border border-slate-200 p-4 shadow-2xs flex flex-col justify-between transition-all duration-200">
       <div className="flex items-center justify-between mb-3">
         <div>
           <h2 className="text-sm font-bold text-slate-900">
@@ -35,7 +38,7 @@ export default function CategoryBarChart({ data }) {
           </h2>
           <p className="text-xs text-slate-500">Sales breakdown by department</p>
         </div>
-        <span className="text-xs px-2 py-0.5 rounded-full bg-slate-100 text-slate-600 font-medium border border-slate-200">
+        <span className="text-xs px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-600 font-medium border border-slate-200">
           4 Categories
         </span>
       </div>
@@ -57,7 +60,7 @@ export default function CategoryBarChart({ data }) {
               tickLine={false}
               axisLine={false}
               tickFormatter={formatCurrency}
-              domain={[0, 400000]}
+              domain={yDomain || [0, "auto"]}
             />
             <Tooltip content={<CustomTooltip />} />
             <Bar
@@ -65,6 +68,7 @@ export default function CategoryBarChart({ data }) {
               fill="#2563EB"
               radius={[4, 4, 0, 0]}
               maxBarSize={42}
+              isAnimationActive={true}
             />
           </BarChart>
         </ResponsiveContainer>
