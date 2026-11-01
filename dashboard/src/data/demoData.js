@@ -1,410 +1,450 @@
 export const dateRanges = ["Last 30 Days", "Last 6 Months", "This Year", "All Time"];
 
-export const dashboardDataByRange = {
+export const hospitalDataByRange = {
   "Last 30 Days": {
-    badgeLabel: "30-Day Trend",
+    badgeLabel: "30-Day Clinical Velocity",
     kpiMetrics: [
       {
-        id: "revenue",
-        title: "Total Revenue",
-        value: "₹1,85,000",
-        change: "+14.2%",
+        id: "admissions",
+        title: "Total Inpatients",
+        value: "412",
+        change: "+8.4%",
         isPositive: true,
         subtext: "vs prev 30 days",
-        iconName: "IndianRupee"
+        iconName: "UserCheck",
+        accentColor: "cyan"
       },
       {
-        id: "profit",
-        title: "Total Profit",
-        value: "₹48,500",
-        change: "+9.4%",
+        id: "occupancy",
+        title: "Bed Occupancy Rate",
+        value: "86.2%",
+        change: "+2.8%",
         isPositive: true,
-        subtext: "vs prev 30 days",
-        iconName: "TrendingUp"
+        subtext: "target 85%",
+        iconName: "BedDouble",
+        accentColor: "blue"
       },
       {
-        id: "orders",
-        title: "Total Orders",
-        value: "284",
-        change: "+7.1%",
+        id: "alos",
+        title: "Avg Length of Stay",
+        value: "3.8 Days",
+        change: "-0.4d",
         isPositive: true,
-        subtext: "completed orders",
-        iconName: "ShoppingBag"
+        subtext: "clinical efficiency",
+        iconName: "Activity",
+        accentColor: "emerald"
       },
       {
-        id: "customers",
-        title: "Total Customers",
-        value: "95",
-        change: "+24",
+        id: "billing",
+        title: "Clinical Billing",
+        value: "₹34.8 Lakh",
+        change: "+11.5%",
         isPositive: true,
-        subtext: "new buyers",
-        iconName: "Users"
+        subtext: "gross collections",
+        iconName: "IndianRupee",
+        accentColor: "violet"
       }
     ],
-    monthlySalesTrend: [
-      { month: "Week 1", revenue: 38000, profit: 9800 },
-      { month: "Week 2", revenue: 45000, profit: 11800 },
-      { month: "Week 3", revenue: 49000, profit: 12900 },
-      { month: "Week 4", revenue: 53000, profit: 14000 }
+    admissionsTrend: [
+      { period: "Week 1", admissions: 94, discharges: 88 },
+      { period: "Week 2", admissions: 108, discharges: 102 },
+      { period: "Week 3", admissions: 102, discharges: 98 },
+      { period: "Week 4", admissions: 108, discharges: 105 }
     ],
-    trendYDomain: [30000, 60000],
-    categoryRevenueData: [
-      { category: "Electronics", revenue: 82000 },
-      { category: "Clothing", revenue: 48000 },
-      { category: "Home", revenue: 34000 },
-      { category: "Grocery", revenue: 21000 }
+    trendYDomain: [60, 120],
+    departmentOccupancy: [
+      { department: "Cardiology", beds: 52, revenue: 1120000 },
+      { department: "Neurology", beds: 38, revenue: 840000 },
+      { department: "Orthopedics", beds: 44, revenue: 760000 },
+      { department: "Oncology", beds: 32, revenue: 920000 },
+      { department: "Pediatrics", beds: 28, revenue: 420000 }
     ],
-    categoryYDomain: [0, 100000],
-    recentOrders: [
+    departmentYDomain: [0, 60],
+    recentEncounters: [
       {
-        id: "ORD-8104",
-        customer: "Aarav Mehta",
-        category: "Electronics",
-        amount: "₹18,499",
-        status: "Completed",
-        date: "2 hours ago"
+        id: "ADM-9401",
+        patient: "Devendra Rathore",
+        department: "Cardiology",
+        ward: "ICU Ward B-04",
+        amount: "₹65,000",
+        status: "Critical Care",
+        triageLevel: "Level 1"
       },
       {
-        id: "ORD-8103",
-        customer: "Meera Sen",
-        category: "Clothing",
-        amount: "₹2,799",
-        status: "Completed",
-        date: "5 hours ago"
+        id: "ADM-9402",
+        patient: "Meenakshi Sundaram",
+        department: "Orthopedics",
+        ward: "Deluxe Ward 208",
+        amount: "₹42,500",
+        status: "Recovering",
+        triageLevel: "Level 2"
       },
       {
-        id: "ORD-8102",
-        customer: "Devendra Rao",
-        category: "Home",
-        amount: "₹5,400",
-        status: "Pending",
-        date: "Yesterday"
+        id: "ADM-9403",
+        patient: "Zainab Fatima",
+        department: "Neurology",
+        ward: "Special Care 112",
+        amount: "₹58,200",
+        status: "Admitted",
+        triageLevel: "Level 2"
       },
       {
-        id: "ORD-8101",
-        customer: "Ananya Iyer",
-        category: "Grocery",
-        amount: "₹1,450",
-        status: "Completed",
-        date: "2 days ago"
+        id: "ADM-9404",
+        patient: "Anand Deshmukh",
+        department: "Pediatrics",
+        ward: "Daycare Ward P-03",
+        amount: "₹18,400",
+        status: "Discharged",
+        triageLevel: "Level 3"
       },
       {
-        id: "ORD-8100",
-        customer: "Kunal Shah",
-        category: "Clothing",
-        amount: "₹4,199",
-        status: "Cancelled",
-        date: "3 days ago"
+        id: "ADM-9405",
+        patient: "Sunita Chatterjee",
+        department: "Oncology",
+        ward: "Chemo Suite 06",
+        amount: "₹72,000",
+        status: "Under Treatment",
+        triageLevel: "Level 1"
       }
     ]
   },
 
   "Last 6 Months": {
-    badgeLabel: "6-Month View",
+    badgeLabel: "6-Month Hospital Performance",
     kpiMetrics: [
       {
-        id: "revenue",
-        title: "Total Revenue",
-        value: "₹8,50,000",
-        change: "+12.4%",
+        id: "admissions",
+        title: "Total Inpatients",
+        value: "2,480",
+        change: "+12.6%",
         isPositive: true,
-        subtext: "vs last period",
-        iconName: "IndianRupee"
+        subtext: "vs prior 6 months",
+        iconName: "UserCheck",
+        accentColor: "cyan"
       },
       {
-        id: "profit",
-        title: "Total Profit",
-        value: "₹2,10,000",
-        change: "+8.1%",
+        id: "occupancy",
+        title: "Bed Occupancy Rate",
+        value: "84.5%",
+        change: "+3.4%",
         isPositive: true,
-        subtext: "vs last period",
-        iconName: "TrendingUp"
+        subtext: "optimal hospital capacity",
+        iconName: "BedDouble",
+        accentColor: "blue"
       },
       {
-        id: "orders",
-        title: "Total Orders",
-        value: "1,240",
-        change: "+5.2%",
+        id: "alos",
+        title: "Avg Length of Stay",
+        value: "4.2 Days",
+        change: "-0.6d",
         isPositive: true,
-        subtext: "fulfilled orders",
-        iconName: "ShoppingBag"
+        subtext: "improved recovery",
+        iconName: "Activity",
+        accentColor: "emerald"
       },
       {
-        id: "customers",
-        title: "Total Customers",
-        value: "450",
-        change: "+18",
+        id: "billing",
+        title: "Clinical Billing",
+        value: "₹1.85 Crore",
+        change: "+14.8%",
         isPositive: true,
-        subtext: "new accounts",
-        iconName: "Users"
+        subtext: "realized hospital revenue",
+        iconName: "IndianRupee",
+        accentColor: "violet"
       }
     ],
-    monthlySalesTrend: [
-      { month: "Jan", revenue: 115000, profit: 28000 },
-      { month: "Feb", revenue: 132000, profit: 34000 },
-      { month: "Mar", revenue: 140000, profit: 36000 },
-      { month: "Apr", revenue: 128000, profit: 31000 },
-      { month: "May", revenue: 155000, profit: 39000 },
-      { month: "Jun", revenue: 180000, profit: 42000 }
+    admissionsTrend: [
+      { period: "May", admissions: 380, discharges: 362 },
+      { period: "Jun", admissions: 410, discharges: 395 },
+      { period: "Jul", admissions: 395, discharges: 382 },
+      { period: "Aug", admissions: 425, discharges: 412 },
+      { period: "Sep", admissions: 435, discharges: 418 },
+      { period: "Oct", admissions: 435, discharges: 426 }
     ],
-    trendYDomain: [80000, 200000],
-    categoryRevenueData: [
-      { category: "Electronics", revenue: 380000 },
-      { category: "Clothing", revenue: 210000 },
-      { category: "Home", revenue: 160000 },
-      { category: "Grocery", revenue: 100000 }
+    trendYDomain: [300, 480],
+    departmentOccupancy: [
+      { department: "Cardiology", beds: 58, revenue: 5840000 },
+      { department: "Oncology", beds: 48, revenue: 4720000 },
+      { department: "Neurology", beds: 42, revenue: 3950000 },
+      { department: "Orthopedics", beds: 36, revenue: 3250000 },
+      { department: "Pediatrics", beds: 24, revenue: 1820000 }
     ],
-    categoryYDomain: [0, 400000],
-    recentOrders: [
+    departmentYDomain: [0, 70],
+    recentEncounters: [
       {
-        id: "ORD-7821",
-        customer: "Priya Sharma",
-        category: "Electronics",
-        amount: "₹42,999",
-        status: "Completed",
-        date: "Today, 14:20"
+        id: "ADM-8821",
+        patient: "Rajeshwar Sen",
+        department: "Cardiology",
+        ward: "Cath Lab ICU 01",
+        amount: "₹1,24,000",
+        status: "Critical Care",
+        triageLevel: "Level 1"
       },
       {
-        id: "ORD-7820",
-        customer: "Rahul Verma",
-        category: "Clothing",
-        amount: "₹3,499",
-        status: "Completed",
-        date: "Today, 12:45"
+        id: "ADM-8820",
+        patient: "Pooja Hegde",
+        department: "Neurology",
+        ward: "Neuro Stepdown 14",
+        amount: "₹84,500",
+        status: "Admitted",
+        triageLevel: "Level 2"
       },
       {
-        id: "ORD-7819",
-        customer: "Anita Desai",
-        category: "Home",
-        amount: "₹8,250",
-        status: "Pending",
-        date: "Today, 10:15"
+        id: "ADM-8819",
+        patient: "Harshwardhan K.",
+        department: "Orthopedics",
+        ward: "Post-Op Ward 302",
+        amount: "₹62,000",
+        status: "Recovering",
+        triageLevel: "Level 2"
       },
       {
-        id: "ORD-7818",
-        customer: "Vikram Patel",
-        category: "Grocery",
-        amount: "₹1,850",
-        status: "Completed",
-        date: "Yesterday"
+        id: "ADM-8818",
+        patient: "Priyanka Nambiar",
+        department: "Oncology",
+        ward: "Infusion Bay 09",
+        amount: "₹91,000",
+        status: "Under Treatment",
+        triageLevel: "Level 1"
       },
       {
-        id: "ORD-7817",
-        customer: "Sneha Reddy",
-        category: "Electronics",
-        amount: "₹14,999",
-        status: "Cancelled",
-        date: "Yesterday"
+        id: "ADM-8817",
+        patient: "Aaradhya Joshi",
+        department: "Pediatrics",
+        ward: "Pediatric Care 05",
+        amount: "₹26,800",
+        status: "Discharged",
+        triageLevel: "Level 3"
       }
     ]
   },
 
   "This Year": {
-    badgeLabel: "Year-to-Date (YTD)",
+    badgeLabel: "YTD Healthcare Analytics",
     kpiMetrics: [
       {
-        id: "revenue",
-        title: "Total Revenue",
-        value: "₹14,20,000",
-        change: "+18.6%",
+        id: "admissions",
+        title: "Total Inpatients",
+        value: "4,320",
+        change: "+16.8%",
         isPositive: true,
-        subtext: "YTD growth",
-        iconName: "IndianRupee"
+        subtext: "YTD cumulative count",
+        iconName: "UserCheck",
+        accentColor: "cyan"
       },
       {
-        id: "profit",
-        title: "Total Profit",
-        value: "₹3,65,000",
-        change: "+14.2%",
+        id: "occupancy",
+        title: "Bed Occupancy Rate",
+        value: "85.8%",
+        change: "+4.1%",
         isPositive: true,
-        subtext: "YTD margin +25.7%",
-        iconName: "TrendingUp"
+        subtext: "annual bed utilization",
+        iconName: "BedDouble",
+        accentColor: "blue"
       },
       {
-        id: "orders",
-        title: "Total Orders",
-        value: "2,150",
-        change: "+11.8%",
+        id: "alos",
+        title: "Avg Length of Stay",
+        value: "4.1 Days",
+        change: "-0.5d",
         isPositive: true,
-        subtext: "annual volume",
-        iconName: "ShoppingBag"
+        subtext: "patient throughput",
+        iconName: "Activity",
+        accentColor: "emerald"
       },
       {
-        id: "customers",
-        title: "Total Customers",
-        value: "780",
-        change: "+142",
+        id: "billing",
+        title: "Clinical Billing",
+        value: "₹3.42 Crore",
+        change: "+19.2%",
         isPositive: true,
-        subtext: "active customer base",
-        iconName: "Users"
+        subtext: "annual medical gross",
+        iconName: "IndianRupee",
+        accentColor: "violet"
       }
     ],
-    monthlySalesTrend: [
-      { month: "Jan", revenue: 115000, profit: 28000 },
-      { month: "Feb", revenue: 132000, profit: 34000 },
-      { month: "Mar", revenue: 140000, profit: 36000 },
-      { month: "Apr", revenue: 128000, profit: 31000 },
-      { month: "May", revenue: 155000, profit: 39000 },
-      { month: "Jun", revenue: 180000, profit: 42000 },
-      { month: "Jul", revenue: 165000, profit: 41000 },
-      { month: "Aug", revenue: 172000, profit: 44000 },
-      { month: "Sep", revenue: 198000, profit: 51000 },
-      { month: "Oct", revenue: 215000, profit: 56000 }
+    admissionsTrend: [
+      { period: "Jan", admissions: 390, discharges: 375 },
+      { period: "Feb", admissions: 405, discharges: 390 },
+      { period: "Mar", admissions: 420, discharges: 408 },
+      { period: "Apr", admissions: 410, discharges: 396 },
+      { period: "May", admissions: 430, discharges: 418 },
+      { period: "Jun", admissions: 445, discharges: 430 },
+      { period: "Jul", admissions: 435, discharges: 424 },
+      { period: "Aug", admissions: 450, discharges: 438 },
+      { period: "Sep", admissions: 465, discharges: 452 },
+      { period: "Oct", admissions: 470, discharges: 460 }
     ],
-    trendYDomain: [80000, 240000],
-    categoryRevenueData: [
-      { category: "Electronics", revenue: 640000 },
-      { category: "Clothing", revenue: 350000 },
-      { category: "Home", revenue: 265000 },
-      { category: "Grocery", revenue: 165000 }
+    trendYDomain: [350, 500],
+    departmentOccupancy: [
+      { department: "Cardiology", beds: 62, revenue: 11400000 },
+      { department: "Oncology", beds: 52, revenue: 9800000 },
+      { department: "Neurology", beds: 46, revenue: 8100000 },
+      { department: "Orthopedics", beds: 39, revenue: 6400000 },
+      { department: "Pediatrics", beds: 27, revenue: 3500000 }
     ],
-    categoryYDomain: [0, 700000],
-    recentOrders: [
+    departmentYDomain: [0, 75],
+    recentEncounters: [
       {
-        id: "ORD-9240",
-        customer: "Sunil Agarwal",
-        category: "Electronics",
-        amount: "₹65,000",
-        status: "Completed",
-        date: "Oct 28"
+        id: "ADM-7640",
+        patient: "Gurpreet Singh",
+        department: "Cardiology",
+        ward: "Cardiac Care CCU-2",
+        amount: "₹1,45,000",
+        status: "Critical Care",
+        triageLevel: "Level 1"
       },
       {
-        id: "ORD-9239",
-        customer: "Vivek Sharma",
-        category: "Clothing",
-        amount: "₹12,499",
-        status: "Completed",
-        date: "Oct 27"
+        id: "ADM-7639",
+        patient: "Shalini Trivedi",
+        department: "Oncology",
+        ward: "Radiation Suite 04",
+        amount: "₹1,12,000",
+        status: "Under Treatment",
+        triageLevel: "Level 1"
       },
       {
-        id: "ORD-9238",
-        customer: "Shreya Kapoor",
-        category: "Home",
-        amount: "₹9,800",
-        status: "Pending",
-        date: "Oct 26"
+        id: "ADM-7638",
+        patient: "Balvinder Bhasin",
+        department: "Neurology",
+        ward: "Stroke Unit 105",
+        amount: "₹88,000",
+        status: "Admitted",
+        triageLevel: "Level 2"
       },
       {
-        id: "ORD-9237",
-        customer: "Kavita Nair",
-        category: "Grocery",
-        amount: "₹3,250",
-        status: "Completed",
-        date: "Oct 25"
+        id: "ADM-7637",
+        patient: "Tanya Mukherjee",
+        department: "Orthopedics",
+        ward: "Joint Rehab 210",
+        amount: "₹68,500",
+        status: "Recovering",
+        triageLevel: "Level 2"
       },
       {
-        id: "ORD-9236",
-        customer: "Rohit Sharma",
-        category: "Electronics",
-        amount: "₹22,999",
-        status: "Cancelled",
-        date: "Oct 24"
+        id: "ADM-7636",
+        patient: "Kabir Malhotra",
+        department: "Pediatrics",
+        ward: "Pediatric ICU 02",
+        amount: "₹34,000",
+        status: "Discharged",
+        triageLevel: "Level 3"
       }
     ]
   },
 
   "All Time": {
-    badgeLabel: "Full Dataset History",
+    badgeLabel: "Historical Clinical Registry",
     kpiMetrics: [
       {
-        id: "revenue",
-        title: "Total Revenue",
-        value: "₹21,60,921",
-        change: "+24.5%",
+        id: "admissions",
+        title: "Total Inpatients",
+        value: "8,650",
+        change: "+22.4%",
         isPositive: true,
-        subtext: "cumulative gross sales",
-        iconName: "IndianRupee"
+        subtext: "all-time treated patients",
+        iconName: "UserCheck",
+        accentColor: "cyan"
       },
       {
-        id: "profit",
-        title: "Total Profit",
-        value: "₹6,71,842",
-        change: "+21.3%",
+        id: "occupancy",
+        title: "Bed Occupancy Rate",
+        value: "86.4%",
+        change: "+5.0%",
         isPositive: true,
-        subtext: "realized net profit",
-        iconName: "TrendingUp"
+        subtext: "historical average",
+        iconName: "BedDouble",
+        accentColor: "blue"
       },
       {
-        id: "orders",
-        title: "Total Orders",
-        value: "3,420",
-        change: "+16.4%",
+        id: "alos",
+        title: "Avg Length of Stay",
+        value: "4.0 Days",
+        change: "-0.8d",
         isPositive: true,
-        subtext: "lifetime order transactions",
-        iconName: "ShoppingBag"
+        subtext: "institutional benchmark",
+        iconName: "Activity",
+        accentColor: "emerald"
       },
       {
-        id: "customers",
-        title: "Total Customers",
-        value: "1,180",
-        change: "+310",
+        id: "billing",
+        title: "Clinical Billing",
+        value: "₹6.94 Crore",
+        change: "+26.1%",
         isPositive: true,
-        subtext: "total registered accounts",
-        iconName: "Users"
+        subtext: "total hospital revenue",
+        iconName: "IndianRupee",
+        accentColor: "violet"
       }
     ],
-    monthlySalesTrend: [
-      { month: "Nov 24", revenue: 228962, profit: 69852 },
-      { month: "Dec 24", revenue: 229142, profit: 72432 },
-      { month: "Jan 25", revenue: 117275, profit: 45495 },
-      { month: "Feb 25", revenue: 283928, profit: 87868 },
-      { month: "Mar 25", revenue: 77556, profit: 28976 },
-      { month: "Apr 25", revenue: 250543, profit: 75023 },
-      { month: "May 25", revenue: 134827, profit: 50667 },
-      { month: "Jun 25", revenue: 144964, profit: 41444 },
-      { month: "Jul 25", revenue: 114532, profit: 44442 },
-      { month: "Aug 25", revenue: 99265, profit: 30195 },
-      { month: "Sep 25", revenue: 307391, profit: 72601 },
-      { month: "Oct 25", revenue: 172535, profit: 52845 }
+    admissionsTrend: [
+      { period: "Nov 24", admissions: 375, discharges: 360 },
+      { period: "Dec 24", admissions: 385, discharges: 370 },
+      { period: "Jan 25", admissions: 390, discharges: 375 },
+      { period: "Feb 25", admissions: 405, discharges: 390 },
+      { period: "Mar 25", admissions: 420, discharges: 408 },
+      { period: "Apr 25", admissions: 410, discharges: 396 },
+      { period: "May 25", admissions: 430, discharges: 418 },
+      { period: "Jun 25", admissions: 445, discharges: 430 },
+      { period: "Jul 25", admissions: 435, discharges: 424 },
+      { period: "Aug 25", admissions: 450, discharges: 438 },
+      { period: "Sep 25", admissions: 465, discharges: 452 },
+      { period: "Oct 25", admissions: 470, discharges: 460 }
     ],
-    trendYDomain: [50000, 350000],
-    categoryRevenueData: [
-      { category: "Electronics", revenue: 1309620 },
-      { category: "Clothing", revenue: 256098 },
-      { category: "Home", revenue: 344142 },
-      { category: "Grocery", revenue: 61430 }
+    trendYDomain: [300, 500],
+    departmentOccupancy: [
+      { department: "Cardiology", beds: 65, revenue: 23500000 },
+      { department: "Oncology", beds: 54, revenue: 19800000 },
+      { department: "Neurology", beds: 48, revenue: 16200000 },
+      { department: "Orthopedics", beds: 42, revenue: 13400000 },
+      { department: "Pediatrics", beds: 30, revenue: 6500000 }
     ],
-    categoryYDomain: [0, 1400000],
-    recentOrders: [
+    departmentYDomain: [0, 80],
+    recentEncounters: [
       {
-        id: "ORD-1005",
-        customer: "Arjun Choudhury",
-        category: "Electronics",
-        amount: "₹97,294",
-        status: "Completed",
-        date: "Historical VIP"
+        id: "ADM-6501",
+        patient: "Venkatesh Rao",
+        department: "Cardiology",
+        ward: "Executive Suite 401",
+        amount: "₹1,85,000",
+        status: "Critical Care",
+        triageLevel: "Level 1"
       },
       {
-        id: "ORD-1004",
-        customer: "Simran Reddy",
-        category: "Home",
-        amount: "₹96,878",
-        status: "Completed",
-        date: "Historical VIP"
+        id: "ADM-6502",
+        patient: "Nirmala Devi",
+        department: "Oncology",
+        ward: "Special Care 201",
+        amount: "₹1,40,000",
+        status: "Under Treatment",
+        triageLevel: "Level 1"
       },
       {
-        id: "ORD-1003",
-        customer: "Rahul Rao",
-        category: "Clothing",
-        amount: "₹86,187",
-        status: "Completed",
-        date: "Historical VIP"
+        id: "ADM-6503",
+        patient: "Aakash Varma",
+        department: "Neurology",
+        ward: "Neuro Stepdown 12",
+        amount: "₹95,000",
+        status: "Admitted",
+        triageLevel: "Level 2"
       },
       {
-        id: "ORD-1002",
-        customer: "Nandini Patel",
-        category: "Grocery",
-        amount: "₹74,940",
-        status: "Completed",
-        date: "Historical VIP"
+        id: "ADM-6504",
+        patient: "Ratna Srivastava",
+        department: "Orthopedics",
+        ward: "Deluxe Ward 305",
+        amount: "₹78,000",
+        status: "Recovering",
+        triageLevel: "Level 2"
       },
       {
-        id: "ORD-1001",
-        customer: "Bhavna Nair",
-        category: "Home",
-        amount: "₹5,200",
-        status: "Pending",
-        date: "Historical"
+        id: "ADM-6505",
+        patient: "Farhan Qureshi",
+        department: "Pediatrics",
+        ward: "General Pediatric 01",
+        amount: "₹38,000",
+        status: "Discharged",
+        triageLevel: "Level 3"
       }
     ]
   }

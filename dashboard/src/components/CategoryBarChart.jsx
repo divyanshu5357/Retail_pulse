@@ -7,20 +7,30 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
+  Cell,
 } from "recharts";
 
-const formatCurrency = (val) => {
-  if (val >= 1000000) return `₹${(val / 1000000).toFixed(1)}M`;
-  return `₹${(val / 1000).toFixed(0)}k`;
-};
+const departmentColors = [
+  "#06B6D4", // Cyan (Cardiology)
+  "#8B5CF6", // Violet (Oncology)
+  "#3B82F6", // Blue (Neurology)
+  "#10B981", // Emerald (Orthopedics)
+  "#F59E0B", // Amber (Pediatrics)
+];
 
 const CustomTooltip = ({ active, payload, label }) => {
   if (active && payload && payload.length) {
+    const data = payload[0].payload;
     return (
-      <div className="bg-white border border-slate-200 rounded-lg p-2.5 shadow-md text-xs">
-        <p className="font-semibold text-slate-800 mb-1">{label}</p>
-        <p className="text-blue-600 font-medium">
-          Revenue: <span className="font-bold">₹{payload[0].value.toLocaleString("en-IN")}</span>
+      <div className="bg-slate-900/95 border border-slate-700/80 rounded-xl p-2.5 shadow-2xl backdrop-blur-xl text-xs">
+        <p className="font-semibold text-white mb-1">{label} Department</p>
+        <p className="text-cyan-400 font-medium flex items-center justify-between gap-3">
+          <span>Active Beds:</span>
+          <span className="font-bold text-white">{data.beds} occupied</span>
+        </p>
+        <p className="text-slate-400 font-medium flex items-center justify-between gap-3 mt-1">
+          <span>Dept Billing:</span>
+          <span className="font-semibold text-slate-200">₹{(data.revenue / 100000).toFixed(1)} Lakh</span>
         </p>
       </div>
     );
@@ -30,46 +40,50 @@ const CustomTooltip = ({ active, payload, label }) => {
 
 export default function CategoryBarChart({ data, yDomain }) {
   return (
-    <div className="bg-white rounded-xl border border-slate-200 p-4 shadow-2xs flex flex-col justify-between transition-all duration-200">
+    <div className="bg-slate-900/60 border border-slate-800/80 rounded-2xl p-4 shadow-xl shadow-black/40 backdrop-blur-xl flex flex-col justify-between">
       <div className="flex items-center justify-between mb-3">
         <div>
-          <h2 className="text-sm font-bold text-slate-900">
-            Revenue by Category
+          <h2 className="text-sm font-bold text-white tracking-tight">
+            Department Bed Occupancy
           </h2>
-          <p className="text-xs text-slate-500">Sales breakdown by department</p>
+          <p className="text-xs text-slate-400">Active ward utilization by clinical specialty</p>
         </div>
-        <span className="text-xs px-2.5 py-0.5 rounded-full bg-slate-100 text-slate-600 font-medium border border-slate-200">
-          4 Categories
+        <span className="text-3xs px-2.5 py-0.5 rounded-full bg-slate-800/80 text-slate-300 font-medium border border-slate-700/60">
+          5 Clinical Wings
         </span>
       </div>
 
       <div className="h-52 w-full">
         <ResponsiveContainer width="100%" height="100%">
-          <BarChart data={data} margin={{ top: 8, right: 12, left: -10, bottom: 0 }}>
-            <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#E2E8F0" />
+          <BarChart data={data} margin={{ top: 8, right: 12, left: -14, bottom: 0 }}>
+            <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#1e293b" />
             <XAxis
-              dataKey="category"
+              dataKey="department"
               stroke="#64748B"
               fontSize={11}
               tickLine={false}
-              axisLine={{ stroke: "#CBD5E1" }}
+              axisLine={{ stroke: "#334155" }}
             />
             <YAxis
               stroke="#64748B"
               fontSize={11}
               tickLine={false}
               axisLine={false}
-              tickFormatter={formatCurrency}
               domain={yDomain || [0, "auto"]}
             />
             <Tooltip content={<CustomTooltip />} />
             <Bar
-              dataKey="revenue"
-              fill="#2563EB"
-              radius={[4, 4, 0, 0]}
-              maxBarSize={42}
-              isAnimationActive={true}
-            />
+              dataKey="beds"
+              radius={[6, 6, 0, 0]}
+              maxBarSize={38}
+            >
+              {data.map((entry, index) => (
+                <Cell
+                  key={`cell-${index}`}
+                  fill={departmentColors[index % departmentColors.length]}
+                />
+              ))}
+            </Bar>
           </BarChart>
         </ResponsiveContainer>
       </div>

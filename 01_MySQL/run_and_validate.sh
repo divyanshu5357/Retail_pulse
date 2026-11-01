@@ -1,6 +1,6 @@
 #!/bin/bash
 # ==============================================================================
-# Run & Validate MySQL Scripts for Retail Sales & Customer Analytics
+# Run & Validate MySQL Scripts for PulseCare Hospital Analytics
 # ==============================================================================
 set -e
 
@@ -11,23 +11,23 @@ fi
 
 DB_USER="root"
 DB_PASS="1234"
-DB_NAME="retail_analytics"
+DB_NAME="hospital_analytics"
 
 echo "=========================================================="
-echo " Running MySQL Analytics Validation Script"
+echo " Running PulseCare Healthcare Analytics Validation Script"
 echo " Target: $DB_USER@localhost/$DB_NAME"
 echo "=========================================================="
 
 echo "1. Checking MySQL Server connection..."
 "$MYSQL_BIN" -u "$DB_USER" -p"$DB_PASS" -e "SELECT VERSION() AS mysql_version;"
 
-echo "2. Applying schema and analytical views..."
+echo "2. Applying schema and clinical views..."
 "$MYSQL_BIN" -u "$DB_USER" -p"$DB_PASS" < 01_MySQL/01_schema_and_views.sql
 
-echo "3. Populating seed dataset..."
+echo "3. Populating clinical seed dataset..."
 "$MYSQL_BIN" -u "$DB_USER" -p"$DB_PASS" < 01_MySQL/02_seed_data.sql
 
-echo "4. Executing analytical query suite..."
+echo "4. Executing analytical clinical query suite..."
 "$MYSQL_BIN" -u "$DB_USER" -p"$DB_PASS" "$DB_NAME" < 01_MySQL/03_analytical_queries.sql > 01_MySQL/latest_execution_output.txt
 
 echo "=========================================================="
